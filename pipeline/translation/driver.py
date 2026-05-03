@@ -27,13 +27,18 @@ MODELS = [
 
 DEFAULT_MODEL = "gpt-5.5"
 
-SOURCES = Path(__file__).parent.parent / "sources"
-OUTPUT = Path(__file__).parent.parent / "output" / "translations"
-OUTPUT.mkdir(parents=True, exist_ok=True)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
-def load_dialogues() -> list[dict]:
-    return json.loads((SOURCES / "dialogues.json").read_text())
+def work_paths(work_id: str) -> tuple[Path, Path]:
+    work = PROJECT_ROOT / "works" / work_id
+    out = work / "output" / "translations"
+    out.mkdir(parents=True, exist_ok=True)
+    return work, out
+
+
+def load_dialogues(work_dir: Path) -> list[dict]:
+    return json.loads((work_dir / "source" / "dialogues.json").read_text())
 
 
 def boundary_lines(dialogues: list[dict], idx: int, n: int = 3) -> tuple:
@@ -55,9 +60,9 @@ def translate_dialogue(
     return translator.translate(prompt, dialogue, prev_lines=prev, next_lines=next_)
 
 
-def save_translation(dialogue: dict, result: DialogueTranslation, model_name: str):
+def save_translation(dialogue: dict, result: DialogueTranslation, model_name: str, out_dir: Path):
     safe_model = model_name.replace("/", "-").replace(":", "-")
-    out_path = OUTPUT / f"dialogue_{dialogue['id']:02d}_{safe_model}.json"
+    out_path = out_dir / f"dialogue_{dialogue['id']:02d}_{safe_model}.json"
     data = {
         "dialogue_id": dialogue["id"],
         "title_grc": dialogue["title"],
@@ -87,6 +92,7 @@ def print_translation(dialogue: dict, result: DialogueTranslation):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--work", default="lucian-dialogues-of-the-dead")
     parser.add_argument("--dialogue", type=int, help="Translate a single dialogue by ID")
     parser.add_argument("--start", type=int, default=1)
     parser.add_argument("--end", type=int)
@@ -94,7 +100,8 @@ def main():
     parser.add_argument("--all-models", action="store_true")
     args = parser.parse_args()
 
-    dialogues = load_dialogues()
+    work_dir, out_dir = work_paths(args.work)
+    dialogues = load_dialogues(work_dir)
     builder = TranslationPromptBuilder(config_dir=Path(__file__).parent)
 
     models = MODELS if args.all_models else [args.model]
@@ -115,7 +122,7 @@ def main():
             try:
                 result = translate_dialogue(dialogue, prev, next_, model_name, builder)
                 print_translation(dialogue, result)
-                save_translation(dialogue, result, model_name)
+                save_translation(dialogue, result, model_name, out_dir)
             except Exception as e:
                 log.error(f"Failed {dialogue['id']} with {model_name}: {e}")
 

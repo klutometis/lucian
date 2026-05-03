@@ -14,11 +14,11 @@
           "exasperated"
         ],
         "typical_speed": 1.25,
-        "register_notes": "Fast-talking, always on edge, like George Costanza."
+        "register_notes": "Fast-talking, always on edge"
       },
       {
         "name": "Charon",
-        "dramatic_function": "Petty bureaucrat ferryman",
+        "dramatic_function": "Petty bureaucrat of the underworld",
         "voice_name": "Jace",
         "voice_id": "6776173b-fd72-460d-89b3-d85812ee518d",
         "emotion_palette": [
@@ -27,27 +27,27 @@
           "tired"
         ],
         "typical_speed": 1.15,
-        "register_notes": "Petty DMV-clerk style, annoyed by the mundane."
+        "register_notes": "Annoyed, transactional, slightly weary"
       }
     ],
-    "narrative_arc": "Hermes tries to settle a debt with Charon, who is unable to pay due to a lack of business.",
-    "tempo_envelope": "Fast-paced with a comedic rhythm, reflecting the sitcom style.",
+    "narrative_arc": "Hermes tries to settle a debt with Charon, who deflects payment due to low business.",
+    "tempo_envelope": "Fast-paced with quick exchanges, reflecting the frustration and urgency of Hermes.",
     "dominant_emotion": "Frustration",
     "key_beats": [
       "Hermes demands payment from Charon.",
-      "Charon reluctantly agrees to Hermes' list of expenses.",
-      "Charon admits he can't pay due to low business.",
-      "Hermes laments the change in clientele from warriors to weaklings.",
-      "Charon and Hermes reflect on the current state of souls."
+      "Charon acknowledges the debt but finds the price steep.",
+      "Hermes lists the items and their costs.",
+      "Charon agrees to the prices but delays payment.",
+      "Hermes expresses frustration over the lack of souls and reminisces about the past."
     ],
-    "directorial_notes": "Focus on the comedic tension between Hermes' impatience and Charon's bureaucratic excuses. Keep the dialogue snappy and emphasize the absurdity of their situation."
+    "directorial_notes": "Ensure Hermes' frustration is palpable and Charon's responses are dry and transactional. The dialogue should feel like a fast-paced negotiation with comedic undertones."
   },
   "annotation": {
     "lines": [
       {
         "line_index": 0,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> Hey Charon, let's settle up what you owe me, so we don't end up arguing about it again.",
+        "text": "<emotion value=\"frustrated\"/> Hey Charon, let's settle up what you owe me, okay? I don't want to argue about it later.",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
@@ -57,10 +57,10 @@
       {
         "line_index": 1,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Sure thing, Hermes. It's better to have it all clear and avoid any hassle.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"neutral\"/> Sure thing, Hermes. Better to get it sorted now and avoid the hassle.",
+        "emotion": "neutral",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 150,
         "pause_after_ms": 100
       },
@@ -80,14 +80,14 @@
         "text": "<emotion value=\"frustrated\"/> That's a bit steep.",
         "emotion": "frustrated",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
         "line_index": 4,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> By Hades, I paid five for it, plus two obols for the rope.",
+        "text": "<emotion value=\"frustrated\"/> Swear by Hades, I paid five for it. And a pulley for two obols.",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
@@ -97,17 +97,17 @@
       {
         "line_index": 5,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Fine, put down five drachmas and two obols.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"neutral\"/> Alright, put down five drachmas and two obols.",
+        "emotion": "neutral",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
         "line_index": 6,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> And I paid five obols for a sail patch.",
+        "text": "<emotion value=\"frustrated\"/> And a sail patch — that was five obols.",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
@@ -117,17 +117,17 @@
       {
         "line_index": 7,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Add those too.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"neutral\"/> Add those too.",
+        "emotion": "neutral",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
         "line_index": 8,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> And wax to seal the leaks in your boat, plus nails and a cord for the rudder, all for two drachmas.",
+        "text": "<emotion value=\"frustrated\"/> Plus wax to seal the boat's leaks, nails, and rope for the rigging — all that was two drachmas.",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
@@ -137,71 +137,71 @@
       {
         "line_index": 9,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Those were worth it.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"neutral\"/> Fair price for those.",
+        "emotion": "neutral",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
         "line_index": 10,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> That's everything, unless we forgot something. So, when are you going to pay up?",
+        "text": "<emotion value=\"frustrated\"/> That's everything, unless we missed something. So, when are you paying up?",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
         "pause_before_ms": 100,
-        "pause_after_ms": 150
+        "pause_after_ms": 100
       },
       {
         "line_index": 11,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Right now, it's impossible, Hermes. But if a plague or war sends a bunch of souls our way, I'll make enough to cover the fare.",
+        "text": "<emotion value=\"frustrated\"/> Can't do it now, Hermes. But if a plague or war sends a bunch of souls our way, I'll make a profit on the fares and pay you then.",
         "emotion": "frustrated",
         "speed": 1.15,
-        "volume": 1.2,
-        "pause_before_ms": 150,
-        "pause_after_ms": 150
+        "volume": 1.0,
+        "pause_before_ms": 100,
+        "pause_after_ms": 100
       },
       {
         "line_index": 12,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> So, I'm supposed to sit here hoping for the worst just to get paid?",
+        "text": "<emotion value=\"frustrated\"/> So I should just sit here hoping for the worst so I can get paid?",
         "emotion": "frustrated",
         "speed": 1.25,
         "volume": 1.5,
-        "pause_before_ms": 150,
+        "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
         "line_index": 13,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> That's the way it is, Hermes. Not many are coming down here now, as you can see. It's peace time.",
+        "text": "<emotion value=\"frustrated\"/> That's the deal, Hermes. Not many arrivals right now, as you can see — it's peacetime.",
         "emotion": "frustrated",
         "speed": 1.15,
-        "volume": 1.2,
+        "volume": 1.0,
         "pause_before_ms": 100,
-        "pause_after_ms": 150
+        "pause_after_ms": 100
       },
       {
         "line_index": 14,
         "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> Well, it'd be nice if you could extend the debt a bit. But you know, Charon, back in the day, the souls were all warriors, covered in blood and wounds. Now they're all pale, weaklings, poisoned by their kids or wives, or just bloated from indulgence. They're nothing like the old ones. Most of them are here because they were plotting against each other for money.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"nostalgic\"/> Well, maybe you could extend my credit a bit. But seriously, Charon, remember the old days? All those brave souls, covered in blood and battle scars. Now it's all poisonings, overeating, and backstabbing for money. They're pale and pathetic, nothing like the old crowd.",
+        "emotion": "nostalgic",
         "speed": 1.25,
         "volume": 1.5,
-        "pause_before_ms": 150,
-        "pause_after_ms": 150
+        "pause_before_ms": 100,
+        "pause_after_ms": 100
       },
       {
         "line_index": 15,
         "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Yeah, those things are really in demand.",
-        "emotion": "frustrated",
+        "text": "<emotion value=\"nostalgic\"/> Yeah, those were the days.",
+        "emotion": "nostalgic",
         "speed": 1.15,
-        "volume": 1.2,
-        "pause_before_ms": 150,
+        "volume": 1.0,
+        "pause_before_ms": 100,
         "pause_after_ms": 100
       },
       {
@@ -212,9 +212,9 @@
         "speed": 1.25,
         "volume": 1.5,
         "pause_before_ms": 100,
-        "pause_after_ms": 150
+        "pause_after_ms": 0
       }
     ],
-    "notes": "The dialogue captures the comedic tension between Hermes' impatience and Charon's bureaucratic excuses, maintaining a fast-paced, sitcom-style rhythm."
+    "notes": "Ensure Hermes' frustration is palpable and Charon's responses are dry and transactional. The dialogue should feel like a fast-paced negotiation with comedic undertones."
   }
 }

@@ -16,14 +16,20 @@ from annotator import build_performance_bible, annotate_dialogue
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-TRANSLATIONS = Path(__file__).parent.parent / "output" / "translations"
-OUTPUT = Path(__file__).parent.parent / "output" / "annotations"
-OUTPUT.mkdir(parents=True, exist_ok=True)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
-def load_translation(dialogue_id: int, model: str = "gpt-4o") -> dict:
+def work_paths(work_id: str) -> tuple[Path, Path]:
+    work = PROJECT_ROOT / "works" / work_id
+    translations = work / "output" / "translations"
+    annotations = work / "output" / "annotations"
+    annotations.mkdir(parents=True, exist_ok=True)
+    return translations, annotations
+
+
+def load_translation(translations_dir: Path, dialogue_id: int, model: str = "gpt-4o") -> dict:
     safe = model.replace("/", "-").replace(":", "-")
-    path = TRANSLATIONS / f"dialogue_{dialogue_id:02d}_{safe}.json"
+    path = translations_dir / f"dialogue_{dialogue_id:02d}_{safe}.json"
     if not path.exists():
         raise FileNotFoundError(f"No translation found at {path}")
     return json.loads(path.read_text())
@@ -31,12 +37,14 @@ def load_translation(dialogue_id: int, model: str = "gpt-4o") -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--work", default="lucian-dialogues-of-the-dead")
     parser.add_argument("--dialogue", type=int, required=True)
     parser.add_argument("--translation-model", default="gpt-4o")
     parser.add_argument("--annotation-model", default="gpt-4o")
     args = parser.parse_args()
 
-    data = load_translation(args.dialogue, args.translation_model)
+    translations_dir, annotations_dir = work_paths(args.work)
+    data = load_translation(translations_dir, args.dialogue, args.translation_model)
     lines = data["translation"]
     title = data.get("title_grc", f"Dialogue {args.dialogue}")
 
@@ -85,7 +93,7 @@ def main():
         "bible": bible.model_dump(),
         "annotation": annotation.model_dump(),
     }
-    out_path = OUTPUT / f"dialogue_{args.dialogue:02d}_annotated.json"
+    out_path = annotations_dir / f"dialogue_{args.dialogue:02d}_annotated.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2))
     log.info(f"Saved → {out_path}")
 

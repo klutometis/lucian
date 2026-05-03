@@ -22,9 +22,15 @@ import cartesia
 log = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
-ANNOTATIONS = Path(__file__).parent.parent / "output" / "annotations"
-AUDIO_OUT = Path(__file__).parent.parent / "output" / "audio"
-AUDIO_OUT.mkdir(parents=True, exist_ok=True)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
+
+def work_paths(work_id: str) -> tuple[Path, Path]:
+    work = PROJECT_ROOT / "works" / work_id
+    annotations = work / "output" / "annotations"
+    audio = work / "output" / "audio"
+    audio.mkdir(parents=True, exist_ok=True)
+    return annotations, audio
 
 MODEL_ID = "sonic-3"
 SAMPLE_RATE = 44100
@@ -70,8 +76,9 @@ def generate_line_audio(client: cartesia.Cartesia, line: dict) -> bytes:
     return b"".join(chunks)
 
 
-def stitch_dialogue(dialogue_id: int, dry_run: bool = False):
-    annotation_path = ANNOTATIONS / f"dialogue_{dialogue_id:02d}_annotated.json"
+def stitch_dialogue(work_id: str, dialogue_id: int, dry_run: bool = False):
+    annotations_dir, audio_dir = work_paths(work_id)
+    annotation_path = annotations_dir / f"dialogue_{dialogue_id:02d}_annotated.json"
     if not annotation_path.exists():
         raise FileNotFoundError(f"No annotation at {annotation_path}")
 
@@ -130,7 +137,7 @@ def stitch_dialogue(dialogue_id: int, dry_run: bool = False):
     all_pcm = b"".join(pcm_segments)
     wav_bytes = pcm_to_wav(all_pcm)
 
-    out_path = AUDIO_OUT / f"dialogue_{dialogue_id:02d}.wav"
+    out_path = audio_dir / f"dialogue_{dialogue_id:02d}.wav"
     out_path.write_bytes(wav_bytes)
     duration_s = len(all_pcm) / (SAMPLE_RATE * 2)
     log.info(f"Saved {duration_s:.1f}s of audio → {out_path}")
@@ -139,11 +146,12 @@ def stitch_dialogue(dialogue_id: int, dry_run: bool = False):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--work", default="lucian-dialogues-of-the-dead")
     parser.add_argument("--dialogue", type=int, required=True)
     parser.add_argument("--dry-run", action="store_true",
                         help="Print the plan without calling Cartesia")
     args = parser.parse_args()
-    stitch_dialogue(args.dialogue, dry_run=args.dry_run)
+    stitch_dialogue(args.work, args.dialogue, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

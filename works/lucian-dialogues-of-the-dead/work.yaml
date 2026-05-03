@@ -1,0 +1,14 @@
+id: lucian-dialogues-of-the-dead
+title: Dialogues of the Dead
+title_grc: Νεκρικοὶ Διάλογοι
+author: Lucian of Samosata
+language: grc
+genre: drama
+chunk_unit: scene
+register_hint: sitcom
+
+source:
+  origin: perseus-grc2
+  edition: Karl Jacobitz, Luciani Samosatensis Opera, vol. 1 (Teubner, Leipzig, 1909)
+  url: https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0062/tlg066/tlg0062.tlg066.perseus-grc2.xml
+  license: CC-BY-SA-4.0
