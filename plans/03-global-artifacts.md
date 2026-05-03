@@ -18,8 +18,8 @@ encourages the model to weight terminology over comic timing.
 ## The reading: one-time pre-pass
 
 A director reads the play before casting. They produce a brief: the cast,
-the running gags, the beats, the register. Everyone — translators,
-voice-casters, line annotators — works from that brief.
+the running gags, the register. Everyone — translators, voice-casters,
+line annotators — works from that brief.
 
 For Lucian, run a one-shot LLM pass over the full Greek text (it's short,
 fits in any modern context window). Produce one artifact.
@@ -40,7 +40,7 @@ fits in any modern context window). Produce one artifact.
       "Cynics (Diogenes, Menippus) cheerfully unbothered by everything"
     ],
     "tone_anchors": [
-      "Dry. Punchy. Beat-driven.",
+      "Dry. Punchy.",
       "Death is mundane; the absurdity is everyone's reaction to it.",
       "Cynics laugh, kings sulk, philosophers get caught with rouge in their pockets."
     ]
@@ -52,7 +52,7 @@ fits in any modern context window). Produce one artifact.
       "name_en": "Menippus",
       "sketch": "Cynic philosopher, dies amused. The only one who gets the joke. Annoyingly comfortable with everything.",
       "voice_description": "Mid-30s male, dry, slightly nasal, unhurried. Always sounds like he's about to laugh.",
-      "register": "deadpan, ~1.1 speed",
+      "register_notes": "deadpan, ~1.1 speed",
       "emotion_default": "amused detachment"
     },
     {
@@ -61,25 +61,10 @@ fits in any modern context window). Produce one artifact.
       "name_en": "Charon",
       "sketch": "Ferryman of the dead. Petty bureaucrat. Obsessed with his obol fee. DMV clerk energy.",
       "voice_description": "Older male, gravelly, perpetually mildly aggrieved, brisk delivery. Sounds like he's been doing this job for too long.",
-      "register": "frustrated, brisk, ~1.15 speed",
+      "register_notes": "frustrated, brisk, ~1.15 speed",
       "emotion_default": "weary irritation"
     }
     // ...etc, ~10–15 recurring characters
-  ],
-  "beats_per_dialogue": [
-    {
-      "id": 4,
-      "title_en": "Hermes & Charon settle accounts",
-      "premise": "Hermes is collecting on supplies he advanced for Charon's boat. Charon can't pay because there's a peace on.",
-      "beats": [
-        {"lines": "1-2", "beat": "setup: Hermes opens the books"},
-        {"lines": "3-10", "beat": "itemized invoice — escalating absurdity of expenses"},
-        {"lines": "11-13", "beat": "the punchline: 'wish for a plague so I can pay you'"},
-        {"lines": "14-17", "beat": "Hermes' nostalgic rant about the old breed of dead"}
-      ],
-      "key_payoff": "Charon's deadpan 'money's worth dying for' caps the bit"
-    }
-    // ...one per dialogue
   ]
 }
 ```
@@ -89,7 +74,7 @@ fits in any modern context window). Produce one artifact.
 ```
                    ┌─────────────────────┐
                    │   reading.json      │
-                   │   (the bible)       │
+                   │   (work + cast)     │
                    └──────────┬──────────┘
                               │
         ┌─────────────────────┼─────────────────────┐
@@ -98,13 +83,9 @@ fits in any modern context window). Produce one artifact.
    ┌─────────┐          ┌──────────┐          ┌──────────┐
    │ Casting │          │Translate │          │ Annotate │
    │         │          │          │          │          │
-   │ cast →  │          │ register │          │ beats →  │
-   │ voice   │          │ + cast   │          │ pacing   │
-   │ id      │          │ sketches │          │          │
-   │         │          │ + beats  │          │ cast →   │
-   │         │          │          │          │ voice    │
-   │         │          │          │          │ +        │
-   │         │          │          │          │ acting   │
+   │ cast →  │          │ register │          │ cast →   │
+   │ voice   │          │ + cast   │          │ voice    │
+   │ id      │          │ sketches │          │ + acting │
    │         │          │          │          │ instr    │
    └─────────┘          └──────────┘          └──────────┘
 ```
@@ -136,15 +117,13 @@ Locked. Reused across all 30 dialogues.
 
 Input per call:
 - `reading.json` (full bible — small, prepended every time)
-- The current dialogue's beat structure
 - Last 2-3 lines of previous dialogue (continuity)
 - First 1-2 lines of next dialogue (resolution)
 - The Greek source
 
 System prompt becomes ~200 words:
 - *"You are translating Lucian. Sitcom register. Here is the cast brief.
-  Here is this scene's beat structure. Translate. No glossary, no
-  commitments — just nail the voice."*
+  Translate. No glossary, no commitments — just nail the voice."*
 
 No `STYLE.md`. No `CONVENTIONS.md`. No `GLOSSARY.md`. The reading carries
 all the load-bearing context.
@@ -154,7 +133,7 @@ All four models in parallel (per `02-translation-philosophy.md`).
 ## Step 3 — Annotation (per dialogue)
 
 Input per call:
-- `reading.json` (cast sketches + this dialogue's beats)
+- `reading.json` (cast sketches + register)
 - `casting.json` (which voice for which character)
 - The translated dialogue
 - Boundary context (same as translation)
@@ -162,17 +141,9 @@ Input per call:
 Output per line: `{voice_id, acting_instruction, speed, pause_before_ms,
 pause_after_ms}`.
 
-**With Hume Octave:** `acting_instruction` is natural language,
-beat-aware: "Hermes, mid-rant, picking up speed and frustration. Half
-sarcastic, half exhausted."
-
-**With Cartesia Sonic-3 (current):** `acting_instruction` becomes
-emotion-enum + speed/volume, harder to express beat-shifts.
-
-The beat awareness is the upgrade — annotation isn't just per-line
-emotion, it's "where in the arc are we." A line at the end of the
-itemized-invoice beat should sound different from a line at the start
-of the nostalgic rant, *even if both are tagged "frustrated."*
+The annotator sees the whole scene at once and reads its arc directly.
+No pre-computed sub-scene structure is needed — per plan 01, the scene
+is the minimum chunk; never go smaller.
 
 ## Step 4 — Stitching
 
@@ -210,14 +181,8 @@ live at `voices/` at the project root. Pipeline code lives under
    for the recurring cast.
 5. **Build provider abstraction in TTS.** Run dialogue 4 through Hume,
    compare to Cartesia version. Listening test settles it.
-6. **Beat-aware annotator.** Annotator now has access to which beat each
-   line belongs to. Generate richer per-line acting instructions.
-
 ## Open questions
 
-- **Beat structure granularity.** Per-dialogue beats are clear for
-  longer dialogues (10+ lines). Shorter dialogues may not need them — they
-  ARE one beat. Decide threshold during reading construction.
 - **Single-model or multi-model reading?** The reading is the *one*
   artifact where consistency across dialogues matters most. Probably
   one model (Claude or GPT-5.5) authors it; human reviews; lock.

@@ -1,0 +1,458 @@
+{
+  "work": {
+    "title": "Dialogues of the Dead (Νεκρικοὶ Διάλογοι)",
+    "register_pitch": "A deadpan underworld sitcom: the premise is that death is the great equalizer, and the joke is that nobody believes it. Every episode pits smug self-importance against Menippus-style mockery or Diogenes-style contempt, with Pluto as the exasperated building manager and Hermes as the overworked middle-management psychopomp. Play it dry. The laughs come from recognition, not mugging.",
+    "running_gags": [
+      "Legacy-hunters die before their marks, or get outwitted by the very old men they were flattering — the punchline always lands on the flatterer.",
+      "Menippus refuses to be sad about anything, sings while everyone else wails, and cheerfully volunteers to make things worse for the pompous.",
+      "Diogenes greets every new arrival with 'so you're dead too' and a philosophical kicker that deflates their self-image in one sentence.",
+      "Hermes itemises debts, ferry costs, and bureaucratic inconveniences with the weary precision of someone who has been doing this forever.",
+      "The beautiful, the powerful, and the rich arrive clutching their identities — crowns, muscles, purple robes — and Hermes or Charon makes them strip every single item before boarding.",
+      "Skulls all look the same: whenever someone appeals to their former beauty or glory, Menippus points out that the bones are indistinguishable.",
+      "Philosophers are exposed as frauds the moment they cross the threshold — their hidden gold, secret vices, and performative courage all come out in the wash.",
+      "The free-rider gag: Menippus has no obol, no luggage, no grief, and somehow always gets the best seat on the boat."
+    ],
+    "tone_anchors": [
+      "Deadpan over broad. The funniest lines are delivered as plain statements of fact.",
+      "Menippus is never cruel — he is delighted. There is a difference.",
+      "Pluto is not sinister; he is tired and occasionally amused, like a judge who has heard every excuse.",
+      "The pathos of Achilles, Protesilaus, and Tantalus is real — do not play it for laughs. The comedy around them comes from Menippus's brisk practicality, not from mocking their grief.",
+      "Legacy-hunter scenes are farce: quick, overlapping, escalating.",
+      "The great-commanders debate (Dialogue 12) is a formal set-piece — slower, more rhetorical, with genuine competitive heat before Minos deflates it."
+    ]
+  },
+  "cast": [
+    {
+      "id": "menippos",
+      "name_grc": "Μένιππος",
+      "name_en": "Menippus",
+      "sketch": "The Cynic philosopher as sitcom protagonist: he arrived in the underworld voluntarily, packed light, and has been enjoying himself ever since. His dramatic function is to be the audience's surrogate — the one person who finds the whole spectacle of human vanity genuinely funny rather than distressing. He never moralises; he observes, and the observation is the joke.",
+      "voice_description": "Male, late 40s, warm baritone with a slight rasp. Conversational and unhurried, as if he has all the time in the world — which, being dead, he does. Dry wit delivered at an even pace; the punchlines land quietly. No regional accent; classless, placeless. A faint smile audible in the voice even when the words are blunt.",
+      "register_notes": "Deadpan, ~0.95 speed. Emotion default: mild, genuine amusement.",
+      "emotion_default": "amusement"
+    },
+    {
+      "id": "diogenes",
+      "name_grc": "Διογένης",
+      "name_en": "Diogenes",
+      "sketch": "The original Cynic, now fully at home in the underworld, operating as a kind of philosophical customs officer who greets new arrivals with contempt and a one-liner. He is sharper and more combative than Menippus — less delighted, more scornful — but the scorn is principled rather than petty. His function is to voice the Cynic verdict on every form of human pretension.",
+      "voice_description": "Male, 60s, gravelly bass-baritone. Blunt, unhesitating delivery with the cadence of someone who has never once softened a sentence to spare feelings. Slight roughness, as if the voice has been weathered by outdoor living. No warmth in the timbre, but no malice either — pure, dry certainty.",
+      "register_notes": "Clipped, ~1.0 speed. Emotion default: sardonic contempt shading into satisfaction.",
+      "emotion_default": "contempt"
+    },
+    {
+      "id": "hermes",
+      "name_grc": "Ἑρμῆς",
+      "name_en": "Hermes",
+      "sketch": "The divine middle manager: he runs the boarding process, keeps the accounts, and escorts souls from the living world. He is competent, slightly put-upon, and capable of genuine warmth toward Menippus (the one passenger who doesn't make his job harder). His comedy comes from the contrast between his divine status and his thoroughly bureaucratic concerns — ferry receipts, luggage limits, overtime.",
+      "voice_description": "Male, sounds mid-30s, light tenor with a crisp, efficient quality. Articulate and quick, with the energy of someone perpetually between tasks. Pleasant but businesslike; capable of dry humour when the situation earns it. Neutral accent, slightly formal register that relaxes around Menippus.",
+      "register_notes": "Brisk, ~1.05 speed. Emotion default: professional efficiency with occasional exasperation.",
+      "emotion_default": "efficiency"
+    },
+    {
+      "id": "charon",
+      "name_grc": "Χάρων",
+      "name_en": "Charon",
+      "sketch": "The ferryman as a working-class tradesman with cash-flow problems. He is not frightening — he is perpetually underpaid, perpetually complaining, and perpetually outwitted by Menippus. His dramatic function is to ground the supernatural machinery of the underworld in the most mundane possible economics. The boat leaks, the passengers are difficult, and nobody tips.",
+      "voice_description": "Male, sounds 50s–60s, rough bass with a weathered, working-man quality. Slow, deliberate speech with the cadence of someone who has been doing the same job for millennia and is tired of it. Gruff but not threatening; the bluster is the bluster of a man who knows he won't actually follow through on his threats.",
+      "register_notes": "Slow and grumbling, ~0.9 speed. Emotion default: aggrieved resignation.",
+      "emotion_default": "resignation"
+    },
+    {
+      "id": "plouton",
+      "name_grc": "Πλούτων",
+      "name_en": "Pluto / Hades",
+      "sketch": "The god of the dead as a weary but fair administrator — less a terrifying deity than a senior judge who has seen every case before and just wants the docket cleared. He is capable of genuine wit (the legacy-hunter reversal in Dialogue 5 is his idea), and he occasionally shows something like compassion (Protesilaus). His authority is absolute but he wears it lightly.",
+      "voice_description": "Male, sounds 50s, deep authoritative baritone with a measured, unhurried quality. Calm and deliberate, never raising his voice because he never needs to. A faint note of world-weariness underneath the authority. Received pronunciation or its ancient equivalent — the voice of institutional power that has long since stopped needing to prove itself.",
+      "register_notes": "Measured, ~0.9 speed. Emotion default: calm authority with occasional dry amusement.",
+      "emotion_default": "authority"
+    },
+    {
+      "id": "alexandros",
+      "name_grc": "Ἀλέξανδρος",
+      "name_en": "Alexander the Great",
+      "sketch": "The world-conqueror who cannot stop being the world-conqueror even in death. His dramatic function is to embody the absurdity of earthly glory stripped of its context — he is genuinely impressive and genuinely pathetic in equal measure. He argues well, weeps when pressed, and still hasn't quite accepted that the empire is gone. The comedy is that he keeps making the same speech to an audience that doesn't care.",
+      "voice_description": "Male, sounds late 20s–early 30s, a ringing, confident tenor with the projection of someone trained to address armies. Passionate and quick to heat; the voice has real magnetism but also a brittleness that shows when Diogenes punctures him. Slight heroic over-enunciation, as if every sentence is being delivered to a crowd.",
+      "register_notes": "Declamatory, ~1.05 speed, drops to quiet and raw when grief surfaces. Emotion default: proud assertion.",
+      "emotion_default": "pride"
+    },
+    {
+      "id": "kroisos",
+      "name_grc": "Κροῖσος",
+      "name_en": "Croesus",
+      "sketch": "The archetypal rich man, now reduced to complaining about his neighbour Menippus. He is the straight man in Dialogue 2 — his outrage is entirely sincere, which makes it funnier. He represents the class of dead who refuse to accept that their wealth was ever irrelevant.",
+      "voice_description": "Male, sounds 50s, a full, slightly pompous baritone. Speaks with the careful diction of someone accustomed to being listened to. Aggrieved and self-important; the voice has a faint quaver of genuine distress underneath the indignation.",
+      "register_notes": "Indignant, ~1.0 speed. Emotion default: wounded dignity.",
+      "emotion_default": "indignation"
+    },
+    {
+      "id": "midas",
+      "name_grc": "Μίδας",
+      "name_en": "Midas",
+      "sketch": "A minor comic figure in Dialogue 2: the gold-obsessed king reduced to a single lamenting line. His function is to be the most pathetically one-note of the trio of complaining monarchs — he had one thing and now he doesn't have it.",
+      "voice_description": "Male, sounds 40s–50s, a thin, plaintive tenor. Slightly nasal, with the quality of someone who has been crying and hasn't quite stopped. The voice is smaller than you'd expect from a king.",
+      "register_notes": "Plaintive, ~0.95 speed. Emotion default: mournful self-pity.",
+      "emotion_default": "self-pity"
+    },
+    {
+      "id": "sardanapallos",
+      "name_grc": "Σαρδανάπαλλος",
+      "name_en": "Sardanapalus",
+      "sketch": "The sybaritic Assyrian king, another member of the lamenting trio. His one line is about luxury lost. Menippus's verdict on him is that his skull is 'womanish' — play him as the most effete and self-dramatising of the three.",
+      "voice_description": "Male, sounds 40s, a languid, slightly breathy baritone. Slow and over-enunciated, with the quality of someone who has always had servants to wait for his sentences to finish. A faint theatrical quality to the grief.",
+      "register_notes": "Languid, ~0.85 speed. Emotion default: theatrical mourning.",
+      "emotion_default": "theatrical grief"
+    },
+    {
+      "id": "polydeukes",
+      "name_grc": "Πολυδεύκης",
+      "name_en": "Polydeuces (Pollux)",
+      "sketch": "The divine messenger in Dialogue 1 — he shuttles between the living and the dead as part of his twin-cycle arrangement. He is cooperative, practical, and slightly amused by Diogenes's long list of errands. His function is to be a reliable straight man who takes the messages seriously without being pompous about it.",
+      "voice_description": "Male, sounds late 20s, a clear, athletic tenor. Open and good-natured, with the easy confidence of a champion athlete who is also a demigod. Unhurried but attentive; the voice of someone who is genuinely willing to help.",
+      "register_notes": "Affable, ~1.0 speed. Emotion default: cooperative good humour.",
+      "emotion_default": "good humour"
+    },
+    {
+      "id": "minos",
+      "name_grc": "Μίνως",
+      "name_en": "Minos",
+      "sketch": "The underworld judge — a figure of genuine authority who is also capable of being argued into a corner (Dialogue 30) and of making pragmatic compromises (Dialogue 12). He is fair, not infallible, and his rulings occasionally have a dry wit to them. His function is to be the institutional voice of underworld justice, which turns out to be more flexible than advertised.",
+      "voice_description": "Male, sounds 60s, a measured, resonant baritone. Judicial and deliberate, with the quality of someone who chooses words carefully because they have legal weight. Not unkind, but not warm either. A slight formality that relaxes when he is genuinely amused.",
+      "register_notes": "Judicial, ~0.9 speed. Emotion default: measured deliberation.",
+      "emotion_default": "deliberation"
+    },
+    {
+      "id": "annibas",
+      "name_grc": "Ἀννίβας",
+      "name_en": "Hannibal",
+      "sketch": "The Carthaginian general in Dialogue 12, arguing his case before Minos with genuine rhetorical force. He is the underdog in the debate — self-made, blunt, contemptuous of Alexander's divine pretensions — and his argument is actually the most coherent. His function is to be the surprisingly compelling challenger who almost wins.",
+      "voice_description": "Male, sounds 40s, a hard, clipped baritone with a slight foreign-language quality — not a thick accent, but the precision of someone who learned Greek as a second language and speaks it with deliberate care. Forceful and direct, with the economy of a man who has given orders in the field.",
+      "register_notes": "Forceful and clipped, ~1.0 speed. Emotion default: competitive confidence.",
+      "emotion_default": "competitive confidence"
+    },
+    {
+      "id": "skipio",
+      "name_grc": "Σκηπίων",
+      "name_en": "Scipio",
+      "sketch": "The Roman general who enters the debate late in Dialogue 12 with the most self-aware speech of the three: he concedes Alexander's superiority while demolishing Hannibal's claim. His function is to be the voice of measured Roman gravitas — and to deliver the most elegant piece of competitive self-deprecation in the collection.",
+      "voice_description": "Male, sounds 40s, a firm, even baritone with a quality of controlled authority. Less flashy than Alexander, less rough than Hannibal — the voice of institutional competence. Speaks with the measured rhythm of someone who has learned to make every word count in the Senate.",
+      "register_notes": "Measured and precise, ~0.95 speed. Emotion default: composed self-assurance.",
+      "emotion_default": "composed assurance"
+    },
+    {
+      "id": "philippos",
+      "name_grc": "Φίλιππος",
+      "name_en": "Philip (of Macedon)",
+      "sketch": "Alexander's father in Dialogue 14, functioning as the voice of paternal exasperation. He is not cruel to his son but he is relentlessly deflating — he has heard the divine-parentage story and he is not impressed. His function is to be the one person whose criticism Alexander cannot entirely dismiss.",
+      "voice_description": "Male, sounds 50s–60s, a gruff, weathered baritone. The voice of a soldier-king who built the empire his son inherited — practical, unsentimental, with a dry edge. Not unkind, but constitutionally unable to offer false comfort.",
+      "register_notes": "Gruff and direct, ~1.0 speed. Emotion default: paternal exasperation.",
+      "emotion_default": "exasperation"
+    },
+    {
+      "id": "achilleus",
+      "name_grc": "Ἀχιλλεύς",
+      "name_en": "Achilles",
+      "sketch": "The greatest Greek hero, now genuinely miserable in the underworld and not ashamed to say so. His Dialogue 15 speech is the most emotionally honest moment in the collection — he regrets his choice of glory over life, and the regret is real. His function is to be the pathos counterweight to all the satire: proof that the underworld's levelling is not only comic but genuinely sad.",
+      "voice_description": "Male, sounds early 20s, a bright, powerful tenor that carries the memory of battlefield command. When speaking of his grief, the voice loses its brightness and becomes quieter, flatter — the heroic projection deflated. The contrast between the two registers is the performance.",
+      "register_notes": "Starts declamatory, drops to subdued, ~0.95 speed. Emotion default: suppressed grief.",
+      "emotion_default": "suppressed grief"
+    },
+    {
+      "id": "antilochos",
+      "name_grc": "Ἀντίλοχος",
+      "name_en": "Antilochus",
+      "sketch": "Nestor's son and Achilles' companion, functioning in Dialogue 15 as a gentle but firm voice of acceptance. He is not dismissive of Achilles' grief but he refuses to indulge it — his function is to model the stoic adjustment the other heroes haven't managed.",
+      "voice_description": "Male, sounds mid-20s, a warm, steady tenor. Calm and kind, with the quality of someone who has already made his peace with the situation. No edge, no irony — just honest companionship.",
+      "register_notes": "Warm and steady, ~0.95 speed. Emotion default: gentle firmness.",
+      "emotion_default": "gentle firmness"
+    },
+    {
+      "id": "kratetes",
+      "name_grc": "Κράτης",
+      "name_en": "Crates",
+      "sketch": "The Cynic philosopher and Diogenes' intellectual heir, functioning in Dialogues 11 and 27 as a storyteller and companion. He is warmer than Diogenes and more sociable than Menippus — the Cynic as a good-humoured raconteur rather than a provocateur. His story about the descending souls in Dialogue 27 is the collection's best piece of comic narration.",
+      "voice_description": "Male, sounds 40s–50s, a pleasant, mid-range baritone with a storyteller's natural rhythm. Conversational and engaging, with the ease of someone who enjoys an audience. Less raspy than Diogenes, less dry than Menippus — the most approachable of the Cynics.",
+      "register_notes": "Conversational, ~1.0 speed. Emotion default: engaged good humour.",
+      "emotion_default": "good humour"
+    },
+    {
+      "id": "antisthenes",
+      "name_grc": "Ἀντισθένης",
+      "name_en": "Antisthenes",
+      "sketch": "The founder of Cynicism, appearing in Dialogues 11 and 27 as the senior member of the philosophical trio. He is the most austere of the three Cynics — his one moment of self-revelation in Dialogue 27 (he ran ahead to get the best seat on the ferry) is funnier for being so uncharacteristically competitive.",
+      "voice_description": "Male, sounds 60s–70s, a dry, thin baritone with a slightly pedantic quality. Precise and economical in speech, with the authority of someone who established the school. Less warmth than Crates, less bite than Diogenes — the original, slightly faded model.",
+      "register_notes": "Dry and precise, ~0.9 speed. Emotion default: austere satisfaction.",
+      "emotion_default": "austere satisfaction"
+    },
+    {
+      "id": "protesileos",
+      "name_grc": "Πρωτεσίλεως",
+      "name_en": "Protesilaus",
+      "sketch": "The first Greek to die at Troy, haunted by the bride he left behind. He appears in three dialogues (10, 19, 23) with escalating emotional urgency — from grievance to legal argument to desperate petition. His function is to be the collection's most sympathetic figure: a man whose death was genuinely unfair and whose love is genuine. Dialogue 23, where Persephone intercedes for him, is the closest the collection comes to tenderness.",
+      "voice_description": "Male, sounds late 20s, a lyrical, slightly strained tenor. The voice of a young man carrying something too heavy — passionate and earnest, with a quality of barely-contained urgency. When he pleads, the voice becomes softer and more vulnerable without losing its intensity.",
+      "register_notes": "Urgent and earnest, ~1.0 speed. Emotion default: yearning.",
+      "emotion_default": "yearning"
+    },
+    {
+      "id": "aiakos",
+      "name_grc": "Αἰακός",
+      "name_en": "Aeacus",
+      "sketch": "The gatekeeper and tour guide of the underworld — a minor judicial figure who functions as the straight man in Dialogue 20's grand tour and as a voice of procedural fairness in Dialogue 19. He is helpful, slightly officious, and entirely unimpressed by earthly reputations.",
+      "voice_description": "Male, sounds 50s, a neutral, functional baritone. The voice of a competent bureaucrat: clear, unhurried, neither warm nor cold. Slightly formal, with the quality of someone reading from a list.",
+      "register_notes": "Neutral and functional, ~0.95 speed. Emotion default: professional neutrality.",
+      "emotion_default": "professional neutrality"
+    },
+    {
+      "id": "persephone",
+      "name_grc": "Περσεφόνη",
+      "name_en": "Persephone",
+      "sketch": "The queen of the underworld, appearing briefly but decisively in Dialogue 23 to intercede for Protesilaus. Her single speech is the most practically compassionate moment in the collection — she solves the problem Pluto is dithering over and does it with quiet authority. Her function is to be the one divine figure who acts from feeling rather than procedure.",
+      "voice_description": "Female, sounds 30s, a warm, clear mezzo-soprano. Calm and assured, with the quality of someone who has genuine power and doesn't need to display it. A note of real feeling underneath the composure — she is moved by Protesilaus's case in a way Pluto is not.",
+      "register_notes": "Warm and decisive, ~0.95 speed. Emotion default: compassionate authority.",
+      "emotion_default": "compassionate authority"
+    },
+    {
+      "id": "tantalos",
+      "name_grc": "Τάνταλος",
+      "name_en": "Tantalus",
+      "sketch": "The mythological sufferer in Dialogue 17, tormented by thirst he cannot satisfy. His function is to be a straight-faced test case for Menippus's philosophical practicality — the absurdity is that a soul without a body is suffering from a physical craving. He is not comic himself; the comedy is entirely in Menippus's brisk response to his genuine distress.",
+      "voice_description": "Male, sounds 50s, a parched, slightly hollow baritone. The voice has a quality of chronic deprivation — not dramatic wailing, but the flat, exhausted complaint of someone who has been suffering for a very long time and has run out of energy for performance.",
+      "register_notes": "Flat and exhausted, ~0.9 speed. Emotion default: chronic misery.",
+      "emotion_default": "chronic misery"
+    },
+    {
+      "id": "herakles",
+      "name_grc": "Ἡρακλῆς",
+      "name_en": "Heracles (the shade)",
+      "sketch": "The shade of Heracles in Dialogue 16, forced to explain the embarrassing theological situation of his divided existence. He starts with dignity and ends threatening Diogenes, which only makes things worse. His function is to be the most physically imposing figure in the underworld reduced to arguing about metaphysics — and losing.",
+      "voice_description": "Male, sounds 30s–40s, a massive, resonant bass-baritone. The voice of a man built for physical action, not philosophical debate — it has power but not precision. Starts with confident authority, becomes increasingly irritated as Diogenes ties him in knots, ends with bluster.",
+      "register_notes": "Booming, ~1.0 speed, rising to irritated bluster. Emotion default: frustrated dignity.",
+      "emotion_default": "frustrated dignity"
+    },
+    {
+      "id": "sokrates",
+      "name_grc": "Σωκράτης",
+      "name_en": "Socrates",
+      "sketch": "The philosopher in Dialogue 20, now in the underworld still doing exactly what he always did — chatting up beautiful young men and asking questions. Menippus's report that everyone thinks he knew everything and he knew nothing is the most affectionate joke in the collection. His function is to be the one philosopher who is genuinely at home in the underworld.",
+      "voice_description": "Male, sounds 60s, a warm, slightly rough baritone with an ironic, questioning lilt. The voice of a man who has always found conversation more interesting than conclusions. Unhurried, with a quality of genuine curiosity that never quite becomes earnestness.",
+      "register_notes": "Warm and ironic, ~0.95 speed. Emotion default: amused curiosity.",
+      "emotion_default": "amused curiosity"
+    },
+    {
+      "id": "philosophos",
+      "name_grc": "φιλόσοφος",
+      "name_en": "The Philosopher (unnamed)",
+      "sketch": "The pompous unnamed philosopher in Dialogue 10, stripped of his beard, his pretensions, his hidden gold, and his secret vices by Hermes and Menippus at the boarding gate. He is the collection's definitive portrait of philosophical hypocrisy — every vice he denied having turns out to be stowed under his cloak. His function is to be the perfect target.",
+      "voice_description": "Male, sounds 50s, a deep, self-important baritone with an over-deliberate, oracular quality — the voice of someone who has spent decades performing wisdom. Underneath the gravitas, a slightly wheedling quality emerges as the stripping proceeds. By the end, when the beard is gone, the voice should sound smaller.",
+      "register_notes": "Starts oracular, deflates progressively, ~1.0 speed dropping to ~0.9. Emotion default: wounded self-importance.",
+      "emotion_default": "wounded self-importance"
+    },
+    {
+      "id": "rhetor",
+      "name_grc": "Ῥήτωρ",
+      "name_en": "The Rhetorician",
+      "sketch": "A walk-on in Dialogue 10, stripped of his rhetorical apparatus at the boarding gate. He has one line of compliance. His function is to be the quickest and most complete capitulation in the stripping sequence — the rhetorician who, for once, has nothing to say.",
+      "voice_description": "Male, sounds 40s, a smooth, slightly over-polished tenor. The voice of a professional speaker — rounded vowels, careful pacing — that deflates instantly when challenged.",
+      "register_notes": "Smooth, ~1.0 speed. Emotion default: deflated compliance.",
+      "emotion_default": "deflated compliance"
+    },
+    {
+      "id": "lampichos",
+      "name_grc": "Λάμπιχος",
+      "name_en": "Lampicus (the tyrant)",
+      "sketch": "The tyrant of Gela in Dialogue 10, who arrives at the ferry in full regalia and has to be stripped item by item — wealth, diadem, robe, cruelty, arrogance, rage. He is the most resistant of the boarding passengers, negotiating for each item as if he can keep at least one. His function is to be the comic embodiment of political power refusing to accept its own irrelevance.",
+      "voice_description": "Male, sounds 40s–50s, a hard, imperious baritone. The voice of a man who has never been told no — clipped commands, rising indignation when challenged. A slight edge of genuine menace that becomes increasingly hollow as each item is surrendered.",
+      "register_notes": "Imperious, ~1.05 speed, deflating with each surrender. Emotion default: imperious indignation.",
+      "emotion_default": "imperious indignation"
+    },
+    {
+      "id": "damasias",
+      "name_grc": "Δαμασίας",
+      "name_en": "Damasias (the athlete)",
+      "sketch": "The champion wrestler in Dialogue 10, who arrives at the ferry carrying his enormous body, his victory crowns, and his herald's announcements. He is the most good-natured of the stripped passengers — he complies quickly and without much fuss once he understands the situation. His function is to embody the comedy of physical glory reduced to excess baggage.",
+      "voice_description": "Male, sounds late 20s–30s, a big, open bass-baritone. The voice of a large, physically confident man — not aggressive, just massive. Good-natured and slightly slow, with the quality of someone who has always solved problems with his body rather than his words.",
+      "register_notes": "Big and affable, ~1.0 speed. Emotion default: cooperative bewilderment.",
+      "emotion_default": "cooperative bewilderment"
+    },
+    {
+      "id": "kraton",
+      "name_grc": "Κράτων",
+      "name_en": "Craton (the rich man)",
+      "sketch": "The wealthy passenger in Dialogue 10, stripped of his fortune, his softness, his luxury, his ancestral prestige, and his monument. He complies with resigned ill grace — 'not willingly, but I'll throw it away — what else can I do?' His function is to be the voice of the wealthy man who knows the game is up but resents it.",
+      "voice_description": "Male, sounds 50s, a soft, slightly pampered baritone. The voice of someone who has lived well and whose body shows it — a slight heaviness, a quality of comfortable self-regard. The resignation is genuine but not graceful.",
+      "register_notes": "Reluctant, ~0.95 speed. Emotion default: resigned resentment.",
+      "emotion_default": "resigned resentment"
+    },
+    {
+      "id": "terpsion",
+      "name_grc": "Τερψίων",
+      "name_en": "Terpsion",
+      "sketch": "The legacy-hunter in Dialogue 6, who died of anxiety while waiting for his elderly mark to die — and the old man outlived him. His function is to be the definitive victim of the legacy-hunter's own game, and his conversation with Pluto has the quality of a man slowly realising he was the punchline all along.",
+      "voice_description": "Male, sounds 30s, a tense, slightly querulous tenor. The voice of a man who has been calculating and worrying for so long that it has become his resting state. Quick and slightly breathless, with the quality of someone who can't quite stop running the numbers even now.",
+      "register_notes": "Tense and querulous, ~1.05 speed. Emotion default: aggrieved calculation.",
+      "emotion_default": "aggrieved calculation"
+    },
+    {
+      "id": "kallideimides",
+      "name_grc": "Καλλιδημίδης",
+      "name_en": "Callidēmidēs",
+      "sketch": "The legacy-hunter in Dialogue 7 who poisoned the wrong cup and died instead of his mark. He tells the story with the rueful precision of a man who cannot quite believe his own bad luck. His function is to be the funniest of the legacy-hunter victims — the one whose scheme was most elaborate and whose failure was most complete.",
+      "voice_description": "Male, sounds 40s, a dry, slightly sardonic baritone. The voice of a clever man who has just done something very stupid and is narrating it with the detachment of someone who has had time to process the embarrassment.",
+      "register_notes": "Dry and rueful, ~1.0 speed. Emotion default: sardonic self-deprecation.",
+      "emotion_default": "sardonic self-deprecation"
+    },
+    {
+      "id": "zenophantos",
+      "name_grc": "Ζηνόφαντος",
+      "name_en": "Zenophantus",
+      "sketch": "Callidēmidēs' interlocutor in Dialogue 7 — a fellow legacy-hunter who died of overeating at his patron's table. He is the audience for Callidēmidēs' story and his laughter at the punchline is the scene's comic punctuation. His function is to be the appreciative straight man who can't quite suppress his delight at his friend's misfortune.",
+      "voice_description": "Male, sounds 40s, a comfortable, slightly rotund-sounding baritone. The voice of a man who enjoyed his food and his social position in roughly equal measure. Warm and gossipy, with a laugh that comes easily.",
+      "register_notes": "Warm and gossipy, ~1.0 speed. Emotion default: amused sympathy.",
+      "emotion_default": "amused sympathy"
+    },
+    {
+      "id": "polystratos",
+      "name_grc": "Πολύστρατος",
+      "name_en": "Polystratus",
+      "sketch": "The ancient rich man in Dialogue 9 who spent his last decades being adored by legacy-hunters and enjoyed every moment of it. He is the collection's most cheerful manipulator — he played the game better than anyone, kept the best suitor as his heir, and died laughing. His function is to be the rare figure who won the legacy-hunter game from the other side.",
+      "voice_description": "Male, sounds very old — 90s — but with a quality of preserved vitality and mischief. A thin, slightly reedy baritone that still has a twinkle in it. The voice of a man who has been enjoying a private joke for thirty years.",
+      "register_notes": "Thin but mischievous, ~0.9 speed. Emotion default: gleeful self-satisfaction.",
+      "emotion_default": "gleeful self-satisfaction"
+    },
+    {
+      "id": "simylos",
+      "name_grc": "Σιμύλος",
+      "name_en": "Simylus",
+      "sketch": "Polystratus's interlocutor in Dialogue 9, who knew him as a miser and is astonished to hear about his luxurious final decades. He is the audience for Polystratus's story — increasingly incredulous, then delighted, then resigned. His function is to be the everyman reaction to an extraordinary tale.",
+      "voice_description": "Male, sounds 70s, a plain, slightly worn baritone. The voice of an ordinary man — not rich, not famous, not particularly philosophical. Honest and direct, with the quality of someone who calls things as he sees them.",
+      "register_notes": "Plain and direct, ~1.0 speed. Emotion default: honest bewilderment.",
+      "emotion_default": "honest bewilderment"
+    },
+    {
+      "id": "kerberos",
+      "name_grc": "Κέρβερος",
+      "name_en": "Cerberus",
+      "sketch": "The three-headed guard dog of the underworld, appearing in Dialogue 21 as a surprisingly articulate witness to how the famous dead actually behaved at the threshold. His testimony about Socrates — brave on the outside, weeping once inside — is the collection's most delicious piece of gossip. His function is to be the one witness who cannot be fooled by performance.",
+      "voice_description": "Male, sounds ageless and strange — a deep, resonant bass with a slightly inhuman quality, as if the voice comes from multiple sources at once. Not monstrous, but uncanny. Speaks with the calm authority of someone who has seen everything and is not impressed by any of it.",
+      "register_notes": "Deep and uncanny, ~0.9 speed. Emotion default: calm, slightly eerie candour.",
+      "emotion_default": "calm candour"
+    },
+    {
+      "id": "maussolos",
+      "name_grc": "Μαύσωλος",
+      "name_en": "Mausolus",
+      "sketch": "The Carian king in Dialogue 24, whose entire identity rests on his magnificent tomb. Diogenes dismantles him with the observation that the tomb is in Halicarnassus and Mausolus is in the underworld, so the tomb is not actually doing him any good. His function is to be the most architecturally vain of the dead — a man who confused his monument with himself.",
+      "voice_description": "Male, sounds 40s–50s, a rich, slightly ornate baritone. The voice of a man who thinks in grand gestures — full, rounded, with a quality of self-conscious magnificence. The voice is beautiful in the way an expensive tomb is beautiful: impressive but cold.",
+      "register_notes": "Ornate and self-important, ~1.0 speed. Emotion default: wounded magnificence.",
+      "emotion_default": "wounded magnificence"
+    },
+    {
+      "id": "nireus",
+      "name_grc": "Νιρεύς",
+      "name_en": "Nireus",
+      "sketch": "Homer's most beautiful Greek warrior, now a skull arguing with Thersites about who is better-looking. His function is to be the most perfectly absurd embodiment of the 'all skulls look the same' running gag — the most beautiful man at Troy, reduced to a cranium that Menippus judges indistinguishable from the ugliest.",
+      "voice_description": "Male, sounds 20s, a light, slightly vain tenor. The voice of someone who has always been told he is beautiful and has organised his entire personality around it. A faint petulance when challenged.",
+      "register_notes": "Light and slightly petulant, ~1.0 speed. Emotion default: affronted vanity.",
+      "emotion_default": "affronted vanity"
+    },
+    {
+      "id": "thersites",
+      "name_grc": "Θερσίτης",
+      "name_en": "Thersites",
+      "sketch": "Homer's ugliest Greek warrior, now Nireus's equal in the underworld and enjoying it enormously. His function is to be the comic beneficiary of death's levelling — the one figure for whom the underworld is an upgrade. His satisfaction is the mirror image of Nireus's outrage.",
+      "voice_description": "Male, sounds 40s, a rough, slightly nasal baritone with a quality of cheerful coarseness. The voice of a man who was never taken seriously and has decided to find that funny. A note of genuine relish in his equality.",
+      "register_notes": "Rough and cheerful, ~1.0 speed. Emotion default: gleeful equality.",
+      "emotion_default": "gleeful equality"
+    },
+    {
+      "id": "cheiron",
+      "name_grc": "Χείρων",
+      "name_en": "Chiron",
+      "sketch": "The immortal centaur who chose death in Dialogue 26, and is now explaining his reasoning to Menippus with philosophical equanimity. His function is to be the collection's most genuinely philosophical figure — the one who chose the underworld freely and has thought carefully about why. His conversation with Menippus is the closest the collection comes to a genuine exchange between equals.",
+      "voice_description": "Male, sounds ageless — perhaps 50s in human terms, but with a quality of deep, unhurried wisdom. A warm, resonant baritone with the quality of someone who has seen many generations of students and is not in a hurry. Calm and thoughtful, with a slight note of contentment.",
+      "register_notes": "Warm and unhurried, ~0.9 speed. Emotion default: philosophical contentment.",
+      "emotion_default": "philosophical contentment"
+    },
+    {
+      "id": "pythagorass",
+      "name_grc": "Πυθαγόρας",
+      "name_en": "Pythagoras",
+      "sketch": "The philosopher in Dialogue 20, now in the underworld and — in the collection's best sight gag — immediately asking Menippus for beans (the very food he famously forbade). His function is to be the quickest and most complete philosophical self-contradiction in the collection.",
+      "voice_description": "Male, sounds 60s, a slightly mystical, over-deliberate baritone. The voice of someone who has spent a lifetime performing profundity. The request for beans should be delivered with the same solemn weight as a metaphysical pronouncement, which is what makes it funny.",
+      "register_notes": "Portentous, ~0.9 speed. Emotion default: solemn self-importance.",
+      "emotion_default": "solemn self-importance"
+    },
+    {
+      "id": "empedokles",
+      "name_grc": "Ἐμπεδοκλῆς",
+      "name_en": "Empedocles",
+      "sketch": "The philosopher who jumped into Etna, now half-charred in the underworld. His one-word explanation for his suicide ('melancholy') is immediately contradicted by Menippus ('vanity and pretension'). His function is to be the most literally self-destructive of the philosophical frauds.",
+      "voice_description": "Male, sounds 50s, a slightly singed, hollow baritone — as if the voice itself has been through something. Flat and slightly dazed, with the quality of someone who has not entirely processed what happened to them.",
+      "register_notes": "Flat and slightly dazed, ~0.9 speed. Emotion default: shell-shocked deflation.",
+      "emotion_default": "shell-shocked deflation"
+    },
+    {
+      "id": "aias",
+      "name_grc": "Αἶας",
+      "name_en": "Ajax",
+      "sketch": "The great warrior in Dialogue 29, still furious about losing Achilles' armour to Odysseus and still refusing to speak to him. His function is to be the embodiment of heroic grievance that refuses to be resolved — the one figure in the underworld who has not made his peace, and is not going to.",
+      "voice_description": "Male, sounds 30s–40s, a hard, powerful bass-baritone. The voice of a man built for war, not argument — direct, blunt, with a quality of barely-controlled anger. Not ranting, but the anger is always present, like a low vibration.",
+      "register_notes": "Hard and controlled, ~1.0 speed. Emotion default: sustained righteous anger.",
+      "emotion_default": "righteous anger"
+    },
+    {
+      "id": "agamemnon",
+      "name_grc": "Ἀγαμέμνων",
+      "name_en": "Agamemnon",
+      "sketch": "The commander-in-chief in Dialogue 29, trying to mediate between Ajax and the memory of Odysseus with the weary authority of a man who has been managing difficult subordinates for eternity. His function is to be the voice of institutional reason trying to contain heroic irrationality.",
+      "voice_description": "Male, sounds 50s, a commanding baritone with the quality of someone accustomed to being obeyed. Not unkind, but authoritative — the voice of a man who has been in charge for so long that he has forgotten how to not be in charge.",
+      "register_notes": "Commanding but weary, ~1.0 speed. Emotion default: authoritative exasperation.",
+      "emotion_default": "authoritative exasperation"
+    },
+    {
+      "id": "paris",
+      "name_grc": "Πάρις",
+      "name_en": "Paris",
+      "sketch": "The Trojan prince in Dialogue 19, defending himself against Protesilaus's stranglehold with the argument that Eros made him do it. He is charming, slightly slippery, and entirely unrepentant. His function is to be the most elegant deflector of blame in the collection.",
+      "voice_description": "Male, sounds late 20s, a smooth, slightly honeyed tenor. The voice of a man who has always been able to talk his way out of things — charming and quick, with a quality of practiced innocence.",
+      "register_notes": "Smooth and charming, ~1.05 speed. Emotion default: practiced innocence.",
+      "emotion_default": "practiced innocence"
+    },
+    {
+      "id": "meneleos",
+      "name_grc": "Μενέλαος",
+      "name_en": "Menelaus",
+      "sketch": "The cuckolded king in Dialogue 19, redirecting blame from himself to Paris with the righteous indignation of a man who has been rehearsing this argument for years. His function is to be the voice of aggrieved husbandly honour — genuinely wronged, but also genuinely responsible for the war he started.",
+      "voice_description": "Male, sounds 40s–50s, a solid, slightly self-righteous baritone. The voice of a man who is always the injured party in his own telling of events. Firm and indignant, with a quality of wounded dignity.",
+      "register_notes": "Firm and self-righteous, ~1.0 speed. Emotion default: wounded indignation.",
+      "emotion_default": "wounded indignation"
+    },
+    {
+      "id": "sostatos",
+      "name_grc": "Σώστρατος",
+      "name_en": "Sostratus (the bandit)",
+      "sketch": "The robber in Dialogue 30 who argues Minos into releasing him by pointing out that Fate made him do it. He is the collection's most surprising figure — a criminal who turns out to be the sharpest philosopher in the room. His function is to be the final, most elegant demonstration that the underworld's justice is more complicated than it looks.",
+      "voice_description": "Male, sounds 30s–40s, a quick, intelligent baritone with the quality of someone who has learned to think fast under pressure. Not educated in the formal sense, but sharp — the voice of street intelligence rather than academic training.",
+      "register_notes": "Quick and sharp, ~1.05 speed. Emotion default: focused intelligence.",
+      "emotion_default": "focused intelligence"
+    },
+    {
+      "id": "teiresias",
+      "name_grc": "Τειρεσίας",
+      "name_en": "Tiresias",
+      "sketch": "The blind prophet in Dialogue 28, subjected to Menippus's relentless anatomical questioning about his experience of changing sex. He starts with the authority of a famous seer and ends being accused of lying — which, Menippus points out, is what prophets do. His function is to be the most thoroughly demystified oracle in the collection.",
+      "voice_description": "Male, sounds very old, a thin, slightly querulous tenor with the quality of someone whose authority has been eroding for centuries. The voice of a man who is used to being believed and is not handling the scepticism well.",
+      "register_notes": "Thin and querulous, ~0.9 speed. Emotion default: defensive authority.",
+      "emotion_default": "defensive authority"
+    },
+    {
+      "id": "ptochos",
+      "name_grc": "πτωχός",
+      "name_en": "The Old Pauper",
+      "sketch": "The anonymous old beggar in Dialogue 27 who arrives weeping despite having had nothing — no wealth, no health, no family — and still not wanting to die. His function is to be the collection's most honest and most devastating figure: proof that the love of life is not rational, not proportional to what life has given you, and not something philosophy can argue away.",
+      "voice_description": "Male, sounds very old — 90s — with a thin, cracked, genuinely grief-stricken voice. Not performing grief; this is the real thing. The voice of someone for whom the light of the world was enough, even when the world gave nothing else.",
+      "register_notes": "Thin and genuinely grief-stricken, ~0.85 speed. Emotion default: simple, honest grief.",
+      "emotion_default": "simple grief"
+    }
+  ]
+}
