@@ -52,15 +52,18 @@ class HumeProvider:
     def synthesize(self, utterances: list[Utterance]) -> bytes:
         """Render all utterances in one multi-speaker request, return WAV bytes."""
         log.info(f"Hume.synthesize: {len(utterances)} utterances")
-        posted = [
-            PostedUtterance(
+        def _build(u):
+            kwargs = dict(
                 text=u.text,
                 description=u.description,
                 speed=u.speed,
                 voice=PostedUtteranceVoiceWithId(id=u.voice_id),
             )
-            for u in utterances
-        ]
+            if u.trailing_silence_seconds:
+                kwargs["trailing_silence"] = u.trailing_silence_seconds
+            return PostedUtterance(**kwargs)
+
+        posted = [_build(u) for u in utterances]
         result = self.client.tts.synthesize_json(
             utterances=posted,
             num_generations=1,

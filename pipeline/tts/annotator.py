@@ -26,6 +26,13 @@ class AnnotatedLine(BaseModel):
                     "'cheerful but cutting'."
     )
     speed: float = Field(ge=0.5, le=2.0, default=1.0)
+    trailing_silence_seconds: float = Field(
+        ge=0.0, le=3.0, default=0.0,
+        description="Explicit pause AFTER this line, in seconds. Use only "
+                    "for dramatic beats the model wouldn't insert naturally. "
+                    "Most lines should be 0 (let the model handle pacing). "
+                    "Comedic beats: 0.3-0.7. Dramatic landings: 0.8-1.5."
+    )
 
 
 class Annotation(BaseModel):
@@ -64,10 +71,15 @@ Tone anchors:
 - speed: 0.5–2.0. 1.0 is normal pace. Only deviate when delivery genuinely
   calls for it.
 
-Inter-line pacing is handled by the TTS model in multi-utterance mode —
-you don't need to think about pauses between lines. If a particular
-line needs an explicit dramatic beat baked into it, use [pause] or
-[long pause] inline within `text`.
+Inter-line pacing is mostly handled by the TTS model in multi-utterance
+mode — don't add silence for normal turn-taking. But comic timing often
+benefits from a deliberate beat the model wouldn't insert on its own.
+Use `trailing_silence_seconds` SPARINGLY for these moments:
+- after a punchline, to let it land
+- before a one-liner that's a delayed reaction
+- at the end of a beat-defining sentence
+Most lines should have 0 (the default). When you do use it, 0.3-0.7
+is a comedic beat; 0.8-1.5 is a dramatic landing.
 
 You may add extra fields per line (e.g. `note`, `stage_business`) where
 useful, but don't pad. The description does most of the work."""

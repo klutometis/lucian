@@ -71,6 +71,7 @@ def main():
             text=line["text"],
             description=line.get("description"),
             speed=line.get("speed", 1.0),
+            trailing_silence_seconds=line.get("trailing_silence_seconds", 0.0),
         ))
 
     log.info(f"Rendering {len(utterances)} utterances via {args.provider}...")

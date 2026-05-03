@@ -15,6 +15,7 @@ class Utterance:
     text: str
     description: str | None = None
     speed: float = 1.0
+    trailing_silence_seconds: float = 0.0
 
 
 class Provider(Protocol):

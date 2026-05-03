@@ -140,7 +140,7 @@ class ElevenLabsProvider:
         """
         log.info(f"ElevenLabs.synthesize: {len(utterances)} utterances")
         inputs = [
-            DialogueInput(text=u.text, voice_id=u.voice_id)
+            DialogueInput(text=self._with_trailing_silence(u), voice_id=u.voice_id)
             for u in utterances
         ]
         chunks = self.client.text_to_dialogue.convert(
@@ -149,3 +149,16 @@ class ElevenLabsProvider:
             output_format="wav_48000",
         )
         return b"".join(chunks)
+
+    @staticmethod
+    def _with_trailing_silence(u: Utterance) -> str:
+        """ElevenLabs has no per-utterance silence param; append [pause] tags.
+        [long pause] is roughly ~1s; [pause] is shorter. Anything > 0.7s gets
+        [long pause]; 0.2-0.7 gets [pause]; below that, leave it to the model.
+        """
+        s = u.trailing_silence_seconds or 0.0
+        if s >= 0.7:
+            return f"{u.text} [long pause]"
+        if s >= 0.2:
+            return f"{u.text} [pause]"
+        return u.text
