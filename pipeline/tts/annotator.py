@@ -18,7 +18,11 @@ import litellm
 class AnnotatedLine(BaseModel):
     """Provider-agnostic line. Required: stitcher inputs. Extras allowed."""
     model_config = ConfigDict(extra="allow")
-    speaker: str
+    character_id: str = Field(
+        description="The cast id from the reading (e.g. 'menippos', 'plouton'). "
+                    "This is what the renderer uses to look up the voice."
+    )
+    speaker: str = Field(description="Human-readable name as used in the translation.")
     text: str
     description: str = Field(
         description="Natural-language acting instruction, ≤100 chars. "
@@ -50,7 +54,8 @@ pacing.
 Register: {register_pitch}
 
 Cast (each character has a sketch and a voice description; use the sketch
-to decide HOW each line should be delivered):
+to decide HOW each line should be delivered. Use the bracketed `id` as
+`character_id` per line — it's how the renderer looks up the voice):
 {cast_block}
 
 Tone anchors:
@@ -58,7 +63,9 @@ Tone anchors:
 
 # Output per line
 
-- speaker: as in the translation
+- character_id: the bracketed `id` from the cast list above (e.g. menippos,
+  plouton). Resolve aliases (Pluto / Hades / Plouton all → plouton).
+- speaker: as in the translation (human-readable name).
 - text: copy from the translation, including any inline tags ([laughs],
   [pause], etc.). Don't add or remove tags.
 - description: ≤100 chars, natural language acting note. Be specific to
@@ -92,7 +99,7 @@ def build_system(reading: dict) -> str:
     cast_lines = []
     for c in cast:
         cast_lines.append(
-            f"- {c.get('name_en', '?')}: {c.get('sketch', '')}"
+            f"- [{c.get('id', '?')}] {c.get('name_en', '?')}: {c.get('sketch', '')}"
         )
     cast_block = "\n".join(cast_lines) if cast_lines else "(none)"
 

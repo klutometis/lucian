@@ -40,7 +40,6 @@ def main():
     safe_tm = args.translation_model.replace("/", "-").replace(":", "-")
     annotation_path = work / "output" / "annotations" / f"dialogue_{args.dialogue:02d}_{safe_tm}_annotated.json"
     casting_path = work / "bible" / f"casting_{args.provider}.json"
-    reading_path = work / "bible" / "reading.json"
 
     if not annotation_path.exists():
         raise FileNotFoundError(f"No annotation: {annotation_path}")
@@ -49,21 +48,12 @@ def main():
 
     annotation = json.loads(annotation_path.read_text())
     casting = json.loads(casting_path.read_text())
-    reading = json.loads(reading_path.read_text())
-
-    # Map speaker name (English or Greek) → character id → voice_id
-    name_to_id = {}
-    for char in reading.get("cast", []):
-        for key in (char.get("name_en"), char.get("name_grc"), char.get("id")):
-            if key:
-                name_to_id[key] = char["id"]
 
     utterances = []
     for line in annotation["lines"]:
-        speaker = line["speaker"]
-        cid = name_to_id.get(speaker)
+        cid = line.get("character_id")
         if not cid or cid not in casting:
-            log.warning(f"No voice for speaker {speaker!r}; skipping")
+            log.warning(f"No voice for character_id {cid!r} (speaker={line.get('speaker')!r}); skipping")
             continue
 
         utterances.append(Utterance(

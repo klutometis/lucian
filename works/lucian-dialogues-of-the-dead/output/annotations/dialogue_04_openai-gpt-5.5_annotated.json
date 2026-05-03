@@ -1,123 +1,140 @@
 {
   "lines": [
     {
+      "character_id": "hermes",
       "speaker": "Hermes",
       "text": "Let's settle accounts, ferryman, if you're willing: what you already owe me. Then we don't have to argue about it again later.",
-      "description": "businesslike, politely weary; opening the ledger",
+      "description": "businesslike, gently forcing the issue; divine accountant mode",
       "speed": 1.0,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "charon",
       "speaker": "Charon",
       "text": "Let's settle them, Hermes. Better to have it fixed. Less fuss.",
-      "description": "practical resignation, tradesman wanting no trouble",
+      "description": "gruff compliance, hoping paperwork will stay painless",
       "speed": 0.95,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "hermes",
       "speaker": "Hermes",
       "text": "An anchor, as ordered: I brought you one for five drachmas.",
-      "description": "reading an invoice, clipped and matter-of-fact",
+      "description": "reading from an invoice, crisp and exact",
       "speed": 1.0,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "charon",
       "speaker": "Charon",
       "text": "That's steep.",
-      "description": "flat complaint, reflexive haggling",
-      "speed": 0.85,
-      "trailing_silence_seconds": 0.3
-    },
-    {
-      "speaker": "Hermes",
-      "text": "By Hades, I paid five for it. And a rowlock: two obols.",
-      "description": "mildly offended, then back to the list",
-      "speed": 1.05,
-      "trailing_silence_seconds": 0.0
-    },
-    {
-      "speaker": "Charon",
-      "text": "Put down five drachmas and two obols.",
-      "description": "grudging acceptance, counting it out mentally",
-      "speed": 0.95,
-      "trailing_silence_seconds": 0.0
-    },
-    {
-      "speaker": "Hermes",
-      "text": "And a needle for mending the sail. I laid out five obols.",
-      "description": "dryly meticulous, bureaucratic patience",
-      "speed": 1.0,
-      "trailing_silence_seconds": 0.0
-    },
-    {
-      "speaker": "Charon",
-      "text": "Add those too.",
-      "description": "short, resigned, no energy to dispute it",
-      "speed": 0.9,
-      "trailing_silence_seconds": 0.0
-    },
-    {
-      "speaker": "Hermes",
-      "text": "And wax to smear over the cracks in your little tub, and nails, and a bit of rope—the one you made the brace out of. Two drachmas for the lot.",
-      "description": "deadpan, slight dig at the boat's condition",
-      "speed": 1.05,
-      "trailing_silence_seconds": 0.0
-    },
-    {
-      "speaker": "Charon",
-      "text": "Good value, that was.",
-      "description": "quiet satisfaction, rare approval from a miser",
+      "description": "flat tradesman's complaint, automatic reflex",
       "speed": 0.9,
       "trailing_silence_seconds": 0.35
     },
     {
+      "character_id": "hermes",
       "speaker": "Hermes",
-      "text": "That's everything, unless something escaped us in the reckoning. So. When do you say you'll pay me back?",
-      "description": "ledger closing; the pointed question lands dryly",
+      "text": "By Hades, I paid five for it. And a rowlock: two obols.",
+      "description": "defensive but controlled; keeps tally moving",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Put down five drachmas and two obols.",
+      "description": "resigned, muttering the total like it hurts",
       "speed": 0.95,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "And a needle for mending the sail. I laid out five obols.",
+      "description": "methodical, slightly weary of tiny expenses",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Add those too.",
+      "description": "short, grudging acceptance",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "And wax to smear over the cracks in your little tub, and nails, and a bit of rope—the one you made the brace out of. Two drachmas for the lot.",
+      "description": "dry inventory, tiny dig on 'little tub' kept understated",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Good value, that was.",
+      "description": "sudden practical approval, deadpan tradesman pride",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "That's everything, unless something escaped us in the reckoning. So. When do you say you'll pay me back?",
+      "description": "polite trap closing; calm but pointed",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
       "speaker": "Charon",
       "text": "Right now, Hermes, impossible. But if some plague or war sends a crowd down in one batch, then I can make a little extra by miscounting the fares.",
-      "description": "candid cash-flow talk, utterly unashamed",
+      "description": "matter-of-fact cash-flow despair, casually unethical",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "So I'm supposed to sit here praying for the worst things to happen, just so I can get my money?",
+      "description": "incredulous middle manager, dry moral exhaustion",
       "speed": 1.0,
       "trailing_silence_seconds": 0.45
     },
     {
-      "speaker": "Hermes",
-      "text": "So I'm supposed to sit here praying for the worst things to happen, just so I can get my money?",
-      "description": "incredulous middle manager, dry moral exhaustion",
-      "speed": 0.95,
-      "trailing_silence_seconds": 0.4
-    },
-    {
+      "character_id": "charon",
       "speaker": "Charon",
       "text": "No other way, Hermes. At the moment, as you can see, we get only a few arrivals. Peace, you know.",
-      "description": "shrugs with fatalistic bookkeeping logic",
+      "description": "bleakly practical, blaming peace for poor business",
       "speed": 0.95,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "hermes",
       "speaker": "Hermes",
       "text": "Peace is better, even if it means your debt to me drags on. Still—Charon, you remember what the old arrivals used to be like: brave men, all of them; most of them soaked in blood and covered in wounds. Now it's someone poisoned by his son, or by his wife; or some fellow whose belly and legs have swollen up from luxury. Pale, every one of them, and shabby. Nothing like the old lot. And most of them come here because of money, apparently, after plotting against each other.",
-      "description": "reflective, dry nostalgia turning into social disgust",
-      "speed": 0.9,
+      "description": "reflective bureaucrat nostalgia, dry disgust building gently",
+      "speed": 0.92,
       "trailing_silence_seconds": 0.0
     },
     {
+      "character_id": "charon",
       "speaker": "Charon",
       "text": "Well. It is very desirable stuff.",
-      "description": "deadpan understatement; money explains everything",
-      "speed": 0.8,
+      "description": "simple, shamelessly practical punchline",
+      "speed": 0.85,
       "trailing_silence_seconds": 0.55
     },
     {
+      "character_id": "hermes",
       "speaker": "Hermes",
       "text": "Then I suppose I can hardly be blamed for pressing you hard for what you owe me.",
-      "description": "wry self-justification, closes the account with a smirk",
+      "description": "dry closing turn, pleased at catching the logic",
       "speed": 0.95,
-      "trailing_silence_seconds": 0.5
+      "trailing_silence_seconds": 0.0
     }
   ]
 }

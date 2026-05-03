@@ -1,0 +1,220 @@
+{
+  "lines": [
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Pay up, you little curse. Ferry fare.",
+      "description": "gruff, transactional irritation; no theatrics",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Keep shouting, Charon, if it makes you happier.",
+      "description": "cheerful deadpan, unbothered by threats",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "I said pay me for carrying you across.",
+      "description": "more annoyed, repeating like a bill collector",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "You can’t collect from a man who hasn’t got it.",
+      "description": "plain practical fact, faint amusement",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Is there such a thing as a man without one obol?",
+      "description": "incredulous working-man outrage",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Other men, I couldn’t say. I haven’t got one.",
+      "description": "casual, exact, no apology",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "By Pluto, you filthy specimen, I’ll throttle you if you don’t pay.",
+      "description": "hot-tempered bluster, escalating fast",
+      "speed": 1.15,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "And I’ll take that pole of yours and crack your skull open.",
+      "description": "calm counter-threat, almost friendly",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "So you made that whole trip for nothing, then.",
+      "description": "aggrieved, stuck on the economics",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Hermes can pay for me. He’s the one who handed me over.",
+      "description": "bright practical suggestion, passing the invoice along",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Oh yes, splendid. Now I’m subsidising the dead.",
+      "description": "dry bureaucratic sarcasm, put-upon",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "I’m not letting you go.",
+      "description": "stubborn, arms-crossed refusal",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Fine. Haul the boat up and stand there forever on my account. But what I haven’t got—how exactly do you propose to take it?",
+      "description": "patiently logical, enjoying the impasse",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "You knew you were supposed to bring it.",
+      "description": "accusing, clinging to procedure",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "I knew. I didn’t have it. What then? Was I not supposed to die?",
+      "description": "crisp deadpan; final question lands dry",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "So you alone get to boast you sailed for free?",
+      "description": "resentful, wounded professional pride",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Not free, my good man. I bailed water, I helped with the oar, and unlike every other passenger, I didn’t spend the crossing crying.",
+      "description": "reasonable, listing services; last clause lightly cutting",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "None of that counts with a ferryman. You owe the obol. Procedure does not allow alternatives.",
+      "description": "bureaucratic tradesman, rigid and offended",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Then take me back to life.",
+      "description": "instant solution, perfectly serious",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Very funny. And pick up a beating from Aeacus for my trouble.",
+      "description": "sour, knows he has lost the practical argument",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Then stop bothering me.",
+      "description": "light, final, dusting hands off",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Show me what you’ve got in the bag.",
+      "description": "suspicious, trying another angle",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Lupins, if you want them. And Hecate’s leftovers.",
+      "description": "helpfully offering rubbish, utterly sincere",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Hermes, where did you find this dog? And the things he said all the way across—laughing at every passenger, needling them, and singing by himself while the rest of them wailed.",
+      "description": "exasperated complaint, building into grievance report",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "You don’t know whom you ferried, Charon? A genuinely free man. He doesn’t care about anything. That’s Menippus.",
+      "description": "warmly amused, admiring but still managerial",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Well, if I ever get hold of you again—",
+      "description": "unfinished threat, grumbling menace",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "If you get hold of me, my good man. But you won’t get hold of me twice.",
+      "description": "delighted final parry, dry and absolute",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

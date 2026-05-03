@@ -13,5 +13,25 @@
     "voice_id": "fec8aca6-3b92-4c95-9a0c-7096b5ff192c",
     "name_en": "Charon",
     "voice_description": "Male, sounds 50s–60s, rough bass with a weathered, working-man quality. Slow, deliberate speech with the cadence of someone who has been doing the same job for millennia and is tired of it. Gruff but not threatening; the bluster is the bluster of a man who knows he won't actually follow through on his threats."
+  },
+  "plouton": {
+    "voice_id": "b1a5023c-b8b7-48b0-be16-3b5f4e1dc99b",
+    "name_en": "Pluto / Hades",
+    "voice_description": "Male, sounds 50s, deep authoritative baritone with a measured, unhurried quality. Calm and deliberate, never raising his voice because he never needs to. A faint note of world-weariness underneath the authority. Received pronunciation or its ancient equivalent — the voice of institutional power that has long since stopped needing to prove itself."
+  },
+  "kroisos": {
+    "voice_id": "ce42ae2e-3fd9-4d7a-8af0-920907998d1e",
+    "name_en": "Croesus",
+    "voice_description": "Male, sounds 50s, a full, slightly pompous baritone. Speaks with the careful diction of someone accustomed to being listened to. Aggrieved and self-important; the voice has a faint quaver of genuine distress underneath the indignation."
+  },
+  "midas": {
+    "voice_id": "b0a23c3f-d584-41da-834a-6d030fbd6eb2",
+    "name_en": "Midas",
+    "voice_description": "Male, sounds 40s–50s, a thin, plaintive tenor. Slightly nasal, with the quality of someone who has been crying and hasn't quite stopped. The voice is smaller than you'd expect from a king."
+  },
+  "sardanapallos": {
+    "voice_id": "573cd43e-87a9-4086-909e-a7ae430a6a74",
+    "name_en": "Sardanapalus",
+    "voice_description": "Male, sounds 40s, a languid, slightly breathy baritone. Slow and over-enunciated, with the quality of someone who has always had servants to wait for his sentences to finish. A faint theatrical quality to the grief."
   }
 }
