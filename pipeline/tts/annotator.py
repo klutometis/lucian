@@ -1,27 +1,17 @@
 """
-TTS annotation pipeline.
+Per-line annotation. Reads the reading + a translation; emits per-line
+voice/text/pacing data for the stitcher.
 
-Pass 1: Performance Bible — one call over the full dialogue, produces
-        director's notes and character profiles.
-
-Pass 2: Line-Level Annotation — one call per dialogue, annotates each
-        line with emotion, speed, volume, pause_before_ms, pause_after_ms.
+Currently emits Cartesia-shaped fields (emotion, speed, volume, pauses).
+Hume provider with natural-language acting instructions to come later.
 """
 
-import json
-import logging
-from pathlib import Path
-from pydantic import BaseModel, Field
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import PydanticOutputParser
+from pydantic import BaseModel, ConfigDict, Field
+import instructor
+import litellm
 
-log = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Pydantic models
-# ---------------------------------------------------------------------------
-
+# Cartesia emotive voice library (current default provider)
 CARTESIA_VOICES = {
     "Leo":    "0834f3df-e650-4766-a20c-5a93a43aa6e3",
     "Jace":   "6776173b-fd72-460d-89b3-d85812ee518d",
@@ -34,29 +24,12 @@ CARTESIA_VOICES = {
 }
 
 
-class CharacterProfile(BaseModel):
-    name: str
-    dramatic_function: str
-    voice_name: str = Field(description="One of: Leo, Jace, Kyle, Gavin, Maya, Tessa, Dana, Marian")
-    voice_id: str = ""
-    emotion_palette: list[str] = Field(description="2–4 Cartesia emotion tags that suit this character")
-    typical_speed: float = Field(description="Base speed ratio 0.8–1.4")
-    register_notes: str
-
-
-class PerformanceBible(BaseModel):
-    characters: list[CharacterProfile]
-    narrative_arc: str
-    tempo_envelope: str = Field(description="Overall pacing description for this dialogue")
-    dominant_emotion: str
-    key_beats: list[str]
-    directorial_notes: str
-
-
 class AnnotatedLine(BaseModel):
-    line_index: int
+    """One annotated line. Required: stitcher-consumed fields. Extras allowed."""
+    model_config = ConfigDict(extra="allow")
     speaker: str
-    text: str = Field(description="Text with inline Cartesia SSML tags")
+    text: str = Field(description="Text with optional inline Cartesia SSML tags")
+    voice_name: str = Field(description="One of the Cartesia voice names")
     emotion: str
     speed: float = Field(ge=0.6, le=1.5)
     volume: float = Field(ge=0.5, le=2.0)
@@ -64,159 +37,94 @@ class AnnotatedLine(BaseModel):
     pause_after_ms: int = Field(ge=0, le=3000)
 
 
-class DialogueAnnotation(BaseModel):
+class Annotation(BaseModel):
+    """Per-dialogue annotation. Required: lines. Extras allowed."""
+    model_config = ConfigDict(extra="allow")
     lines: list[AnnotatedLine]
-    notes: str = ""
 
 
-# ---------------------------------------------------------------------------
-# Pass 1: Performance Bible
-# ---------------------------------------------------------------------------
+SYSTEM_TEMPLATE = """You are annotating dialogue lines for Cartesia Sonic-3 TTS.
 
-BIBLE_SYSTEM = """You are a director preparing to dramatize Lucian's *Dialogues of the Dead*
-as an audio production using AI text-to-speech (Cartesia Sonic-3).
+# The reading (your director's brief)
 
-The style is **sitcom register** — fast, punchy, contemporary American English.
-Characters are:
-- Menippus: Zen, dry, annoyingly unruffled. Speed ~1.2. Emotions: content, sarcastic.
-- Charon: Petty DMV-clerk bureaucrat. Speed ~1.15. Emotions: frustrated, agitated, tired.
-- Hermes: George Costanza — perpetually aggrieved. Speed ~1.25. Emotions: tired, frustrated, exasperated.
-- Diogenes: Cheerfully contemptuous. Speed ~1.1. Emotions: joking/comedic, contempt.
-- Pluto: Middle management, wants no drama. Speed ~1.0. Emotions: calm, neutral.
-- Wealthy shades (Croesus, Midas, etc.): Insufferable, still mourning. Speed ~0.95. Emotions: melancholic, contempt.
-- Philosophers: Pompous then deflated. Speed ~1.1 → 0.9. Emotions: confident → dejected.
+Register: {register_pitch}
 
-Available voices (emotive): Leo, Jace, Kyle, Gavin, Maya, Tessa, Dana, Marian.
-Assign a distinct voice to each character. Keep assignments consistent across dialogues.
+Cast (each character has a voice description; use it to choose voice + delivery):
+{cast_block}
 
-Respond with valid JSON matching the schema.
-"""
+Tone anchors:
+{tone_block}
 
-BIBLE_HUMAN = """## Dialogue {dialogue_id}: {title}
+# Casting
 
-{translated_lines}
+Map each character to one of these Cartesia voices: {voice_names}.
+Be consistent: the same character gets the same voice across the dialogue.
 
-{format_instructions}
-"""
+# Cartesia emotion vocabulary
 
-
-def build_performance_bible(
-    dialogue_id: int,
-    title: str,
-    translated_lines: list[dict],
-    model_name: str = "gpt-4o",
-) -> PerformanceBible:
-    model = ChatOpenAI(model=model_name, temperature=0.2)
-    parser = PydanticOutputParser(pydantic_object=PerformanceBible)
-
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", BIBLE_SYSTEM),
-        ("human", BIBLE_HUMAN),
-    ])
-    chain = prompt | model | parser
-
-    lines_str = "\n".join(
-        f"{l.get('speaker', '?')}: {l.get('text', '')}" for l in translated_lines
-    )
-
-    bible = chain.invoke({
-        "dialogue_id": dialogue_id,
-        "title": title,
-        "translated_lines": lines_str,
-        "format_instructions": parser.get_format_instructions(),
-    })
-
-    # Resolve voice IDs
-    for char in bible.characters:
-        char.voice_id = CARTESIA_VOICES.get(char.voice_name, "")
-
-    return bible
-
-
-# ---------------------------------------------------------------------------
-# Pass 2: Line-Level Annotation
-# ---------------------------------------------------------------------------
-
-ANNOTATION_SYSTEM = """You are annotating dialogue lines for Cartesia Sonic-3 TTS production.
-
-## Performance Bible
-{bible}
-
-## Cartesia Emotion Tags (use these exactly)
 Primary: neutral, angry, excited, content, sad, scared
-Extended: happy, enthusiastic, elated, triumphant, amazed, surprised,
-flirtatious, joking/comedic, curious, peaceful, serene, calm,
-grateful, affectionate, sympathetic, anticipation, mysterious,
-mad, outraged, frustrated, agitated, threatened, disgusted, contempt,
-envious, sarcastic, ironic, dejected, melancholic, disappointed, hurt,
-guilty, bored, tired, rejected, nostalgic, wistful, apologetic,
-hesitant, insecure, confused, resigned, anxious, panicked, alarmed,
-proud, confident, distant, skeptical, contemplative, determined
+Extended: joking/comedic, sarcastic, ironic, contempt, frustrated, agitated,
+tired, melancholic, dejected, hurt, nostalgic, wistful, hesitant, anxious,
+proud, confident, contemplative, determined, curious, sympathetic, amused,
+calm, peaceful, serene, triumphant, surprised, disappointed, bored, resigned
 
-## SSML inline tags (embed in text field)
-<emotion value="joking/comedic"/> text here
-<speed ratio="1.25"/> text
-<volume ratio="1.5"/> text
-[laughter] anywhere in text
+# Pauses (milliseconds)
 
-## Rules
-- Annotate all four dimensions simultaneously (emotion, speed, volume, pauses)
-- Pauses: interruption = <50ms, normal response = 100-200ms, dramatic beat = 300-800ms
-- Scene register is SITCOM: default speed ~1.2, tight gaps, comedic emotion
-- Embed one <emotion> tag at the start of each text line
-- Respond with valid JSON matching the schema
-"""
+Interruption: 0–50. Normal response: 100–200. Dramatic beat: 300–800.
 
-ANNOTATION_HUMAN = """## Dialogue {dialogue_id}: {title}
+# Output
 
-### Previous dialogue's last lines (context):
-{prev_lines}
-
-### Translate and annotate these lines:
-{lines}
-
-### Next dialogue's first lines (resolution):
-{next_lines}
-
-{format_instructions}
+Per line: speaker, text, voice_name (from the list), emotion (from vocab),
+speed (0.6–1.5), volume (0.5–2.0), pause_before_ms, pause_after_ms.
+You may add extra fields (a directorial note, a stage direction) per line.
 """
 
 
-def annotate_dialogue(
+def build_system(reading: dict) -> str:
+    work = reading.get("work", {})
+    cast = reading.get("cast", [])
+
+    cast_lines = []
+    for c in cast:
+        cast_lines.append(
+            f"- {c.get('name_en', '?')}: {c.get('voice_description', '')}"
+        )
+    cast_block = "\n".join(cast_lines) if cast_lines else "(none)"
+
+    tone = work.get("tone_anchors", [])
+    tone_block = "\n".join(f"- {t}" for t in tone) if tone else "(none)"
+
+    return SYSTEM_TEMPLATE.format(
+        register_pitch=work.get("register_pitch", ""),
+        cast_block=cast_block,
+        tone_block=tone_block,
+        voice_names=", ".join(CARTESIA_VOICES.keys()),
+    )
+
+
+def annotate(
+    *,
+    model: str,
+    reading: dict,
     dialogue_id: int,
     title: str,
     translated_lines: list[dict],
-    bible: PerformanceBible,
-    prev_lines: list[dict] | None = None,
-    next_lines: list[dict] | None = None,
-    model_name: str = "gpt-4o",
-) -> DialogueAnnotation:
-    model = ChatOpenAI(model=model_name, temperature=0.1)
-    parser = PydanticOutputParser(pydantic_object=DialogueAnnotation)
-
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", ANNOTATION_SYSTEM),
-        ("human", ANNOTATION_HUMAN),
-    ])
-    chain = prompt | model | parser
-
-    def fmt(lines):
-        if not lines:
-            return "None"
-        return "\n".join(f"{l.get('speaker','?')}: {l.get('text','')}" for l in lines)
-
-    indexed = [{"line_index": i, **l} for i, l in enumerate(translated_lines)]
-    lines_str = "\n".join(
-        f"[{l['line_index']}] {l.get('speaker','?')}: {l.get('text','')}"
-        for l in indexed
+    max_tokens: int = 16000,
+) -> Annotation:
+    system = build_system(reading)
+    user = f"## Dialogue {dialogue_id}: {title}\n\n"
+    user += "\n".join(
+        f"[{i}] {l.get('speaker','?')}: {l.get('text','')}"
+        for i, l in enumerate(translated_lines)
     )
 
-    return chain.invoke({
-        "dialogue_id": dialogue_id,
-        "title": title,
-        "bible": bible.model_dump_json(indent=2),
-        "prev_lines": fmt(prev_lines or []),
-        "lines": lines_str,
-        "next_lines": fmt(next_lines or []),
-        "format_instructions": parser.get_format_instructions(),
-    })
+    client = instructor.from_litellm(litellm.completion)
+    return client.create(
+        model=model,
+        response_model=Annotation,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        max_tokens=max_tokens,
+    )

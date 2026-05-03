@@ -1,0 +1,89 @@
+{
+  "lines": [
+    {
+      "speaker": "Hermes",
+      "text": "Right, let's go over the accounts, ferryman — if you don't mind — figure out exactly what you owe me, so we're not arguing about it again later.",
+      "note": "Brisk, professional. Hermes opens like a bookkeeper who has had this conversation before and is determined to have it properly this time."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Let's. Better to have it settled — less aggravation all round.",
+      "note": "Cooperative, but with the faint resignation of a man who already knows the total is going to be bad."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Anchor — you commissioned it, I fetched it. Five drachmas.",
+      "note": "Reading from a mental ledger."
+    },
+    {
+      "speaker": "Charon",
+      "text": "That's steep.",
+      "note": "Automatic."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "By Hades himself, that's what it cost. Five drachmas. And a thole-pin: two obols.",
+      "note": "The oath is entirely matter-of-fact, not heated."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Put down five drachmas and two obols.",
+      "note": "Grudging but precise."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "And a sail-ring for the mast. I paid five obols for that.",
+      "note": "Continuing down the list without pause."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Add those too.",
+      "note": "Resigned."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Wax to caulk the gaps in the hull, plus nails, plus the rope you made the sheet from — two drachmas for the lot.",
+      "note": "The list of small, inglorious boat-maintenance expenses is the comedy here. Deadpan delivery throughout."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Fair prices, those.",
+      "note": "The one item he can't object to, which only makes it worse."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "That's everything — unless we've missed something in the reckoning. So: when exactly are you planning to pay me back?",
+      "note": "Still professional. The sting is in the 'exactly.'"
+    },
+    {
+      "speaker": "Charon",
+      "text": "Right now? Not possible. But if a plague comes along, or a war sends a good crowd down in bulk — there's money to be made then, skimming a little off the fares.",
+      "note": "Entirely practical. He is not embarrassed. This is just how the cash flow works."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "So my plan is to sit here praying for catastrophe, on the off-chance I might eventually get paid?",
+      "note": "The line is delivered flatly. The absurdity does its own work."
+    },
+    {
+      "speaker": "Charon",
+      "text": "There's no other way, Hermes. Right now, as you can see, we're getting almost nobody. It's peacetime.",
+      "note": "A shrug in vocal form. 'Peacetime' lands as the most forlorn possible word."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Well, peace is well enough in itself, even if it does mean you keep stringing out my debt. Though I'll tell you — the old clientele, Charon, you remember what they were like: soldiers, every one of them, soaked in blood, most of them still carrying wounds. Now it's all: poisoned by his son, or done in by his wife, or bloated from excess — swollen bellies, swollen legs — pale, the lot of them, and pathetic. Nothing like the old days. And most of them, from what I can see, ended up down here scheming over each other's money.",
+      "note": "The nostalgia for a more violent era of the dead is played completely straight. Hermes is not celebrating war — he is doing quality control."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Very popular commodity, money.",
+      "note": "Dry. One of his best lines."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Well then, I don't suppose anyone would blame me for pressing you rather hard for what you owe.",
+      "note": "The kicker. Returns the whole philosophical digression to the original invoice. Delivered pleasantly."
+    }
+  ]
+}

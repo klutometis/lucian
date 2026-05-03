@@ -4,17 +4,13 @@ version = "0.1.0"
 description = "TTS dramatization and translation pipeline for Western Canon classical texts"
 requires-python = ">=3.11"
 dependencies = [
-    "langchain",
-    "langchain-openai",
-    "langchain-anthropic",
-    "langchain-google-genai",
-    "langchain-xai",
     "cartesia",
     "pydantic",
     "python-dotenv",
     "pyyaml",
     "lxml",
-    "google-generativeai>=0.8.6",
+    "litellm>=1.83.0",
+    "instructor>=1.15.1",
 ]
 
 [tool.uv]

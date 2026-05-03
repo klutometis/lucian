@@ -82,26 +82,22 @@ def stitch_dialogue(work_id: str, dialogue_id: int, dry_run: bool = False):
     if not annotation_path.exists():
         raise FileNotFoundError(f"No annotation at {annotation_path}")
 
+    from annotator import CARTESIA_VOICES
     data = json.loads(annotation_path.read_text())
-    bible = data["bible"]
-    lines = data["annotation"]["lines"]
+    lines = data["lines"]
+    voice_map = CARTESIA_VOICES  # voice_name -> voice_id
 
-    # Build voice_id lookup from bible
-    voice_map = {c["name"]: c["voice_id"] for c in bible["characters"]}
-
-    print(f"\n=== Stitching dialogue {dialogue_id}: {data['title']} ===")
-    print(f"  {len(lines)} lines, voice map: {voice_map}\n")
+    print(f"\n=== Stitching dialogue {dialogue_id} ===")
+    print(f"  {len(lines)} lines\n")
 
     if dry_run:
         total_ms = 0
-        for line in lines:
-            vid = voice_map.get(line["speaker"], "")
+        for i, line in enumerate(lines):
             total_ms += line["pause_before_ms"] + line["pause_after_ms"]
             est_words = len(line["text"].split())
             est_ms = int(est_words / (line["speed"] * 2.5) * 1000)
             total_ms += est_ms
-            print(f"  [{line['line_index']:>2}] {line['speaker']:>12}  "
-                  f"voice={vid[:8]}...  "
+            print(f"  [{i:>2}] {line['speaker']:>12} ({line.get('voice_name','?')})  "
                   f"↓{line['pause_before_ms']}ms  ~{est_ms}ms  ↑{line['pause_after_ms']}ms")
             print(f"       {line['text'][:80]}")
         print(f"\n  Estimated total: ~{total_ms/1000:.1f}s")
@@ -112,24 +108,22 @@ def stitch_dialogue(work_id: str, dialogue_id: int, dry_run: bool = False):
 
     for i, line in enumerate(lines):
         speaker = line["speaker"]
-        voice_id = voice_map.get(speaker, "")
+        voice_name = line.get("voice_name", "")
+        voice_id = voice_map.get(voice_name, "")
         if not voice_id:
-            log.warning(f"No voice for {speaker}, skipping line {i}")
+            log.warning(f"No voice_id for {speaker} ({voice_name}), skipping line {i}")
             continue
 
         log.info(f"  [{i:>2}/{len(lines)}] {speaker}: {line['text'][:60]}...")
 
-        # Silence before
         if line["pause_before_ms"] > 0:
             pcm_segments.append(silence_bytes(line["pause_before_ms"]))
 
-        # Generate speech
         line_with_voice = {**line, "voice_id": voice_id}
         audio = generate_line_audio(client, line_with_voice)
         if audio:
             pcm_segments.append(audio)
 
-        # Silence after
         if line["pause_after_ms"] > 0:
             pcm_segments.append(silence_bytes(line["pause_after_ms"]))
 

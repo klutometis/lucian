@@ -1,220 +1,191 @@
 {
-  "dialogue_id": 4,
-  "title": "Ἑρμῆς καὶ Χάρων.",
-  "bible": {
-    "characters": [
-      {
-        "name": "Hermes",
-        "dramatic_function": "Perpetually aggrieved messenger",
-        "voice_name": "Leo",
-        "voice_id": "0834f3df-e650-4766-a20c-5a93a43aa6e3",
-        "emotion_palette": [
-          "tired",
-          "frustrated",
-          "exasperated"
-        ],
-        "typical_speed": 1.25,
-        "register_notes": "Fast-talking, always on edge"
-      },
-      {
-        "name": "Charon",
-        "dramatic_function": "Petty bureaucrat of the underworld",
-        "voice_name": "Jace",
-        "voice_id": "6776173b-fd72-460d-89b3-d85812ee518d",
-        "emotion_palette": [
-          "frustrated",
-          "agitated",
-          "tired"
-        ],
-        "typical_speed": 1.15,
-        "register_notes": "Annoyed, transactional, slightly weary"
-      }
-    ],
-    "narrative_arc": "Hermes tries to settle a debt with Charon, who deflects payment due to low business.",
-    "tempo_envelope": "Fast-paced with quick exchanges, reflecting the frustration and urgency of Hermes.",
-    "dominant_emotion": "Frustration",
-    "key_beats": [
-      "Hermes demands payment from Charon.",
-      "Charon acknowledges the debt but finds the price steep.",
-      "Hermes lists the items and their costs.",
-      "Charon agrees to the prices but delays payment.",
-      "Hermes expresses frustration over the lack of souls and reminisces about the past."
-    ],
-    "directorial_notes": "Ensure Hermes' frustration is palpable and Charon's responses are dry and transactional. The dialogue should feel like a fast-paced negotiation with comedic undertones."
-  },
-  "annotation": {
-    "lines": [
-      {
-        "line_index": 0,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> Hey Charon, let's settle up what you owe me, okay? I don't want to argue about it later.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 0,
-        "pause_after_ms": 150
-      },
-      {
-        "line_index": 1,
-        "speaker": "Charon",
-        "text": "<emotion value=\"neutral\"/> Sure thing, Hermes. Better to get it sorted now and avoid the hassle.",
-        "emotion": "neutral",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 150,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 2,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> I brought you an anchor for five drachmas.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 3,
-        "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> That's a bit steep.",
-        "emotion": "frustrated",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 4,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> Swear by Hades, I paid five for it. And a pulley for two obols.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 5,
-        "speaker": "Charon",
-        "text": "<emotion value=\"neutral\"/> Alright, put down five drachmas and two obols.",
-        "emotion": "neutral",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 6,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> And a sail patch — that was five obols.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 7,
-        "speaker": "Charon",
-        "text": "<emotion value=\"neutral\"/> Add those too.",
-        "emotion": "neutral",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 8,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> Plus wax to seal the boat's leaks, nails, and rope for the rigging — all that was two drachmas.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 9,
-        "speaker": "Charon",
-        "text": "<emotion value=\"neutral\"/> Fair price for those.",
-        "emotion": "neutral",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 10,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> That's everything, unless we missed something. So, when are you paying up?",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 11,
-        "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> Can't do it now, Hermes. But if a plague or war sends a bunch of souls our way, I'll make a profit on the fares and pay you then.",
-        "emotion": "frustrated",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 12,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> So I should just sit here hoping for the worst so I can get paid?",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 13,
-        "speaker": "Charon",
-        "text": "<emotion value=\"frustrated\"/> That's the deal, Hermes. Not many arrivals right now, as you can see — it's peacetime.",
-        "emotion": "frustrated",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 14,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"nostalgic\"/> Well, maybe you could extend my credit a bit. But seriously, Charon, remember the old days? All those brave souls, covered in blood and battle scars. Now it's all poisonings, overeating, and backstabbing for money. They're pale and pathetic, nothing like the old crowd.",
-        "emotion": "nostalgic",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 15,
-        "speaker": "Charon",
-        "text": "<emotion value=\"nostalgic\"/> Yeah, those were the days.",
-        "emotion": "nostalgic",
-        "speed": 1.15,
-        "volume": 1.0,
-        "pause_before_ms": 100,
-        "pause_after_ms": 100
-      },
-      {
-        "line_index": 16,
-        "speaker": "Hermes",
-        "text": "<emotion value=\"frustrated\"/> So you can't blame me for being a bit pushy about getting what's owed.",
-        "emotion": "frustrated",
-        "speed": 1.25,
-        "volume": 1.5,
-        "pause_before_ms": 100,
-        "pause_after_ms": 0
-      }
-    ],
-    "notes": "Ensure Hermes' frustration is palpable and Charon's responses are dry and transactional. The dialogue should feel like a fast-paced negotiation with comedic undertones."
-  }
+  "lines": [
+    {
+      "speaker": "Hermes",
+      "text": "Let's go through the accounts, ferryman, if you don't mind: what you already owe me. Then we don't have to quarrel about it again later.",
+      "voice_name": "Jace",
+      "emotion": "neutral",
+      "speed": 1.08,
+      "volume": 1.0,
+      "pause_before_ms": 150,
+      "pause_after_ms": 180,
+      "directorial_note": "Crisp, businesslike, pleasantly formal; clipboard energy without fuss."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Let's. Better to have it settled. Less nuisance all round.",
+      "voice_name": "Gavin",
+      "emotion": "tired",
+      "speed": 0.88,
+      "volume": 0.95,
+      "pause_before_ms": 160,
+      "pause_after_ms": 180,
+      "directorial_note": "Gruff, slow assent; practical rather than hostile."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "You asked me to bring an anchor. Five drachmas.",
+      "voice_name": "Jace",
+      "emotion": "neutral",
+      "speed": 1.12,
+      "volume": 1.0,
+      "pause_before_ms": 140,
+      "pause_after_ms": 120,
+      "directorial_note": "Efficient itemising; no accusation yet."
+    },
+    {
+      "speaker": "Charon",
+      "text": "That sounds expensive.",
+      "voice_name": "Gavin",
+      "emotion": "frustrated",
+      "speed": 0.86,
+      "volume": 0.95,
+      "pause_before_ms": 140,
+      "pause_after_ms": 150,
+      "directorial_note": "Dry working-man complaint; not dramatic."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "By Hades, I paid five for it. And a rowlock: two obols.",
+      "voice_name": "Jace",
+      "emotion": "frustrated",
+      "speed": 1.12,
+      "volume": 1.03,
+      "pause_before_ms": 100,
+      "pause_after_ms": 140,
+      "directorial_note": "A small flash of irritation, immediately back to the ledger."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Put down five drachmas and two obols.",
+      "voice_name": "Gavin",
+      "emotion": "resigned",
+      "speed": 0.88,
+      "volume": 0.95,
+      "pause_before_ms": 150,
+      "pause_after_ms": 160,
+      "directorial_note": "Concedes with weary practicality."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "And a sail-needle. Repairs for the canvas. I laid out five obols.",
+      "voice_name": "Jace",
+      "emotion": "neutral",
+      "speed": 1.1,
+      "volume": 1.0,
+      "pause_before_ms": 130,
+      "pause_after_ms": 130,
+      "directorial_note": "Precise, brisk accounting."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Add those too.",
+      "voice_name": "Gavin",
+      "emotion": "resigned",
+      "speed": 0.86,
+      "volume": 0.93,
+      "pause_before_ms": 120,
+      "pause_after_ms": 150,
+      "directorial_note": "Short, gruff, already tired of the arithmetic."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "And wax for caulking the cracks in the little boat, and nails, and a bit of cord you made the brace out of. Two drachmas for the lot.",
+      "voice_name": "Jace",
+      "emotion": "neutral",
+      "speed": 1.1,
+      "volume": 1.0,
+      "pause_before_ms": 130,
+      "pause_after_ms": 160,
+      "directorial_note": "Slightly faster list, still controlled and professional."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Fair purchases, those.",
+      "voice_name": "Gavin",
+      "emotion": "content",
+      "speed": 0.84,
+      "volume": 0.95,
+      "pause_before_ms": 150,
+      "pause_after_ms": 180,
+      "directorial_note": "Gruff approval; laconic and unembellished."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "That's everything—unless something has escaped us in the reckoning. So. When do you say you'll pay it back?",
+      "voice_name": "Jace",
+      "emotion": "neutral",
+      "speed": 1.04,
+      "volume": 1.0,
+      "pause_before_ms": 170,
+      "pause_after_ms": 220,
+      "directorial_note": "Tidy conclusion, then a deliberate pivot to collection; tiny pause after 'So.'"
+    },
+    {
+      "speaker": "Charon",
+      "text": "Right now, Hermes? Impossible. But if some plague or war sends us a crowd all at once, then I can make a margin by miscounting the ferry fares.",
+      "voice_name": "Gavin",
+      "emotion": "ironic",
+      "speed": 0.88,
+      "volume": 0.96,
+      "pause_before_ms": 180,
+      "pause_after_ms": 240,
+      "directorial_note": "Matter-of-fact morbidity; the joke is in the flat practicality."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "So I'm supposed to sit here praying for catastrophe, just so I can get reimbursed?",
+      "voice_name": "Jace",
+      "emotion": "sarcastic",
+      "speed": 1.08,
+      "volume": 1.02,
+      "pause_before_ms": 160,
+      "pause_after_ms": 190,
+      "directorial_note": "Dry incredulity; not broad, not panicked."
+    },
+    {
+      "speaker": "Charon",
+      "text": "There's no other way, Hermes. At the moment, as you see, hardly anyone is coming down. Peace.",
+      "voice_name": "Gavin",
+      "emotion": "resigned",
+      "speed": 0.84,
+      "volume": 0.94,
+      "pause_before_ms": 170,
+      "pause_after_ms": 240,
+      "directorial_note": "Weary statement of business conditions; 'Peace' as the problem, deadpan."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Peace is better, even if it means your debt to me keeps maturing. Still—Charon, you remember what the old arrivals used to be like: brave men, all of them, most soaked in blood and full of wounds. Now it's someone poisoned by his son, or by his wife; or some soft-living fellow swollen up in belly and legs. Pale, the lot of them. No breeding. Nothing like the old ones. And most of them are here over money, apparently, plotting against each other.",
+      "voice_name": "Jace",
+      "emotion": "contemplative",
+      "speed": 1.02,
+      "volume": 1.0,
+      "pause_before_ms": 220,
+      "pause_after_ms": 260,
+      "directorial_note": "Begins as a practical concession, then drifts into dry professional nostalgia; keep the morbidity observational, not sentimental."
+    },
+    {
+      "speaker": "Charon",
+      "text": "Well, it is such a lovable thing.",
+      "voice_name": "Gavin",
+      "emotion": "sarcastic",
+      "speed": 0.82,
+      "volume": 0.95,
+      "pause_before_ms": 220,
+      "pause_after_ms": 260,
+      "directorial_note": "Slow, bone-dry line; money as the obvious culprit."
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Then I don't suppose I look especially unreasonable, pressing you sharply for what you owe me.",
+      "voice_name": "Jace",
+      "emotion": "ironic",
+      "speed": 1.05,
+      "volume": 1.0,
+      "pause_before_ms": 180,
+      "pause_after_ms": 250,
+      "directorial_note": "Neat closing logic; light dry humour, businesslike finish."
+    }
+  ]
 }
