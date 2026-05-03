@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.python-version
+
+# uv
+# uv.lock IS committed; it's the resolved lockfile
+
+# Output (large, regeneratable)
+output/audio/*.wav
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
