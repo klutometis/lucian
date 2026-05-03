@@ -192,37 +192,11 @@ swap Cartesia ↔ Hume ↔ ElevenLabs without touching upstream.
 
 ## File layout after refactor
 
-```
-lucian/
-  bible/
-    reading.json        # the one-time pre-pass artifact
-    casting.json        # character → voice_id (locked)
-    voices/             # per-provider catalogs (cached locally)
-      hume.json
-      elevenlabs.json
-      cartesia.json
-  translation/
-    translator.py
-    prompt_builder.py   # now just: read reading.json + format prompt
-    driver.py
-  tts/
-    providers/
-      base.py
-      hume.py
-      elevenlabs.py
-      cartesia.py
-    annotator.py
-    stitcher.py
-    driver.py
-  sources/
-    dialogi_mortuorum_grc.xml
-    dialogues.json
-    preprocess.py
-  output/
-    translations/
-    annotations/
-    audio/
-```
+Directory layout is defined in plan 04. The reading lives at
+`works/<work>/bible/reading.json`; the casting at
+`works/<work>/bible/casting.json`. Voice catalogs are work-agnostic and
+live at `voices/` at the project root. Pipeline code lives under
+`pipeline/`. See plan 04 for the full tree.
 
 ## Phasing
 

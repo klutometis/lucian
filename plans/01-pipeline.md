@@ -1,5 +1,16 @@
 # Pipeline Plan
 
+## Status
+
+This is the original architectural sketch. **Still canonical:** the 4-pass
+conceptual model (chunk → bible → annotate → stitch); LLM-over-regex for
+chunking; MCSU generalization across drama/epic/lyric/dialogue;
+scene-boundary overlap principle.
+
+**Superseded:** TTS provider (plan 03 → Hume Octave 2 default, not Cartesia);
+config layer (plan 03 → `reading.json` replaces STYLE/CONVENTIONS/GLOSSARY);
+directory layout (plan 04 → per-work `works/<work>/` structure).
+
 ## Scope
 
 Produce listenable, dramatized audio of Western Canon classical texts
