@@ -48,6 +48,18 @@ Translate the dialogue. Nail the voice — register, character, comic timing.
 No literal-fidelity tax: serve the performance. The smallest unit is the
 scene; you have the whole scene at once.
 
+# Inline performance tags
+
+You may insert inline tags within `text` where comic or dramatic timing
+benefits from them. Available tags:
+  [laughs] [chuckles] [sighs] [whispers] [shouting] [crying]
+  [pause] [long pause]
+
+Use them sparingly. One well-placed `[laughs]` is worth more than a
+scene cluttered with markup. They go where the actor would naturally
+place them, mid-line if needed:
+  "Oh, I'm sorry, [laughs] I just can't take this seriously."
+
 Required output: a list of `lines`, each with `speaker` and `text`.
 You may add other fields per line if useful (e.g., a directorial note),
 but don't pad."""

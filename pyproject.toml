@@ -11,6 +11,8 @@ dependencies = [
     "lxml",
     "litellm>=1.83.0",
     "instructor>=1.15.1",
+    "hume>=0.13.11",
+    "elevenlabs>=2.45.0",
 ]
 
 [tool.uv]

@@ -1,0 +1,17 @@
+{
+  "menippos": {
+    "voice_id": "XAezqB2SuTKEhjCMe7Oy",
+    "name_en": "Menippus",
+    "voice_description": "Male, late 40s, warm baritone with a slight rasp. Conversational and unhurried, as if he has all the time in the world — which, being dead, he does. Dry wit delivered at an even pace; the punchlines land quietly. No regional accent; classless, placeless. A faint smile audible in the voice even when the words are blunt."
+  },
+  "hermes": {
+    "voice_id": "HOowRU6z6ImOLgpdcR8D",
+    "name_en": "Hermes",
+    "voice_description": "Male, sounds mid-30s, light tenor with a crisp, efficient quality. Articulate and quick, with the energy of someone perpetually between tasks. Pleasant but businesslike; capable of dry humour when the situation earns it. Neutral accent, slightly formal register that relaxes around Menippus."
+  },
+  "charon": {
+    "voice_id": "507tTFX0IPtqFzGd1CAL",
+    "name_en": "Charon",
+    "voice_description": "Male, sounds 50s–60s, rough bass with a weathered, working-man quality. Slow, deliberate speech with the cadence of someone who has been doing the same job for millennia and is tired of it. Gruff but not threatening; the bluster is the bluster of a man who knows he won't actually follow through on his threats."
+  }
+}

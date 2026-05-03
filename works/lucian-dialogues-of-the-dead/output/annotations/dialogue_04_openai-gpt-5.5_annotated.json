@@ -1,0 +1,106 @@
+{
+  "lines": [
+    {
+      "speaker": "Hermes",
+      "text": "Let's settle accounts, ferryman, if you're willing: what you already owe me. Then we don't have to argue about it again later.",
+      "description": "businesslike, politely tired; opening a ledger he knows too well",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Charon",
+      "text": "Let's settle them, Hermes. Better to have it fixed. Less fuss.",
+      "description": "gruff compliance, tradesman wanting no drama",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Hermes",
+      "text": "An anchor, as ordered: I brought you one for five drachmas.",
+      "description": "precise clerk's tone, reading item one from accounts",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Charon",
+      "text": "That's steep.",
+      "description": "flat complaint, automatic haggling reflex",
+      "speed": 0.85
+    },
+    {
+      "speaker": "Hermes",
+      "text": "By Hades, I paid five for it. And a rowlock: two obols.",
+      "description": "mildly defensive, then back to the list",
+      "speed": 1.0
+    },
+    {
+      "speaker": "Charon",
+      "text": "Put down five drachmas and two obols.",
+      "description": "resigned, conceding while mentally bleeding money",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Hermes",
+      "text": "And a needle for mending the sail. I laid out five obols.",
+      "description": "matter-of-fact, brisk bookkeeping",
+      "speed": 1.0
+    },
+    {
+      "speaker": "Charon",
+      "text": "Add those too.",
+      "description": "short, weary acceptance",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Hermes",
+      "text": "And wax to smear over the cracks in your little tub, and nails, and a bit of rope—the one you made the brace out of. Two drachmas for the lot.",
+      "description": "dry emphasis on the shabby boat, still accountant-clear",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Charon",
+      "text": "Good value, that was.",
+      "description": "sudden practical approval, pleased despite himself",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Hermes",
+      "text": "That's everything, unless something escaped us in the reckoning. So. When do you say you'll pay me back?",
+      "description": "ledger closes; polite trap sprung, dry and expectant",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Charon",
+      "text": "Right now, Hermes, impossible. But if some plague or war sends a crowd down in one batch, then I can make a little extra by miscounting the fares.",
+      "description": "cash-strapped candor, casually horrifying business plan",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Hermes",
+      "text": "So I'm supposed to sit here praying for the worst things to happen, just so I can get my money?",
+      "description": "deadpan disbelief, bureaucrat faced with moral absurdity",
+      "speed": 0.95
+    },
+    {
+      "speaker": "Charon",
+      "text": "No other way, Hermes. At the moment, as you can see, we get only a few arrivals. Peace, you know.",
+      "description": "plainspoken, almost apologetic; peace as bad for revenue",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Peace is better, even if it means your debt to me drags on. Still—Charon, you remember what the old arrivals used to be like: brave men, all of them; most of them soaked in blood and covered in wounds. Now it's someone poisoned by his son, or by his wife; or some fellow whose belly and legs have swollen up from luxury. Pale, every one of them, and shabby. Nothing like the old lot. And most of them come here because of money, apparently, after plotting against each other.",
+      "description": "reflective complaint, nostalgic then disgusted by modern pettiness",
+      "speed": 0.9
+    },
+    {
+      "speaker": "Charon",
+      "text": "Well. It is very desirable stuff.",
+      "description": "deadpan capitalist shrug, no shame at all",
+      "speed": 0.8
+    },
+    {
+      "speaker": "Hermes",
+      "text": "Then I suppose I can hardly be blamed for pressing you hard for what you owe me.",
+      "description": "dry closing jab, amused by the hypocrisy of it",
+      "speed": 0.9
+    }
+  ]
+}

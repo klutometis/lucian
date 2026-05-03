@@ -1,9 +1,13 @@
 """
-Per-line annotation. Reads the reading + a translation; emits per-line
-voice/text/pacing data for the stitcher.
+Per-line annotation, provider-agnostic.
 
-Currently emits Cartesia-shaped fields (emotion, speed, volume, pauses).
-Hume provider with natural-language acting instructions to come later.
+Reads the reading + a translated dialogue; emits per-line shape that
+maps cleanly onto Hume / ElevenLabs / etc.:
+
+  speaker, text, description, speed, pause_before_ms, pause_after_ms
+
+The text passes through with whatever inline tags the translator inserted
+([laughs], [sighs], [pause], etc.). Each provider decides how to handle them.
 """
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -11,30 +15,17 @@ import instructor
 import litellm
 
 
-# Cartesia emotive voice library (current default provider)
-CARTESIA_VOICES = {
-    "Leo":    "0834f3df-e650-4766-a20c-5a93a43aa6e3",
-    "Jace":   "6776173b-fd72-460d-89b3-d85812ee518d",
-    "Kyle":   "c961b81c-a935-4c17-bfb3-ba2239de8c2f",
-    "Gavin":  "f4a3a8e4-694c-4c45-9ca0-27caf97901b5",
-    "Maya":   "cbaf8084-f009-4838-a096-07ee2e6612b1",
-    "Tessa":  "6ccbfb76-1fc6-48f7-b71d-91ac6298247b",
-    "Dana":   "cc00e582-ed66-4004-8336-0175b85c85f6",
-    "Marian": "26403c37-80c1-4a1a-8692-540551ca2ae5",
-}
-
-
 class AnnotatedLine(BaseModel):
-    """One annotated line. Required: stitcher-consumed fields. Extras allowed."""
+    """Provider-agnostic line. Required: stitcher inputs. Extras allowed."""
     model_config = ConfigDict(extra="allow")
     speaker: str
-    text: str = Field(description="Text with optional inline Cartesia SSML tags")
-    voice_name: str = Field(description="One of the Cartesia voice names")
-    emotion: str
-    speed: float = Field(ge=0.6, le=1.5)
-    volume: float = Field(ge=0.5, le=2.0)
-    pause_before_ms: int = Field(ge=0, le=3000)
-    pause_after_ms: int = Field(ge=0, le=3000)
+    text: str
+    description: str = Field(
+        description="Natural-language acting instruction, ≤100 chars. "
+                    "Examples: 'weary sarcasm', 'frightened, rushed', "
+                    "'cheerful but cutting'."
+    )
+    speed: float = Field(ge=0.5, le=2.0, default=1.0)
 
 
 class Annotation(BaseModel):
@@ -43,41 +34,43 @@ class Annotation(BaseModel):
     lines: list[AnnotatedLine]
 
 
-SYSTEM_TEMPLATE = """You are annotating dialogue lines for Cartesia Sonic-3 TTS.
+SYSTEM_TEMPLATE = """You are a director annotating a translated scene for
+expressive TTS. Your job is to write per-line acting instructions and
+pacing.
 
 # The reading (your director's brief)
 
 Register: {register_pitch}
 
-Cast (each character has a voice description; use it to choose voice + delivery):
+Cast (each character has a sketch and a voice description; use the sketch
+to decide HOW each line should be delivered):
 {cast_block}
 
 Tone anchors:
 {tone_block}
 
-# Casting
+# Output per line
 
-Map each character to one of these Cartesia voices: {voice_names}.
-Be consistent: the same character gets the same voice across the dialogue.
+- speaker: as in the translation
+- text: copy from the translation, including any inline tags ([laughs],
+  [pause], etc.). Don't add or remove tags.
+- description: ≤100 chars, natural language acting note. Be specific to
+  THIS line in context. Examples:
+    "weary sarcasm, slight smile under the surface"
+    "frustrated, picking up speed"
+    "cheerful, completely at ease — Menippus default"
+    "deadpan, very dry"
+    "indignant, genuinely scandalized"
+- speed: 0.5–2.0. 1.0 is normal pace. Only deviate when delivery genuinely
+  calls for it.
 
-# Cartesia emotion vocabulary
+Inter-line pacing is handled by the TTS model in multi-utterance mode —
+you don't need to think about pauses between lines. If a particular
+line needs an explicit dramatic beat baked into it, use [pause] or
+[long pause] inline within `text`.
 
-Primary: neutral, angry, excited, content, sad, scared
-Extended: joking/comedic, sarcastic, ironic, contempt, frustrated, agitated,
-tired, melancholic, dejected, hurt, nostalgic, wistful, hesitant, anxious,
-proud, confident, contemplative, determined, curious, sympathetic, amused,
-calm, peaceful, serene, triumphant, surprised, disappointed, bored, resigned
-
-# Pauses (milliseconds)
-
-Interruption: 0–50. Normal response: 100–200. Dramatic beat: 300–800.
-
-# Output
-
-Per line: speaker, text, voice_name (from the list), emotion (from vocab),
-speed (0.6–1.5), volume (0.5–2.0), pause_before_ms, pause_after_ms.
-You may add extra fields (a directorial note, a stage direction) per line.
-"""
+You may add extra fields per line (e.g. `note`, `stage_business`) where
+useful, but don't pad. The description does most of the work."""
 
 
 def build_system(reading: dict) -> str:
@@ -87,7 +80,7 @@ def build_system(reading: dict) -> str:
     cast_lines = []
     for c in cast:
         cast_lines.append(
-            f"- {c.get('name_en', '?')}: {c.get('voice_description', '')}"
+            f"- {c.get('name_en', '?')}: {c.get('sketch', '')}"
         )
     cast_block = "\n".join(cast_lines) if cast_lines else "(none)"
 
@@ -98,7 +91,6 @@ def build_system(reading: dict) -> str:
         register_pitch=work.get("register_pitch", ""),
         cast_block=cast_block,
         tone_block=tone_block,
-        voice_names=", ".join(CARTESIA_VOICES.keys()),
     )
 
 

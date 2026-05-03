@@ -8,8 +8,7 @@ __pycache__/
 # uv
 # uv.lock IS committed; it's the resolved lockfile
 
-# Output (large, regeneratable)
-output/audio/*.wav
+# (audio outputs are committed for now; A/B comparison artifacts)
 
 # Editor
 .vscode/

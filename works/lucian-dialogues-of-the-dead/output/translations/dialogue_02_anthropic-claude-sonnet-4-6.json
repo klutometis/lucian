@@ -1,0 +1,79 @@
+{
+  "lines": [
+    {
+      "speaker": "Croesus",
+      "text": "We can't take it anymore, Pluto. This dog Menippus, living next door to us — either move him somewhere else or we're relocating.",
+      "note": "Croesus leads the complaint with the tone of a HOA president filing a formal grievance."
+    },
+    {
+      "speaker": "Pluto",
+      "text": "What exactly is he doing to you? He's just as dead as you are.",
+      "note": "Pluto: mildly puzzled, already tired."
+    },
+    {
+      "speaker": "Croesus",
+      "text": "Whenever we're mourning and lamenting — Midas here, weeping for his gold; Sardanapalus, for all his luxury; myself, for my treasuries — he laughs at us. He calls us slaves. He calls us filth. And sometimes he starts singing over our laments, just to make it worse. The man is insufferable.",
+      "note": "Croesus delivers this as a prepared statement. The list of grievances is entirely sincere, which is the joke."
+    },
+    {
+      "speaker": "Pluto",
+      "text": "Menippus. What do you have to say for yourself.",
+      "note": "Not really a question."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "All true. I despise them — they're worthless and they're pathetic. It wasn't enough that they lived badly; now they're dead and they're still clinging to the world above. [pause] So yes, I take pleasure in annoying them.",
+      "note": "Menippus: cheerful, unapologetic, entirely factual."
+    },
+    {
+      "speaker": "Pluto",
+      "text": "Even so — you shouldn't. They're grieving real losses.",
+      "note": "Pluto attempting fairness. He doesn't sound convinced."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "And you're being foolish, Pluto, if you're siding with their moaning.",
+      "note": "Delivered without hostility. Pure observation."
+    },
+    {
+      "speaker": "Pluto",
+      "text": "I'm not siding with anyone. I just don't want conflict in my jurisdiction.",
+      "note": "The building manager's answer."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Well then, you absolute dregs of Lydia, Phrygia, and Assyria — let me be very clear: I am not stopping. Wherever you go, I will follow. I will annoy you. I will sing over you. I will laugh at you.",
+      "note": "Menippus addresses the kings directly now. Still conversational, not angry."
+    },
+    {
+      "speaker": "Croesus",
+      "text": "Is this not an outrage?",
+      "note": "Genuinely scandalized."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "No. What you did — that was an outrage. Demanding to be worshipped. Lording it over free men. Never once giving death a single thought. So go ahead and wail. Everything you had has been taken away.",
+      "note": "The one moment Menippus comes closest to moralizing — but he delivers it as a plain account of cause and effect, not a lecture."
+    },
+    {
+      "speaker": "Croesus",
+      "text": "So much. [sighs] So much, and all of it great.",
+      "note": "Croesus: entirely sincere, entirely unaware of how he sounds."
+    },
+    {
+      "speaker": "Midas",
+      "text": "All that gold.",
+      "note": "One line. Delivered with the full weight of a man whose personality was a single noun."
+    },
+    {
+      "speaker": "Sardanapalus",
+      "text": "All that pleasure.",
+      "note": "Even more self-pitying than Midas. Play him as a man who has rehearsed this line and finds it genuinely moving."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Excellent. Keep going — you mourn, and I'll sing you a round of 'Know thyself' as the refrain. [pause] Seems fitting, really, for that kind of wailing.",
+      "note": "Final line: warm, unhurried, completely at ease. The 'Know thyself' is deadpan trolling of the highest order — a Delphic maxim deployed as a heckle."
+    }
+  ]
+}
