@@ -21,8 +21,16 @@ class Utterance:
 class Provider(Protocol):
     name: str
 
-    def design_voice(self, description: str, name: str, sample_text: str) -> str:
+    def design_voice(
+        self,
+        description: str,
+        name: str,
+        sample_text: str,
+        excluded_voice_ids: list[str] | None = None,
+    ) -> str:
         """Design and persist a voice from a text description.
+        excluded_voice_ids: provider may use this to avoid casting the same
+        voice twice across characters (relevant for library-pick providers).
         Returns a stable voice_id."""
         ...
 

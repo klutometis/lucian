@@ -55,14 +55,21 @@ class ElevenLabsProvider:
         )
         self._instructor = instructor.from_litellm(litellm.completion)
 
-    def design_voice(self, description: str, name: str, sample_text: str) -> str:
+    def design_voice(
+        self,
+        description: str,
+        name: str,
+        sample_text: str,
+        excluded_voice_ids: list[str] | None = None,
+    ) -> str:
         """Library-voice selection.
         1. Extract gender/age from description via LLM.
         2. Query shared voice library with those filters.
-        3. LLM picks best candidate.
+        3. LLM picks best candidate (excluding any already-used voices).
         Returns: shared voice_id (usable directly in TTS / dialogue calls).
         """
         log.info(f"ElevenLabs.design_voice (library match): {name!r}")
+        excluded = set(excluded_voice_ids or [])
 
         filters = self._extract_filters(description)
         log.info(f"  filters: gender={filters.gender}, age={filters.age}")
@@ -78,8 +85,8 @@ class ElevenLabsProvider:
                 category=category,
                 page_size=50,
             )
-            candidates = resp.voices
-            log.info(f"  category={category}: {len(candidates)} candidates")
+            candidates = [v for v in resp.voices if v.voice_id not in excluded]
+            log.info(f"  category={category}: {len(candidates)} candidates (after excluding {len(excluded)} already-used)")
             if candidates:
                 break
 

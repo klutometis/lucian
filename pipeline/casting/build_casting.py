@@ -53,11 +53,16 @@ def main():
             log.info(f"  [{cid}] already cast (voice_id={casting[cid]['voice_id']}); skipping")
             continue
 
+        # Pass already-cast voice IDs so providers that pick from a fixed
+        # library don't reuse the same voice for multiple characters.
+        excluded = [v["voice_id"] for v in casting.values()]
+
         try:
             voice_id = provider.design_voice(
                 description=char["voice_description"],
                 name=f"lucian-{cid}",
                 sample_text=args.sample_text,
+                excluded_voice_ids=excluded,
             )
         except Exception as e:
             log.error(f"  [{cid}] failed: {e}")

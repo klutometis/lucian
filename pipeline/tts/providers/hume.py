@@ -30,7 +30,13 @@ class HumeProvider:
     def __init__(self, api_key: str | None = None):
         self.client = HumeClient(api_key=api_key or os.environ["HUME_API_KEY"])
 
-    def design_voice(self, description: str, name: str, sample_text: str) -> str:
+    def design_voice(
+        self,
+        description: str,
+        name: str,
+        sample_text: str,
+        excluded_voice_ids: list[str] | None = None,  # unused; Hume designs fresh each time
+    ) -> str:
         """Generate a voice from `description`, save it, return the voice id.
 
         Two API calls: (1) generate a candidate, (2) save it as a custom voice.
