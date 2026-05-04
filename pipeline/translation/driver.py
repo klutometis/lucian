@@ -61,6 +61,7 @@ def main():
     ap.add_argument("--end", type=int)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--all-models", action="store_true")
+    ap.add_argument("--force", action="store_true", help="Re-translate even if output exists")
     args = ap.parse_args()
 
     out_dir, meta, dialogues, reading = work_paths(args.work)
@@ -79,6 +80,10 @@ def main():
         user = build_user(dialogue=d, prev_lines=prev, next_lines=nxt)
 
         for model in models:
+            out_path = out_dir / f"dialogue_{d['id']:02d}_{safe_model_id(model)}.json"
+            if out_path.exists() and not args.force:
+                log.info(f"Dialogue {d['id']} ← {model}: cached, skipping")
+                continue
             try:
                 log.info(f"Dialogue {d['id']} ← {model}")
                 tr = translate(model=model, system=system, user=user)
@@ -86,15 +91,8 @@ def main():
                 log.error(f"  failed: {e}")
                 continue
 
-            out_path = out_dir / f"dialogue_{d['id']:02d}_{safe_model_id(model)}.json"
             out_path.write_text(tr.model_dump_json(indent=2))
-            log.info(f"  saved → {out_path.name}")
-
-            print(f"\n{'='*60}\nDialogue {d['id']}: {d['title']} — {model}\n{'='*60}")
-            for line in tr.lines:
-                extras = line.model_dump(exclude={"speaker", "text"})
-                extra_str = f"  ({extras})" if extras else ""
-                print(f"\n  {line.speaker:>14}: {line.text}{extra_str}")
+            log.info(f"  saved → {out_path.name} ({len(tr.lines)} lines)")
 
 
 if __name__ == "__main__":

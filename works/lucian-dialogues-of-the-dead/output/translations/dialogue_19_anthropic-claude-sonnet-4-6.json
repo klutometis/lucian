@@ -1,0 +1,59 @@
+{
+  "lines": [
+    {
+      "speaker": "Aeacus",
+      "text": "Protesilaus — what are you doing? Let go of Helen.",
+      "note": "Flat procedural opener. Aeacus is not shocked, just managing a disturbance."
+    },
+    {
+      "speaker": "Protesilaus",
+      "text": "She's why I'm dead, Aeacus. I left my house half-built. I left my wife a widow on our wedding week.",
+      "note": "Genuine grievance, not self-pity. The specificity is what makes it land."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Then blame Menelaus. He's the one who dragged you all to Troy over a woman like this.",
+      "note": "'A woman like this' — not cruel, just the gatekeeper's weary accounting."
+    },
+    {
+      "speaker": "Protesilaus",
+      "text": "Fair point. [pause] Menelaus. You're next.",
+      "note": "He releases Helen and pivots. Quick, almost comedic redirect."
+    },
+    {
+      "speaker": "Menelaus",
+      "text": "Not me, my friend — Paris is your man. He was my guest, and he walked off with my wife. Every law of gods and men, broken. He doesn't owe you a strangling — he owes one to every Greek and barbarian whose blood was spilled because of him.",
+      "note": "Menelaus is in full courtroom mode: rehearsed, righteous, and very much enjoying not being the one getting choked."
+    },
+    {
+      "speaker": "Protesilaus",
+      "text": "Better still. [grabs Paris] You, then. Ill-starred Paris. I'm not letting go.",
+      "note": "Δύσπαρι — 'Ill-starred Paris' / 'Ill-Omened Paris' — a pun on his name used as an insult."
+    },
+    {
+      "speaker": "Paris",
+      "text": "You're being unjust, Protesilaus — and to a fellow sufferer, at that. I'm a lover too. The same god had me in his grip. You know how it works: it's not voluntary, a spirit drives you where it wants, and there's nothing you can do about it.",
+      "note": "Paris is entirely charming and entirely unrepentant. The argument is real — Eros as compulsion was standard — but he delivers it with the ease of a man who has made it before."
+    },
+    {
+      "speaker": "Protesilaus",
+      "text": "Fine. [pause] I wish I could get my hands on Eros while I'm at it.",
+      "note": "Deadpan. He's actually considering it."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "I can answer for Eros too, if you want a fair ruling. He'll say he may have been responsible for Paris falling in love — he'll give you that much. But your death, Protesilaus? That one's on you. You forgot you had a new bride. The moment the ships touched the Trojan shore, you leapt out ahead of everyone else — recklessly, desperately — because you were in love with glory. And that's why you were the first man killed in the landing.",
+      "note": "Aeacus delivers this as a judicial summation, not a lecture. The irony — Protesilaus died for the same reason Paris sinned, an uncontrollable eros, just a different variety — is left for the audience to notice."
+    },
+    {
+      "speaker": "Protesilaus",
+      "text": "Then I'll give you my counter-argument, Aeacus — and it's the better one. None of that was my doing. It was Fate. It was the thread that was spun for me from the beginning.",
+      "note": "He lands this with perfect sincerity. The irony is that it is exactly Paris's argument, one step removed."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Quite right. [pause] So why are you blaming these two?",
+      "note": "The punch line is delivered as a simple procedural question. Aeacus doesn't even look up."
+    }
+  ]
+}

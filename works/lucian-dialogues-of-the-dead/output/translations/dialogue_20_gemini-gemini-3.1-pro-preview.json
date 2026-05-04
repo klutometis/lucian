@@ -1,0 +1,188 @@
+{
+  "lines": [
+    {
+      "speaker": "Menippus",
+      "text": "By Pluto, Aeacus, give me the grand tour. Show me everything in the underworld."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "\"Everything\" is a tall order, Menippus. But I can hit the highlights. You already know Cerberus, and you met the ferryman who brought you over, and you saw the lake and the river of fire on your way in."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Yes, yes, I know all that, and I know you're the gatekeeper. I've seen the king, I've seen the Furies. I want to see the people. The ancients. Especially the celebrities."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Well, this one here is Agamemnon. This is Achilles. Idomeneus is right next to him, then Odysseus, then Ajax, Diomedes, and the rest of the great Greek heroes."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "[whistles] Oh, Homer... So much for the grand heroes of your epics. Just tossed on the ground, shapeless, unrecognizable. Nothing but dust and nonsense. Truly \"strengthless heads.\" Anyway, Aeacus, who's this one?"
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "That's Cyrus. This one's Croesus, the one beyond him is Sardanapalus, the one past them is Midas, and that over there is Xerxes."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "That's Xerxes? [laughs] Greece was terrified of you, you piece of trash? Just because you bridged the Hellespont and tried to sail through a mountain? And look at Croesus! Oh, Aeacus, please let me smack Sardanapalus on the jaw."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Absolutely not. You'd shatter his skull. It's incredibly effete."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Fine, but I'm at least going to spit on the little hermaphrodite."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Would you like me to show you the philosophers?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Oh, god yes."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Right. Well, first up, here is Pythagoras."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Hello, Euphorbus! Or Apollo, or whatever you're calling yourself these days."
+    },
+    {
+      "speaker": "Pythagoras",
+      "text": "Greetings to you too, Menippus."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "What happened to the golden thigh? You don't seem to have it anymore."
+    },
+    {
+      "speaker": "Pythagoras",
+      "text": "No, I don't. Listen, let me look in your knapsack. Do you have anything to eat?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Just beans, my good man. So, nothing you can eat."
+    },
+    {
+      "speaker": "Pythagoras",
+      "text": "Just give me the beans! The dead have different doctrines. I've learned that down here, eating beans is not, in fact, the same as eating your parents' heads."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "Moving on... This is Solon, and that's Thales, and next to them is Pittacus, and the rest. All seven of the sages, as you can see."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "They're the only ones not moping, Aeacus. Quite cheerful, actually. But who's the one covered in ash, like a loaf of bread baked in the embers? The one completely covered in blisters?"
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "That's Empedocles, Menippus. Arrived half-baked from Mount Etna."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Ah, my excellent bronze-slippered friend! Whatever possessed you to throw yourself into a volcano?"
+    },
+    {
+      "speaker": "Empedocles",
+      "text": "[sighs] A bout of melancholy, Menippus."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "[laughs] Melancholy? Please. It was sheer vanity, pretension, and a head full of hot air. That's what charred you to a crisp, right down to your bronze slippers—which you entirely deserved. Not that the stunt even worked. They found out you were dead anyway. Speaking of which, Aeacus, where in the world is Socrates?"
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "He's usually over there, talking nonsense with Nestor and Palamedes."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Still, I'd like to see him, if he's around."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "See the bald guy?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "They're all bald. That doesn't exactly narrow it down."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "I mean the snub-nosed one."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Same problem. They're all snub-nosed now."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "Are you looking for me, Menippus?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Exactly the man, Socrates."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "How are things in Athens?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Oh, lots of the young men say they're doing philosophy now. And if you just judge by their outfits and their dramatic pacing... they're absolute masters of the craft."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "I've seen plenty of those."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Yes, well, I imagine you've seen how your own students turned out. Aristippus showed up reeking of expensive perfume, and Plato arrived perfectly trained in sucking up to Sicilian tyrants."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "What do they think of me, though?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "You're a lucky man on that front, Socrates. Everyone thinks you were absolutely marvelous. They think you knew everything—which is funny, considering, well, to be entirely honest, you didn't know a damn thing."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "[chuckles] I told them that myself! They just thought I was being ironic."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "And who are these boys around you?"
+    },
+    {
+      "speaker": "Socrates",
+      "text": "This is Charmides, Menippus. And Phaedrus. And the son of Cleinias."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Good for you, Socrates! Even down here, keeping up the old trade. Never passing up a pretty face."
+    },
+    {
+      "speaker": "Socrates",
+      "text": "What else could I do that's half as pleasant? Come, recline next to us, if you like."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "No, thanks. I'm going to go set up camp right next to Croesus and Sardanapalus. Listening to them wail about everything they've lost is going to be incredibly funny."
+    },
+    {
+      "speaker": "Aeacus",
+      "text": "I should be going as well. Can't have any dead slipping past the gates unnoticed. I'll show you the rest some other time, Menippus."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Off you go. This was plenty for one day, Aeacus."
+    }
+  ]
+}

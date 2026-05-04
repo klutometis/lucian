@@ -1,0 +1,65 @@
+{
+  "lines": [
+    {
+      "speaker": "Menippus",
+      "text": "I heard a story about you, Chiron — that you were a god, and you chose to die anyway.",
+      "note": "Opening: light, conversational, no fanfare. Menippus is genuinely curious rather than provocative here — Chiron is the one figure he treats as an equal."
+    },
+    {
+      "speaker": "Chiron",
+      "text": "You heard correctly. I died — as you can see — though I could have remained immortal.",
+      "note": "Chiron is unhurried, equable. He states this as a plain fact, without either pride or regret."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "What got into you? Most people find death about as attractive as a cold bath in January."
+    },
+    {
+      "speaker": "Chiron",
+      "text": "I'll tell you — you're not the sort who fails to follow the argument. Immortality had simply stopped being enjoyable.",
+      "note": "The compliment to Menippus is genuine but brief — Chiron doesn't flatter."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "The light of the living world — just not worth it?"
+    },
+    {
+      "speaker": "Chiron",
+      "text": "Not for me. My view is that pleasure is a varied thing — it doesn't work if it's all one note. And that was my life: always alive, always the same things — sun, light, food, the seasons cycling through in the same order, everything following everything else like links in a chain. In the end I had simply had enough of all of it. Because pleasure isn't only in having something. It's also in not having it at all.",
+      "note": "The philosophical core of the dialogue. Chiron speaks with calm, measured authority — the argument is careful, not rhetorical."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Sound reasoning, Chiron. But how are you finding it here? You did, after all, choose this place deliberately."
+    },
+    {
+      "speaker": "Chiron",
+      "text": "Quite pleasantly, actually. The equality here is wonderfully democratic. And when you think about it, there's no real difference between being in the light and being in the dark. Besides — no hunger, no thirst, not like up above. We don't need any of that.",
+      "note": "Chiron is genuinely content — but his argument is about to be turned against him, which he doesn't yet see."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Careful, Chiron. I think you may be about to trip over your own argument.",
+      "note": "Menippus is not unkind — this is the warmth of one philosopher catching a flaw in another's reasoning."
+    },
+    {
+      "speaker": "Chiron",
+      "text": "How do you mean?"
+    },
+    {
+      "speaker": "Menippus",
+      "text": "Well — your problem with immortality was that everything was always the same. Always the same, always repeated, until you were saturated. But here — everything is the same too. So by your own logic, you ought to get thoroughly sick of this as well. Which means you'll start looking for some third option, some other life entirely. [pause] Which, as I understand it, is not available.",
+      "note": "Menippus lays the trap without any relish — the 'pause' is the moment he lets the logic land before adding the kicker."
+    },
+    {
+      "speaker": "Chiron",
+      "text": "So what's a person supposed to do, Menippus?",
+      "note": "No defensiveness — Chiron concedes the point and asks the genuine question. This is what makes him the equal Menippus treats him as."
+    },
+    {
+      "speaker": "Menippus",
+      "text": "What they say a wise person does, I think: make peace with whatever is in front of you. Be content with it. Stop deciding that any of it is unbearable.",
+      "note": "The punchline is also the philosophy — delivered quietly, as a plain statement. Menippus is not preaching; he's just telling Chiron what he actually does."
+    }
+  ]
+}

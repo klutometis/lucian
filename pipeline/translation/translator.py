@@ -31,7 +31,7 @@ def translate(
     model: str,
     system: str,
     user: str,
-    max_tokens: int = 16000,
+    max_tokens: int = 32000,
     temperature: float | None = None,
 ) -> Translation:
     """Translate via instructor + litellm; return Translation pydantic model.

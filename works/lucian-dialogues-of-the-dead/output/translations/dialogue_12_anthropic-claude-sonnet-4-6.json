@@ -1,0 +1,97 @@
+{
+  "lines": [
+    {
+      "speaker": "Alexander",
+      "text": "I should take precedence over you, Libyan. I am the better man.",
+      "note": "Flat, declarative. Not a boast so much as a statement of obvious fact — in his own mind."
+    },
+    {
+      "speaker": "Hannibal",
+      "text": "No. I should."
+    },
+    {
+      "speaker": "Alexander",
+      "text": "Then let Minos judge."
+    },
+    {
+      "speaker": "Minos",
+      "text": "And who are you two, exactly?"
+    },
+    {
+      "speaker": "Alexander",
+      "text": "This is Hannibal the Carthaginian. I am Alexander, son of Philip."
+    },
+    {
+      "speaker": "Minos",
+      "text": "Both famous, I'll grant you that. What is the dispute?"
+    },
+    {
+      "speaker": "Alexander",
+      "text": "Precedence. He claims to have been a better general than me. Whereas I — as everyone knows — surpassed not only him but virtually every commander who came before me."
+    },
+    {
+      "speaker": "Minos",
+      "text": "Right. Each of you will speak in turn. You first, Hannibal — the Libyan."
+    },
+    {
+      "speaker": "Hannibal",
+      "text": "One benefit of being down here, Minos: I learned Greek. So he cannot even claim that advantage over me. Now. It is my view that the men most deserving of praise are those who began with nothing — no inherited power, no divine sponsor — and rose to greatness through their own ability. I set out for Spain with a small force, serving as second-in-command to my brother. I was judged the best man there and given the highest responsibility. I took the Celtiberians. I defeated the western Gauls. I crossed the great mountains above the Po valley and swept through everything on the other side. I razed city after city. I took the flat plains of Italy. I marched to the very suburbs of the greatest city in the world. And in a single day I killed so many of the enemy that their rings were measured out by the bushel and their bodies bridged the rivers.",
+      "note": "Hannibal builds his case steadily, with the self-made man's satisfaction. No theatrics."
+    },
+    {
+      "speaker": "Hannibal",
+      "text": "And I did all of this without claiming to be the son of Ammon, without pretending to be a god, without reciting my mother's dreams. I said I was a man and I acted like one. I was tested against the sharpest generals alive and I fought the most battle-hardened soldiers in the world — not Medes and Armenians who run before you can even give chase, and hand their victory to whoever has the nerve to show up."
+    },
+    {
+      "speaker": "Hannibal",
+      "text": "Alexander inherited a kingdom and enlarged it — considerably, yes — but he was riding fortune's momentum. And when he had beaten that catastrophe Darius at Issus and Arbela, he abandoned his father's ways, demanded to be worshipped, adopted Median customs, and started murdering his own friends at dinner parties. I, on the other hand, governed my city as an equal citizen. When the enemy sailed against Africa with a great fleet and recalled me, I came promptly. I became a private citizen. I was convicted and I bore it with good grace. And I did all this as a barbarian, untrained in Greek culture — no Homer to recite, no Aristotle to instruct me. Just native ability. That is why I say I am the better man. If he looks more impressive because he wore a diadem on his head — well, perhaps that passes for dignity among Macedonians. But it does not make him a better general or a greater mind than a man who relied on judgment rather than luck."
+    },
+    {
+      "speaker": "Minos",
+      "text": "He has made a respectable case. Better than you might expect from a Libyan. Alexander — your response?"
+    },
+    {
+      "speaker": "Alexander",
+      "text": "Minos, I should not need to answer a man of such audacity. My reputation speaks for itself — it tells you plainly what sort of king I was and what sort of brigand he was. But very well. Judge for yourself whether I surpassed him by any small margin: I was young when I took power, stabilised a kingdom in chaos, avenged my father's murderers, terrified Greece into submission with the destruction of Thebes, and was elected supreme commander. At which point I decided it was beneath me to be content ruling only what my father had left me.",
+      "note": "Alexander starts measured, then the grandiosity begins to accelerate."
+    },
+    {
+      "speaker": "Alexander",
+      "text": "I had conceived of the entire world, and I thought it intolerable not to possess all of it. So I led a small force into Asia. I won a great battle at the Granicus. I took Lydia, Ionia, Phrygia — everything in my path, one thing after another — and came to Issus, where Darius was waiting with tens of thousands."
+    },
+    {
+      "speaker": "Alexander",
+      "text": "What followed, Minos, you already know — you know exactly how many dead I sent you in a single day. The ferryman himself has said the boat couldn't hold them all and most of them had to raft across. And I accomplished this leading from the front, taking wounds myself. I won't go through Tyre, or Arbela — only mention that I reached India, made the Ocean the boundary of my empire, captured their war-elephants, defeated Porus. And I crossed the Tanais and beat the Scythians — no easy opponents — in a great cavalry engagement. I rewarded my friends and I destroyed my enemies. And if people chose to believe I was a god — you can hardly blame them, given the scale of what I did."
+    },
+    {
+      "speaker": "Alexander",
+      "text": "As for how we each died: I died as a king. He died as a fugitive at the court of Prusias of Bithynia — which is exactly right for a man of his character, the most treacherous and brutal there is. Since he brought up luxury, I notice he has conveniently forgotten what he got up to in Capua — his time with the courtesans, his remarkable dedication to pleasure while the war waited. And as for Italy — if I had not thought the west too small and turned toward the east instead, what would it have cost me? I would have taken Italy without a fight, and Libya, and everything as far as Cadiz. But those territories were already cringing, already calling me master, and I didn't think they were worth the effort. [pause] I have spoken. Judge, Minos. That is more than enough from a great deal more."
+    },
+    {
+      "speaker": "Scipio",
+      "text": "Not until you've heard from me.",
+      "note": "Enters quietly. Completely self-possessed."
+    },
+    {
+      "speaker": "Minos",
+      "text": "And who are you, exactly? Where are you from?"
+    },
+    {
+      "speaker": "Scipio",
+      "text": "Scipio. Italian. The general who destroyed Carthage and defeated the Libyans in battle — repeatedly."
+    },
+    {
+      "speaker": "Minos",
+      "text": "And what is your claim?"
+    },
+    {
+      "speaker": "Scipio",
+      "text": "That I am Alexander's inferior, and Hannibal's superior — since I defeated him, drove him out, and forced him into an ignominious exile. Which raises an obvious question: if even I, the man who beat him, do not presume to compare myself to Alexander — what on earth is Hannibal doing here?",
+      "note": "Delivered with complete Roman composure. The competitive self-deprecation lands as the sharpest argument in the room."
+    },
+    {
+      "speaker": "Minos",
+      "text": "That is a remarkably fair-minded speech, Scipio. Very well. First place: Alexander. Second: you. Third — and he is not nothing — Hannibal."
+    }
+  ]
+}
