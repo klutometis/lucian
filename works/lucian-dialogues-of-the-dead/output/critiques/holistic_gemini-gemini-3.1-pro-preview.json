@@ -1,0 +1,265 @@
+{
+  "profiles": [
+    {
+      "model": "anthropic/claude-opus-4-7",
+      "signature": "Claude delivers a masterclass in deadpan restraint. The dialogue flows naturally with an understated rhythm that trusts the inherent absurdity of the situation rather than forcing the joke. It maintains character consistency and excels at quiet mockery.",
+      "where_it_wins": "Philosophical debates, scenes requiring genuine pathos (like Achilles or Protesilaus), and moments where dry, plainspoken delivery creates the best comedic contrast.",
+      "where_it_loses": "It can sometimes feel a bit too traditional or cautious in the faster, farcical scenes, missing opportunities for sharper, punchier modern phrasing."
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "signature": "GPT finds the sweet spot between classical fidelity and sitcom punchiness. It invents brilliant, subtle modern metaphors that map perfectly onto the underworld's bureaucratic drudgery without breaking the reality of the scene.",
+      "where_it_wins": "Bureaucratic exchanges with Hermes or Charon, sharp one-liners, and scenes where the comedy relies on deflating pomposity with corporate or administrative logic.",
+      "where_it_loses": "It occasionally flattens emotional moments by being slightly too glib or wordy, sacrificing the underlying sadness of certain characters for the sake of a quick joke."
+    },
+    {
+      "model": "gemini/gemini-3.1-pro-preview",
+      "signature": "Gemini writes broad, energetic, highly modern comedy. It isn't afraid to use aggressive slang, exclamation points, and colloquialisms to punch up the dialogue and drive the pace.",
+      "where_it_wins": "The legacy-hunter farces, where escalating desperation and overlapping energy are required, and any scene that benefits from a more aggressively modern, cynical edge.",
+      "where_it_loses": "It frequently overshoots the 'deadpan' brief, mugging for the camera with overly anachronistic idioms that can shatter the world-building and turn the characters into caricatures."
+    }
+  ],
+  "per_dialogue": [
+    {
+      "dialogue_id": 1,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "GPT's description of Menippus's cloak having 'more doors than a tenement' is a fantastic piece of world-building. Furthermore, 'Who really knows what comes after life? business' perfectly captures the dry sitcom rhythm the brief demands.",
+      "notable_misses": "Gemini goes entirely too broad with 'uneducated meathead' and 'tell them to go to hell,' violating the deadpan restraint."
+    },
+    {
+      "dialogue_id": 2,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Claude's deadpan suggestion that 'Know thyself' 'makes a nice refrain' to the kings' wailing fits Menippus's delighted, plainspoken mockery perfectly. It lands the punchline without resorting to modern slang.",
+      "notable_misses": "Gemini's 'perfect backing track' is too anachronistic and pulls the listener out of the setting."
+    },
+    {
+      "dialogue_id": 3,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Claude's 'the only difference being the stage business' is a beautifully dry deflation of the oracle's fraudulence. It states the absurdity as a plain matter of fact.",
+      "notable_misses": "Gemini's 'your only real talent is fraud' is a bit too on the nose and sacrifices the understated rhythm."
+    },
+    {
+      "dialogue_id": 4,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude's terse delivery of 'Trickle. Peacetime.' is the ultimate line reading for a weary, cash-strapped ferryman. It tells you everything you need to know about Charon's economic woes in two words.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 5,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "The legacy-hunter scenes need to be escalating farce, and Gemini's pacing here is fantastic. Phrases like 'living the high life on credit' perfectly capture the specific financial delusion of the sycophants.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 6,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "GPT's description of Terpsion's target making a sound like an 'undercooked chick in an egg' is brilliantly vivid and gross. Additionally, defining his actions as the 'profession: falling in love with old women and old men' hits the comedy perfectly.",
+      "notable_misses": "Gemini's 'structuring the assets' feels a bit too corporate for the context, losing the comedic flavor."
+    },
+    {
+      "dialogue_id": 7,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Claude's quiet delivery of 'a substitute corpse in his place' and Zenophantus's deadpan observation that 'the main road would have got you there more safely' fit the rueful precision requested by the brief.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 8,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "Gemini captures the escalating realization of the trap perfectly. The punchline lands exceptionally hard with Damasias's exclamation: 'Not just the hook—he dragged in the fisherman, too!'",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 9,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude balances the storytelling incredibly well. Polystratus's claim that his appeal was the 'Pure gift of golden Aphrodite' is exactly the kind of cheerful manipulation the brief calls for.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 10,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "GPT handles the exceptionally long boarding sequence with an immaculate bureaucratic rhythm. Hermes' exasperated 'What fifty-oared warship could take you?' serves as a great punchline to the philosopher's endless list of vices.",
+      "notable_misses": "Gemini's 'deforested' is a very funny translation for the beard-chopping, but it crosses the line into mugging."
+    },
+    {
+      "dialogue_id": 11,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Gemini's use of 'out-sycophant each other' and its description of the targets as a 'threadbare coin-purse' bring the perfect cynical, fast-paced energy to the philosophers' gossip.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 12,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude respects the formal, set-piece nature of the debate. Alexander's 'went native on Median customs' and 'I conceived the whole world' sound like genuine regal pride, making the eventual deflation much funnier.",
+      "notable_misses": "Gemini's reference to a 'winter in Capua' over-translates the joke and forces the historical context too heavily."
+    },
+    {
+      "dialogue_id": 13,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "GPT's Diogenes mocking Alexander for 'still talking nonsense even in Hades' is brutally plain and effective. The framing of Aristotle as a 'professional' flatterer lands perfectly.",
+      "notable_misses": "Gemini's 'Forget it, Your Divinity' is a little too punchy, losing the philosophical edge of Diogenes's scorn."
+    },
+    {
+      "dialogue_id": 14,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "GPT's Philip dismissing Alexander's god-complex as 'disastrous branding' is a masterstroke of modern sitcom translation. It maps perfectly onto a king's public relations failure.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 15,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude adheres strictly to the brief's instruction not to play Achilles' pathos for laughs. 'That miserable little scrap of reputation' is genuinely sad, emotionally honest, and grounded.",
+      "notable_misses": "Gemini's translation overplays the emotion, leaning into melodrama rather than stoic regret."
+    },
+    {
+      "dialogue_id": 16,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "The metaphysical absurdity is nailed flawlessly by GPT. 'Is it possible for a man to be half god, and dead on the other half?' followed by the dismissal of 'theological cold porridge' hits the perfect dry register.",
+      "notable_misses": "Gemini's 'turning Heracles into a trinity' is a good joke, but it feels slightly out of place for Diogenes's specific brand of mockery."
+    },
+    {
+      "dialogue_id": 17,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Menippus's diagnosis of 'reverse rabies' in Gemini's translation is an irresistible modern sitcom punchline for the absurdity of a ghost suffering from hydrophobia.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 18,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Hermes describing the assorted legendary skulls as the 'vintage-beauty section' perfectly captures the middle-manager's weary, unimpressed dismissal of human physical glamour.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 19,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Aeacus's observation that Protesilaus 'came at her like a man repossessing furniture' is an incredibly vivid, deadpan anchor for the physical comedy of the strangling match.",
+      "notable_misses": "Claude's 'I left my house half-built' is too literal and lacks the comedic framing the scene requires."
+    },
+    {
+      "dialogue_id": 20,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude's Menippus diagnosing Empedocles' dramatic suicide as 'a touch of melancholy' is the epitome of the dry, brisk practicality requested in the brief.",
+      "notable_misses": "Gemini's 'half-baked from Mount Etna' is too punny and crosses the line into mugging."
+    },
+    {
+      "dialogue_id": 21,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Cerberus observing that 'Inside: the audit is exact' is a brilliant bureaucratic metaphor that grounds the underworld's terror in mundane accounting, perfectly fitting the universe.",
+      "notable_misses": "Claude's 'went completely to pieces' feels a bit pedestrian compared to the other options."
+    },
+    {
+      "dialogue_id": 22,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Menippus's unbothered defense in Claude's translation—'I bailed. I took a turn at the oar.'—is delivered as a plain statement of fact, which serves to make Charon's outrage substantially funnier.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 23,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude lands the tender, emotional reality of the scene beautifully. Protesilaus's simple plea, 'Just for a little while. Just to live again,' is deeply moving and avoids any comedic undercut.",
+      "notable_misses": "GPT's Pluto sounds a bit too cynical ('None of them gets it'), softening the genuine compassion the scene requires."
+    },
+    {
+      "dialogue_id": 24,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Claude's Diogenes delivers the ultimate deadpan insult to the vain king: 'unless what you mean is that you're carrying more weight than the rest of us, pinned down under all that marble.'",
+      "notable_misses": "Gemini's 'entirely lacking in the nose department' feels a bit too colloquial for a formal takedown of a king."
+    },
+    {
+      "dialogue_id": 25,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "claude-opus-4-7",
+      "confidence": "high",
+      "why": "The sheer absurdity of the skulls arguing over their former beauty is captured perfectly by Gemini's Thersites: 'I've got a pointy skull, I'm entirely bald, and the judge thinks we're twins.'",
+      "notable_misses": "Claude's 'The bones are identical' is a bit too dry for a scene that is inherently visually absurd."
+    },
+    {
+      "dialogue_id": 26,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "GPT translates Chiron's philosophical exhaustion into a clean, modern rhythm: 'Pleasure is not only in having the same thing always, but also in sometimes not having it at all.'",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 27,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "Diogenes scolding the old pauper for 'acting like a boy in the face of necessity' in GPT's translation is a crisp, unsentimental, and highly effective delivery of the Cynic verdict.",
+      "notable_misses": "Gemini's 'behaving like a teenager about destiny' is a fun idea, but 'teenager' feels too anachronistic for the specific setting."
+    },
+    {
+      "dialogue_id": 28,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Claude's phrasing of Menippus's highly invasive anatomical questions—'Did you flip from woman to man all at once?'—is delightfully clinical and dry, letting the awkwardness speak for itself.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 29,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Agamemnon's weary observation in GPT's translation that Ajax 'swept past him, taking those enormous strides of yours' paints a perfect picture of institutional reason trying to manage heroic irrationality.",
+      "notable_misses": "Gemini's 'massive, haughty strides' over-explains the physical action that the dialogue should imply."
+    },
+    {
+      "dialogue_id": 30,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Minos's realization that Sostratus is 'not just a bandit — you're something of a sophist as well' is delivered with exactly the dry, begrudging wit the brief asks for from the underworld judge.",
+      "notable_misses": ""
+    }
+  ],
+  "overall": "The translations reveal three distinct approaches to the 'underworld sitcom' brief. `anthropic/claude-opus-4-7` excels at the dry, deadpan delivery, preserving the necessary emotional anchors without sacrificing the wit. `openai/gpt-5.5` brings an excellent bureaucratic sharpness and invents brilliant contemporary metaphors that perfectly match the desired tone. `gemini/gemini-3.1-pro-preview` leans heavily into broad farce and modern slang; while this occasionally violates the 'deadpan' rule, it yields fantastic results in the high-energy legacy-hunter scenes. A synthesis is required to cast the best version of this audio production. Cast Claude for the philosophical debates and moments of genuine pathos, where restraint is paramount. Use GPT for the bureaucratic and sharp-witted exchanges to highlight the administrative drudgery of Hades. Finally, tag in Gemini when the scene demands overlapping, escalating farce."
+}

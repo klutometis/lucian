@@ -1,0 +1,265 @@
+{
+  "profiles": [
+    {
+      "model": "anthropic/claude-opus-4-7",
+      "signature": "Dry, controlled, sentence-rhythm-aware. Claude reads aloud like prose that has been timed by an actor: short clauses, well-placed em-dashes, punchlines that land on plain statements of fact ('Goes beautifully with that sort of lamentation'; 'The main road would have got you there more safely. A little slower, perhaps. But more safely'). Character voices stay consistent across long scenes — Hermes is wearily bureaucratic throughout, Menippus is delighted rather than cruel, Pluto is tired-judge, not sinister. It also trusts the audience: it under-cues stage directions and rarely mugs.",
+      "where_it_wins": "Long scenes that need sustained character voice (Dialogues 9, 10, 14, 15, 23, 27, 30); pathos moments where restraint is the whole point (Achilles, Tantalus, Protesilaus/Persephone); the deadpan one-line buttons the brief asks for. Anywhere the joke is structural rather than verbal, Claude wins.",
+      "where_it_loses": "Occasionally too elegant. In high-farce dialogues (5, 6, 12, 21) the slightly literary diction can sand off the energy that Gemini gets by going broader. A couple of single lines (Gemini's 'deforested', 'court-ordered puddle dodging your hands') are funnier than anything Claude produces."
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "signature": "Lexically careful, slightly literary, mid-Atlantic register. GPT-5.5 produces the most reliably correct text — phrasing is clean, no infelicities, and individual sentences are often elegant ('more doors than a tenement', 'a great deal of nonsense', 'gate duty'). But it pitches consistently a half-step more formal than the brief requests, and it tends to resolve comic beats into statement rather than punchline. It is the version closest to a good prose translation and the version least suited to performance.",
+      "where_it_wins": "Rarely outright, but it's the best reference text when an actor wants a clean literal meaning. Has occasional standout single lines ('more doors than a tenement', 'gate duty', 'go howl') worth lifting into the production script.",
+      "where_it_loses": "Almost every scene that requires comic timing. Punchlines arrive on time but without the snap. Free-rider gags, legacy-hunter farces, and Cynic kickers all suffer; Menippus reads as ironic where the brief wants delighted, and Hermes reads as patient where the brief wants put-upon."
+    },
+    {
+      "model": "gemini/gemini-3.1-pro-preview",
+      "signature": "Performative, contemporary, stage-direction-rich. Gemini writes for the microphone: it adds [laughs], [sighs], [pause], [chuckles], '[looking up, as if addressing the living world]', and it favors the bigger, more idiomatic comic image ('I'll go bag them for you', 'looking like a twenty-year-old', 'court-ordered puddle dodging your hands', 'deforested'). Character voices have more peaks but slightly less consistency — its Menippus is louder, its Pluto more animated, its Hermes more sarcastic.",
+      "where_it_wins": "Farce, set-pieces, and gossip: Dialogues 5, 6, 12, 13, 21, 25, 27. Anywhere the scene wants energy and a clear comic peak. The Alexander-Hannibal-Scipio debate (12) and Crates's narration plus the Old Pauper (27) are its high-water marks; both are genuinely better than the alternatives.",
+      "where_it_loses": "Pathos. The brief explicitly bans playing Tantalus, Achilles, and Protesilaus for laughs, and Gemini's instinct is to insert a chuckle or a too-clever image right where the scene needs restraint (Dialogue 17's 'court-ordered puddle' is the clearest miss). Also occasionally overdoes the stage directions, which an actor can ignore but a director shouldn't have to fight."
+    }
+  ],
+  "per_dialogue": [
+    {
+      "dialogue_id": 1,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Claude's Diogenes has the cleanest rhythm in the long catalogues of messages — 'a real mosaic of rags', 'turning each other into crocodiles', 'go hang' — and the cloak description ('about a hundred openings in it — every wind goes straight through') is the most evocative without overwriting. Gemini's 'so many holes it's basically all doors' is a nice image but slightly too cute; GPT's 'more doors than a tenement' is the wittiest single line but the surrounding text is stiffer.",
+      "notable_misses": "GPT's 'go howl' is arguably more Cynic than Claude's 'go hang'; consider lifting it."
+    },
+    {
+      "dialogue_id": 2,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Claude nails the closing beat — 'Excellent. Keep it up. You wail; I'll accompany you... Know thyself — over and over. Makes a nice refrain. Goes beautifully with that sort of lamentation.' That's the deadpan the brief asks for. Gemini's '[laughs] Excellent, keep it up... It makes the perfect backing track for this sort of whining' is funnier in the moment but mugs slightly with the laugh cue. GPT's 'I'll keep threading Know yourself through the chorus' is the most awkward of the three.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 3,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Claude's closer — 'Trophonius, I have no idea what you're talking about. What I can see, perfectly clearly, is that the whole of you is dead' — has the best Menippean cadence. Gemini's 'you are entirely dead' is also good. GPT is competent but neutral.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 4,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Claude gives Hermes the exact 'overworked middle manager' voice the brief wants: 'So my plan, then, is to sit here praying for catastrophe. On the off chance I get my money back.' And 'Lovely. Glad the world's at peace. And meanwhile you string me along on the debt.' That dry-as-a-receipt sarcasm is the gag. Gemini is close ('So I just have to sit here praying for the absolute worst to happen, just to get my expenses back?') but slightly flatter. GPT softens it.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 5,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "Gemini lands Pluto's punchline cleanest: 'And let Eucrates attend all their funerals—looking like a twenty-year-old.' That's the sitcom button. Hermes's 'I'll go bag them for you right now' is also more characterful than the others' 'collect/fetch'. Claude is a strong runner-up with 'their mouths still hanging open for nothing' but its Pluto is slightly more verbose.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 6,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "This is the legacy-hunter farce in long form, and Gemini's pacing — broken into short Pluto monologues with the stage direction '[looking up, as if addressing the living world] Bravo, Thoucritus' — actually plays better as audio. The 'You're legislating new laws' formulation is sharper than Claude's 'Novel legislation' for the brief's contemporary register. Claude's prose is more elegant ('a walking tomb, mocked by the young') but reads as essay, not scene.",
+      "notable_misses": "Claude's 'cart keeps running over the ox' is more idiomatic than Gemini's 'the cart is burying the ox'."
+    },
+    {
+      "dialogue_id": 7,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Claude gets the deadpan rhythm of Callidemides's confession — 'within the minute — I'm stretched out flat on the floor, a substitute corpse in his place' — and the closing 'The main road would have got you there more safely. A little slower, perhaps. But more safely' is delivered exactly as the brief asks: plain statement of fact as punchline. Gemini's 'it's hilarious, Callidemides!' is more overt but less funny.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 8,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "low",
+      "why": "Three close readings. Claude's 'You've out-schemed yourself' is the cleanest landing of the final beat. GPT's 'So you set up a clever little trap for yourself' is good. Gemini adds a [crying] cue that's a touch sitcom-broad for a four-line scene.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 9,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Polystratus's voice has to carry a long monologue, and Claude's diction stays vivid throughout: 'I played hard to get — used to shut the door on some of them now and then', 'chin shaved smooth, accent thick as ever', 'better-born than Codrus, handsomer than Nireus, and shrewder than Odysseus'. Gemini's 'speaks broken Greek' is good but the rest of its Polystratus is a little less rounded. GPT is fine but neutral.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 10,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "The stripping scene is the centerpiece, and Claude controls the escalating inventory of philosopher-vices best: 'The pretension he's packing. The ignorance. The quarrelsomeness. The vanity. The unanswerable questions. The thorny arguments. The tangled concepts.' The list rhythm is musical. Charon's 'patching-needle' (Claude) is also more concrete than 'darning needle'. Gemini's '[The boat is underway. The passengers wail.]' stage direction is helpful but its 'just got deforested' is a one-time joke that pulls focus.",
+      "notable_misses": "Gemini's 'deforested' for the sheared philosopher is genuinely funny and could be borrowed."
+    },
+    {
+      "dialogue_id": 11,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Claude's 'They'd rotted through with luxury — like old purses with the bottom worn out. Drop wisdom into them, or plain speech, or truth, and it'd fall straight out the bottom' is the best image-handling of the dialogue, and the closer ('They'll arrive with one obol, and even that goes straight to the ferryman') is crisp. Gemini is close behind.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 12,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "The brief explicitly calls this a 'formal set-piece — slower, more rhetorical, with genuine competitive heat.' Gemini delivers the most actual heat: Hannibal's 'that pathetic coward Darius', Alexander's 'this great military genius spent the crucial phase of the war lounging around with prostitutes!', and Scipio's 'how incredibly shameless is this man, competing for first place against Alexander—a man that even I, the man who beat Hannibal, wouldn't presume to compare myself to?' That last sentence is the most elegantly built version of the punchline. Claude's is more measured and would also work; GPT's is correct but cool.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 13,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "Gemini's Diogenes has the right contempt-with-relish: 'Forget it, Your Divinity. Nobody who crosses that lake and steps through those gates ever goes back. Aeacus runs a tight ship, and Cerberus isn't exactly a lapdog.' Alexander's outburst about Aristotle — 'The man was a con artist, Diogenes. A total operator' — also reads better aloud than Claude's 'A charlatan, Diogenes. A professional.' (though Claude's is more elegant on the page).",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 14,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Philip's paternal deflation needs sustained dryness, and Claude provides it: 'every time you got hit, every time they saw you carried out of battle on a stretcher, bleeding, groaning over your wound — that was a punchline.' The word 'punchline' is exactly the brief's register. The closing 'Aren't you ashamed, Alexander? Aren't you ever going to unlearn the vanity, and know yourself, and grasp — at long last — that you're dead?' is the strongest of the three.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 15,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "The brief is explicit: 'The pathos of Achilles, Protesilaus, and Tantalus is real — do not play it for laughs.' Claude alone holds the register without slipping. Achilles's 'The reputation is useless — even if they're up there reciting my name forever. Down here, everyone's equal. The looks are gone, Antilochus. The strength is gone' lands as honest grief, not melodrama. Antilochus's closing 'Otherwise we'd get laughed at — the way you do — making wishes like that' has the gentle firmness the brief specifies. Gemini's '[sighs] It eats at me. It breaks my heart' is too on-the-nose; GPT is close to Claude but slightly more abstract.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 16,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Claude's closing — 'he's keeping company with the best of the dead, and he's laughing at Homer and all this frigid drivel' — has the cleanest contempt. The middle exchanges about three Heracleses are also clearest in Claude. Gemini's 'this miserable metaphysical nonsense' is competitive but slightly weaker.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 17,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Tantalus is one of the pathos cases. Claude keeps Menippus brisk and Tantalus straight-faced, exactly as the brief specifies: 'Don't worry, Tantalus — neither you nor any other corpse is going to drink. It can't be done.' Gemini's '[laughs] Cheer up, Tantalus. You're not getting a drink, and neither is anyone else down here. It's anatomically impossible. You're just the only one with a court-ordered puddle dodging your hands' is funnier as a standalone but breaks the rule about not playing the pathos for laughs — Tantalus is supposed to be a genuine sufferer Menippus is matter-of-fact about, not a punching bag.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 18,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "low",
+      "why": "Three very close readings. Claude's 'This is what they filled a thousand ships for? Out of all of Greece?' has the best skull-gag rhythm. Hermes's 'I don't have time to philosophize with you' is equally good in all three; Claude edges ahead on the flowers analogy.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 19,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "The 'Fair point. / Better. / Fair point' cascade is the comic structure of the scene, and Claude makes it clean and rhythmic without overplaying. Aeacus's closing 'Quite right. So why are you blaming these two?' is the perfect deadpan judge-button. Gemini adds a '[sighs]' which is fine, but its Paris ('We're in the same trade, you and I') is good. GPT is solid throughout.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 20,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "The Pythagoras beans gag — 'Hand them over. The doctrines are different among the dead. I've learned that down here beans and the heads of one's parents are not, in fact, equivalent' — lands cleanest in Claude. Socrates's 'I used to tell them that myself. They thought it was irony' is also at its driest here. Gemini is close behind; GPT slightly more literary.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 21,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "low",
+      "why": "Cerberus is gossip, and Gemini's '[chuckles] he hesitated. The hemlock was making his legs a bit sluggish, so I gave him a little nip on the foot and dragged him down. He bawled like a baby' has the perfect 'witness who cannot be fooled' tone. Closing 'told the rest of the world they could go hang' is sharper than Claude's 'Telling everyone else to go weep.' Claude is a very close second.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 22,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Charon-vs-Menippus is the free-rider gag, and Claude's Hermes line 'Oh, wonderful. [sighs] By Zeus, I'm really getting my money's worth, if I have to start covering the dead as well' is the funniest version. The closing 'If you catch me, my good man. [pause] But you won't catch me twice' is perfectly timed. Gemini is close; GPT is competent but flatter.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 23,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "The brief calls this 'the closest the collection comes to tenderness.' Claude is the only version where Persephone's intervention has the 'quiet authority' the brief specifies — her speech reads as practical compassion, not dispatch. Pluto's '[sighs] Since Persephone is in agreement — take him up and make him a bridegroom again. [to Protesilaus] But remember. One day. That's all.' is the cleanest landing of the scene's emotional structure. Gemini and GPT both efficient but cooler.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 24,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Diogenes's deflation needs to land in one sentence at the end, and Claude's 'a reputation — for having lived a life loftier than your monument, you most slavish of Carians, and built on more solid ground' is the most resonant of the three. The skull comparison ('Both bald. Both bare. We bare our teeth in the same grin') is also musical.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 25,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "low",
+      "why": "Very close. Gemini's Thersites '[laughs] Well, that's one point for me already!' and closing '[chuckles] That is entirely good enough for me' nail the Thersites-as-comic-beneficiary note the brief flags. Claude is essentially tied; GPT a half-step behind.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 26,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Chiron is described as 'the closest the collection comes to a genuine exchange between equals.' Claude maintains the philosophical register without losing the dry undertone: 'Careful, Chiron — make sure your argument doesn't fall over its own feet.' The closing 'be content with what you've got, take it as it comes, and don't decide any of it is unbearable' is the cleanest of the three. Gemini's 'arguing yourself right back into a corner' is also good.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 27,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "high",
+      "why": "This is the long set-piece with Crates's narration, and Gemini handles the gear-shifts best. Crates's battlefield reconstruction is vivid ('Being a Peer of the Realm, he expected to ride down to the underworld on horseback'), and crucially the Old Pauper scene at the end — which the brief calls the collection's most devastating figure — lands with the right weight: 'Yes. The light was sweet. And dying is terrible. It's something to be avoided.' Diogenes's 'You're behaving like a teenager about destiny' is the sharpest version of that line. Claude is a strong runner-up; GPT is most literal but undersells the pauper.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 28,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Menippus's anatomical interrogation depends on escalating dryness, and Claude paces it best: 'And over time the womb just — disappeared? And the female parts sealed themselves shut, and the breasts dropped off, and the male equipment sprouted, and you grew a beard?' Closing 'Still at it with the tall tales, Tiresias? [chuckles] Well — that's prophets for you. It's a professional habit. None of you can manage a straight word' is the most natural-sounding. Gemini is competitive.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 29,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Ajax's closing has to be granite, not melodrama. Claude's 'As for Odysseus — I could not stop hating him, Agamemnon. Not if Athena herself ordered me to' is the most controlled. Gemini adds a '[pause]' which helps but its 'You have to forgive him' is slightly too coaxing for Agamemnon's 'institutional reason' function.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 30,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Sostratus's debate with Minos is the collection's most rhetorically demanding exchange, and Claude builds it with the cleanest logical steps and the sharpest Minos: '[long pause] Sostratus — you'd find a great many other things going on around here that don't quite stand up to scrutiny, if you looked at them closely. [pause] But here's what you've got out of your little cross-examination: it turns out you're not just a bandit — you're something of a sophist as well. Hermes, let him go.' The 'don't quite stand up to scrutiny' formulation is exactly the weary-judge tone the brief wants. Gemini close behind; GPT correct but less alive.",
+      "notable_misses": ""
+    }
+  ],
+  "overall": "Winners vary, but two models do most of the heavy lifting: Claude and Gemini. Claude's translation is the closest fit to the director's brief overall — it lands the deadpan, sitcom-rhythm punchlines with a confident dryness ('Goes beautifully with that sort of lamentation'; 'Drop wisdom into them... it'd fall straight out the bottom'; 'Quite right. So why are you blaming these two?'). Gemini is the more performative cousin: it throws in stage directions, sound effects, and bigger comic peaks, and when the scene needs heat or farce-energy it often wins outright (the legacy-hunter farces, the Alexander-Hannibal-Scipio set-piece, Cerberus's gossip, Pluto's deadpan in Dialogue 5). GPT-5.5 is the most lexically careful and consistently fluent, but it routinely undersells the punchline by a beat or hedges toward a quieter, slightly more literary register; it produces the best 'reading text' of the three but the weakest performance script. My recommendation: record Claude as the default, switch to Gemini for the farce/spectacle dialogues (5, 6, 12, 13, 21, 27) and for any scene where Menippus is the comic engine and you want him bigger, and use GPT-5.5 only as a reference/synthesis source for tightening individual lines. Two specific synthesis notes: (1) For Dialogue 15 (Achilles) and Dialogue 23 (Persephone/Protesilaus), prefer Claude — both other models nudge toward sentimentality or efficiency where the brief asks for restraint. (2) For Dialogue 12, Gemini's Hannibal/Alexander have the most genuine competitive heat and Scipio's deflation lands hardest; Claude is the runner-up and would be a perfectly defensible alternative."
+}

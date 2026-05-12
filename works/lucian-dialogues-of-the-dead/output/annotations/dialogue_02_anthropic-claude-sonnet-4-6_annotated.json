@@ -1,0 +1,124 @@
+{
+  "lines": [
+    {
+      "character_id": "kroisos",
+      "speaker": "Croesus",
+      "text": "We can't take it anymore, Pluto. This dog Menippus, living next door to us — either move him somewhere else or we're relocating.",
+      "description": "outraged tenant complaint, grand but petty",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "What exactly is he doing to you? He's just as dead as you are.",
+      "description": "weary administrator, dry equalizing reminder",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "kroisos",
+      "speaker": "Croesus",
+      "text": "Whenever we're mourning and lamenting — Midas here, weeping for his gold; Sardanapalus, for all his luxury; myself, for my treasuries — he laughs at us. He calls us slaves. He calls us filth. And sometimes he starts singing over our laments, just to make it worse. The man is insufferable.",
+      "description": "sincere grievance, building into scandalized outrage",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Menippus. What do you have to say for yourself.",
+      "description": "flat judicial summons, tired not angry",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.25
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "All true. I despise them — they're worthless and they're pathetic. It wasn't enough that they lived badly; now they're dead and they're still clinging to the world above. [pause] So yes, I take pleasure in annoying them.",
+      "description": "cheerfully candid, dry delight in confession",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Even so — you shouldn't. They're grieving real losses.",
+      "description": "mild rebuke, procedural fairness with sympathy",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "And you're being foolish, Pluto, if you're siding with their moaning.",
+      "description": "lightly teasing, blunt Cynic correction",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "I'm not siding with anyone. I just don't want conflict in my jurisdiction.",
+      "description": "exasperated building manager, practical not moral",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.25
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Well then, you absolute dregs of Lydia, Phrygia, and Assyria — let me be very clear: I am not stopping. Wherever you go, I will follow. I will annoy you. I will sing over you. I will laugh at you.",
+      "description": "brightly menacing, mock-formal declaration",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "kroisos",
+      "speaker": "Croesus",
+      "text": "Is this not an outrage?",
+      "description": "aghast, appealing to authority",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.25
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "No. What you did — that was an outrage. Demanding to be worshipped. Lording it over free men. Never once giving death a single thought. So go ahead and wail. Everything you had has been taken away.",
+      "description": "calm verdict, amused but morally sharp",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "kroisos",
+      "speaker": "Croesus",
+      "text": "So much. [sighs] So much, and all of it great.",
+      "description": "genuine bereavement for possessions, self-pitying",
+      "speed": 0.78,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "midas",
+      "speaker": "Midas",
+      "text": "All that gold.",
+      "description": "tiny, hollow lament; one-note grief",
+      "speed": 0.72,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "sardanapallos",
+      "speaker": "Sardanapalus",
+      "text": "All that pleasure.",
+      "description": "effete, theatrical little sob of luxury lost",
+      "speed": 0.72,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Excellent. Keep going — you mourn, and I'll sing you a round of 'Know thyself' as the refrain. [pause] Seems fitting, really, for that kind of wailing.",
+      "description": "delighted deadpan, punchline lands without mugging",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

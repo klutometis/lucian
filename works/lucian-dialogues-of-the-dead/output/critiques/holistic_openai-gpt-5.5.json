@@ -1,0 +1,265 @@
+{
+  "profiles": [
+    {
+      "model": "anthropic/claude-opus-4-7",
+      "signature": "The strongest house style for this production: dry, contemporary, rhythmically clean, and comfortable letting a plain sentence be the joke. Its Menippus and Diogenes are usually delighted rather than shouty, Hermes has the right weary-administrator cadence, and Pluto sounds like a tired judge/building manager rather than a mythic thundercloud.",
+      "where_it_wins": "It wins when the scene depends on deadpan timing, bureaucratic itemisation, or a sustained comic premise: the ferry accounts, the stripping sequence, the legacy-hunter reversals, the skull jokes, and the Cynic tour material. It is also the best at pathos-with-restraint, especially Achilles and Protesilaus, where it gives the grief room without sentimental overplaying.",
+      "where_it_loses": "It can occasionally be a touch more polished than conversational, and sometimes preserves classical specificity where a performance might want a lighter idiom. In a few rhetorical set-pieces, openai’s plainer formal English is slightly cleaner; in a few broad farce scenes, gemini has a sharper sitcom button but often overdoes it."
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "signature": "A lucid, reliable, slightly formal translation with excellent control of argument and syntax. It is often the most faithful-sounding of the three without becoming unreadable, and it gives formal debates a persuasive structure.",
+      "where_it_wins": "It wins where the scene is an argument more than a gag: the generals before Minos, legal/philosophical cross-examination, and several passages where clarity of causation matters. It also has strong individual comic formulations—“Now I’m subsidising the dead,” “procedure does not allow alternatives”—that suit Hermes/Charon bureaucracy.",
+      "where_it_loses": "It pays the literal-fidelity tax more often than the brief wants. Phrases like “my excellent man,” “not negligible,” “what sort of king I was,” and repeated formal connectives can flatten sitcom timing; Menippus and Diogenes sometimes sound like witty lecturers instead of people enjoying themselves."
+    },
+    {
+      "model": "gemini/gemini-3.1-pro-preview",
+      "signature": "The most overtly sitcom-forward version: punchy, modern, frequently funny, and often willing to sharpen a bit into contemporary American idiom. It likes stage business, brackets, and emphatic intensifiers, which can make scenes feel immediately performable.",
+      "where_it_wins": "It wins when the scene benefits from broad farce or a quick modern button: the legacy-hunter scenes, the Helen/skull gag, and some of the Cynic banter. It often finds a clean audio hook—“What was I supposed to do, decline to die?” and “court-ordered puddle”—that would land in a room.",
+      "where_it_loses": "It overplays. It adds laughs, chuckles, profanity, “VIP treatment,” “premium seat,” “next case,” and other modern bits that sometimes break the dry register or push Menippus from delighted observer into stand-up comic. It also has occasional presentation problems—Greek speaker names left in Greek in several dialogues—which are production-unfriendly unless corrected."
+    }
+  ],
+  "per_dialogue": [
+    {
+      "dialogue_id": 1,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic gives Diogenes the right brisk errand-list rhythm and lands the first invitation to Menippus cleanly: “come down here, where there’s a great deal more to laugh at.” The “tell them, from me, to go hang” beat is dry without tipping into Gemini’s too-modern “go to hell” plus chuckle. OpenAI is close, but “commission,” “the Dog,” and “go howl” feel a shade more translated than spoken.",
+      "notable_misses": "Gemini’s “my dearest little Pollux” and “millions upon millions” are funny but too cute and too imprecise for the deadpan brief."
+    },
+    {
+      "dialogue_id": 2,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic nails the underworld apartment-complaint premise: “Either relocate him somewhere else, or we’re moving,” and Pluto’s “I just don’t want a feud in the building” is exactly the brief. Menippus’s final “You wail; I’ll accompany you” is a perfect dry button. OpenAI has good moments, especially “civil war in the building,” but “using free men as upholstery” is more writerly than playable.",
+      "notable_misses": "Gemini’s “backing track” is an obvious laugh but too sitcom-winky; Menippus should not sound like he knows what a backing track is."
+    },
+    {
+      "dialogue_id": 3,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic’s “only difference being the stage business” cleanly exposes the oracle fraud without overexplaining it, and the final “the whole of you is dead” is a crisp Cynic kill-shot. OpenAI is very close and arguably a touch cleaner in the cave description, but “stage-magic” feels less plain than “stage business.” Gemini’s “your only real talent is fraud” is too frontal; Menippus is funnier when he lets the logic do the damage.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 4,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "This is Hermes as accounts-payable clerk, and Anthropic gets the office rhythm: “Right, ferryman — let’s go through the books” and “So my plan, then, is to sit here praying for catastrophe.” Charon’s “trickle. Peacetime” makes the cash-flow joke beautifully small. OpenAI is solid but softens Hermes with “Peace is better,” where Anthropic’s dry “Lovely. Glad the world’s at peace” is sharper.",
+      "notable_misses": "Gemini’s “massive batch” and “turn a profit by overcharging” explain the gag rather than letting “fiddling the fares” do the work."
+    },
+    {
+      "dialogue_id": 5,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic best frames Pluto as tired but amused: “let them go down ahead of him with their mouths still hanging open for nothing.” Hermes’ “Looks like a corpse already, and meanwhile he’s healthier than any of them” is an ideal legacy-hunter reversal. OpenAI’s “fattening on a blessed life entirely in their own heads” is excellent, but “bad men dying badly” is stiffer than Anthropic’s “The bad end the bad deserve.”",
+      "notable_misses": "Gemini has great farce energy—“living the high life on credit”—but “billionaire,” Greek speaker labels, and “bag them” are too contemporary/noisy for the production as-is."
+    },
+    {
+      "dialogue_id": 6,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic sustains the legacy-hunter joke with the best slow realization: Thucritus “making these faint little peeping sounds like an unhatched chick” and Terpsion ending with “Live long, Thucritus.” The Pluto lecture has the right amused contempt without becoming a stand-up routine. Gemini’s “expiration date for each old man” and “structuring the assets” are very funny in a modern farce register, but the whole scene gets broader than the brief’s dry pitch.",
+      "notable_misses": "OpenAI is very clear but too paragraph-heavy; much of Pluto’s middle speech would need cutting or breaking for audio."
+    },
+    {
+      "dialogue_id": 7,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic gives Callidemides the rueful precision the brief asks for: “a substitute corpse in his place” after the poisoned-cup mix-up is perfectly timed. Zenophantus’s “it's just a very neat business” is funnier than Gemini’s “Because it’s hilarious,” because it underplays the cruelty. OpenAI is very good, but “what happened to you is excellent” reads slightly more translated than acted.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 8,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic keeps the miniature farce compact: roof falls in, Hermolaus “swallowed me whole,” Damasias corrects “Not just the hook… The fisherman too.” It does not gild the joke. Gemini’s “stroke of genius” and “You really set that trap perfectly for yourself” would play, but the added laugh/cry tags push it broader.",
+      "notable_misses": "OpenAI’s “Which is why I’m howling” is a good button but the scene overall is less nimble."
+    },
+    {
+      "dialogue_id": 9,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic’s Polystratus is the best cheerful manipulator: “I had lovers. Thousands of them” lands because it is absurdly plain. The final social inversion—Phrygian boy now “counted among the nobility”—is dry and vicious without over-modernizing. Gemini has several playable jokes, especially “didn't get a cent,” but “snot-nosed,” “sucked up,” and “God, no” push the texture more contemporary than the surrounding corpus.",
+      "notable_misses": "OpenAI’s “wine with a bouquet on it” is awkward aloud."
+    },
+    {
+      "dialogue_id": 10,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Anthropic is the clear recording text for the great boarding sequence: Charon’s leaking-boat premise, Hermes’ luggage-limit enforcement, and Menippus getting “the seat of honour” all click. The philosopher strip-search is especially good: “pretension… ignorance… quarrelsomeness… vanity” builds like a customs inventory, and “No, Hermes — pass me a saw. That’ll be funnier” is pure Menippus. Gemini has strong modern energy, but “premium seat,” “deforested,” “cheap brothels,” and “guys” are too aggressively sitcom-external.",
+      "notable_misses": "OpenAI’s “Now you look almost human” and “subsidising the dead” are worth stealing in a synthesis, but its longer phrasing is less agile."
+    },
+    {
+      "dialogue_id": 11,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic makes Crates a good-humoured raconteur rather than a lecturer, and Diogenes’ memory of Antisthenes’ stick—“a very good stick, mind you”—has the right affectionate dryness. The leaky purse/Danaids analogy is clean and playable. Gemini is lively, especially “out-sycophant each other,” but “literally” in “wrestling match of wills—literally” feels like a modern gag imposed on the text.",
+      "notable_misses": "OpenAI is solid but “Chaldaean nursery” and “talents kept tipping” are less transparent for audio."
+    },
+    {
+      "dialogue_id": 12,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "This formal set-piece benefits from OpenAI’s clean argumentative architecture. Hannibal’s self-made case, Alexander’s reply, and Scipio’s elegant self-subordination are lucid and rhetorically balanced without too much sitcom embroidery. Anthropic has stronger individual lines—“the ferryman says his boat couldn’t handle them”—but OpenAI better preserves the slower competitive heat the brief calls for.",
+      "notable_misses": "Gemini’s version is exciting, but “seating arrangements,” “global reputation,” “cheap tricks,” and “Next case!” make the formal scene sound too much like a modern panel show."
+    },
+    {
+      "dialogue_id": 13,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic gives Diogenes the perfect greeting—“So you’re dead too, like the rest of us?”—and then keeps puncturing Alexander in plain, escalating beats. Alexander’s Aristotle rant is both bitter and funny: “A charlatan, Diogenes. A professional.” The Lethe prescription and warning about Cleitus and Callisthenes end with exactly the right practical contempt.",
+      "notable_misses": "Gemini’s “giant snake… getting pregnant by a reptile” and “start chugging” are funny but too broad; OpenAI is close but a little more stately."
+    },
+    {
+      "dialogue_id": 14,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Philip’s paternal exasperation is best in Anthropic: “You spent your whole career fighting cowards with little bows and little shields and wickerwork” is dismissive without shouting. The wound-as-punchline passage is excellent: the son of Zeus “carried out of battle on a stretcher, bleeding, groaning” exposes the fraud in one image. OpenAI’s “disastrous branding” is clever, but too modern-corporate for Philip.",
+      "notable_misses": "Gemini is very playable but repeatedly overstates—“utterly counterproductive,” “a joke to anyone watching”—where Anthropic lets Philip’s contempt breathe."
+    },
+    {
+      "dialogue_id": 15,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic best preserves the real pathos of Achilles. “The reputation is useless… The looks are gone… The strength is gone” is simple, painful, and unmocked, while Antilochus remains gentle but firm. Gemini’s “breaks my heart” sentimentalizes; OpenAI is strong but “recite it at full volume” is a slightly comic intrusion into the most emotionally honest speech.",
+      "notable_misses": ""
+    },
+    {
+      "dialogue_id": 16,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic has the funniest metaphysical dismantling because it keeps Diogenes conversational: “you're now in danger of producing three Heracleses.” Heracles’ threat and Diogenes’ “what have I got to be afraid of? I’ve died once already” are excellent audio beats. OpenAI is very close, but “presented at the desk” and “theological cold porridge” feel more translatorly-inventive than organically Cynic.",
+      "notable_misses": "Gemini’s “trinity” is a clean modern word but risks importing Christian resonance too loudly."
+    },
+    {
+      "dialogue_id": 17,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic respects the brief’s note that Tantalus is not the joke; Menippus’s practicality is. “Are you afraid you’ll die for lack of a drink?” is dry and exact, and the hellebore/rabies bit is pointed without clowning. OpenAI’s final “water personally refusing to cooperate” is terrific, but Anthropic’s overall restraint better protects the pathos.",
+      "notable_misses": "Gemini’s “court-ordered puddle” is a brilliant sitcom button but turns the suffering too cute."
+    },
+    {
+      "dialogue_id": 18,
+      "winner": "gemini/gemini-3.1-pro-preview",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "Gemini wins this short skull gag because its audio shape is very clean: Hermes is “on the clock,” Helen is identified by a tapped skull, and Menippus’s “And this is what a thousand ships…” gets the pause it needs. “Classic beauty section” is just modern enough without overwhelming the scene. Anthropic is excellent and drier, but Gemini’s version has the sharper production rhythm.",
+      "notable_misses": "Gemini’s “park yourself” is slightly too casual; Anthropic’s “settle in” is better for that line."
+    },
+    {
+      "dialogue_id": 19,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic handles the blame-chain with clean comic escalation: Helen, Menelaus, Paris, Eros, Fate, then Aeacus’s final “So why are you blaming these two?” Protesilaus stays sympathetic rather than ridiculous. OpenAI’s “like a man repossessing furniture” is funny but too added and too broad for the scene’s emotional base.",
+      "notable_misses": "Gemini’s “Good point again” is effective farce, but it makes Protesilaus seem dimmer than the brief’s sympathetic legal-argument version."
+    },
+    {
+      "dialogue_id": 20,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic gives Aeacus the right officious tour-guide voice and Menippus the right observational delight. The Pythagoras bean gag is clean—“The doctrines are different among the dead”—and Socrates’ “They thought it was irony” lands affectionately. Gemini is funnier in isolated places, but “celebrities,” “absolute masters of the craft,” and “didn’t know a damn thing” make the underworld tour too explicitly modern.",
+      "notable_misses": "OpenAI’s “Greek first team” is a nice phrase but jars slightly in the otherwise formal texture."
+    },
+    {
+      "dialogue_id": 21,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic makes Cerberus a delicious gossip without overplaying him: Socrates looked brave “very keen to make sure the people standing outside the entrance noticed,” then “wailed like an infant.” The final praise of Menippus—“alone, and worthy of the breed”—is clean and warm. OpenAI is close, with a good “audit is exact,” but Anthropic has better canine kinship rhythm.",
+      "notable_misses": "Gemini’s “round of applause” is funny but too theatrical; “go hang” also shifts the last line from laughing invitation to harsher contempt."
+    },
+    {
+      "dialogue_id": 22,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic best captures the free-rider gag: Menippus has no obol, offers labor instead, and calmly tells Charon to take him back if procedure requires payment. “If you catch me… But you won’t catch me twice” is the best final button. OpenAI has some excellent bureaucratic lines—“Now I’m subsidising the dead,” “Procedure does not allow alternatives”—but Anthropic’s Charon/Menippus sparring is tighter.",
+      "notable_misses": "Gemini’s “miserable bastard” and “rat” are too coarse for the dry underworld-sitcom register."
+    },
+    {
+      "dialogue_id": 23,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Anthropic gives Protesilaus the tenderness this scene needs: “It wasn’t enough” after Lethe is beautifully simple. Pluto is procedural but not cruel, and Persephone’s practical compassion—“fix that part too”—is exactly her function in the brief. Gemini’s “feeling was stronger than the water” is lovely, but “brief leave of absence” and “against regulations” tilt too bureaucratic for this near-tender scene.",
+      "notable_misses": "OpenAI is dignified but less immediate; “the thing was simply too large” is accurate but emotionally odd."
+    },
+    {
+      "dialogue_id": 24,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "high",
+      "why": "Anthropic is perfect Diogenes here: he reduces Mausolus’s entire identity to “the kingship, the good looks, and the weight of the tomb.” The tomb joke lands because it is literal—unless he means he is “pinned down under all that marble.” Gemini is strong and very performable, but “VIP treatment,” “tourists,” and “slavish little Carian” over-season the contempt.",
+      "notable_misses": "OpenAI’s final “the life of a man” is noble but a little vague compared with Anthropic’s “life loftier than your monument.”"
+    },
+    {
+      "dialogue_id": 25,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic’s Nireus/Thersites scene is the cleanest version of the skulls-all-look-the-same running gag. “Which is Nireus, and which is Thersites? Because that part isn’t obvious yet” is the whole joke in one dry line. OpenAI is close, but “prettier one” and “bandy-legged” pull focus slightly from the skull equality.",
+      "notable_misses": "Gemini has a good pause after “not obvious,” but “twins” and the laugh tags press the gag too hard."
+    },
+    {
+      "dialogue_id": 26,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "gemini/gemini-3.1-pro-preview",
+      "confidence": "medium",
+      "why": "Anthropic keeps Chiron genuinely philosophical and Menippus genuinely engaged, which is right for the closest thing to an equal exchange. Menippus’s “make sure your argument doesn’t fall over its own feet” is a gentle but effective turn. Gemini is smoother in modern idiom, but “transfer to some third life” and the long pause are a little too scripted.",
+      "notable_misses": "OpenAI’s “walking into yourself” is obscure aloud."
+    },
+    {
+      "dialogue_id": 27,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic gives Crates the warm raconteur voice the brief asks for, especially in the Arsaces horse story: “the horse did most of the work, really, not the man.” Antisthenes running ahead to “bag” a ferry spot is funny precisely because he is otherwise austere. Gemini has high comic energy, but phrases like “descent-buddies,” “superannuated fossil,” and “Peer of the Realm” over-modernize the best comic narration in the collection.",
+      "notable_misses": "OpenAI is very strong and clear; it could be used if the director wants a slightly less colloquial Crates."
+    },
+    {
+      "dialogue_id": 28,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "high",
+      "why": "Anthropic threads the needle on Tiresias: Menippus is relentless and anatomical but not crudely leering. “And over time the womb just — disappeared?” is funnier than Gemini’s more graphic “beard push its way out,” and the final “professional habit” is a perfect oracle-deflation. OpenAI is close but slightly flatter in the last turn.",
+      "notable_misses": "Gemini’s “job description never to tell the truth” is punchy but too modern-HR."
+    },
+    {
+      "dialogue_id": 29,
+      "winner": "anthropic/claude-opus-4-7",
+      "runner_up": "openai/gpt-5.5",
+      "confidence": "medium",
+      "why": "Anthropic keeps Ajax’s grievance severe and unresolved, which is the point of the scene. Agamemnon’s “you expected to walk off with it unopposed?” has the weary-manager tone, and Ajax’s final refusal—“Not if Athena herself ordered me to”—lands hard. Gemini is performable but “Fine” and “massive, haughty strides” make Agamemnon too casual and narratorly.",
+      "notable_misses": "OpenAI’s “without raising dust” is a nice archaic athletic image, but less immediate for audio."
+    },
+    {
+      "dialogue_id": 30,
+      "winner": "openai/gpt-5.5",
+      "runner_up": "anthropic/claude-opus-4-7",
+      "confidence": "medium",
+      "why": "OpenAI wins the final cross-examination because the logic is exceptionally clean and Minos’s docket-management voice is strong: “Only keep it short. We do have the rest of the docket.” Sostratus’s examples unfold clearly enough for an audience to follow in real time, and Minos’s concession—“not only a robber but something of a sophist”—lands with dry institutional discomfort. Anthropic is also excellent, with a better “long pause,” but OpenAI’s legal clarity slightly edges it.",
+      "notable_misses": "Gemini’s “Cancel his punishment” and Greek speaker labels are production liabilities, despite a good final warning."
+    }
+  ],
+  "overall": "Record mostly anthropic/claude-opus-4-7. It is the most consistently aligned with the director’s brief: dry, contemporary but not jokey, and especially good at making Menippus delighted rather than cruel. Use openai/gpt-5.5 for Dialogue 12 and Dialogue 30, where the formal/legal argument benefits from its clearer rhetorical architecture. Consider gemini/gemini-3.1-pro-preview only for Dialogue 18, and even there borrow selectively if the director wants a drier final line. If synthesis is allowed, the ideal production text is Anthropic as the base, with a handful of OpenAI bureaucratic phrases and one or two Gemini sitcom buttons used sparingly; but if recording straight translations scene-by-scene, Anthropic carries the work."
+}
