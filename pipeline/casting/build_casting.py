@@ -10,6 +10,7 @@ Usage:
 import argparse
 import json
 import logging
+import time
 from pathlib import Path
 
 from hume_provider_loader import load_provider  # local import-shim
@@ -57,15 +58,27 @@ def main():
         # library don't reuse the same voice for multiple characters.
         excluded = [v["voice_id"] for v in casting.values()]
 
-        try:
-            voice_id = provider.design_voice(
-                description=char["voice_description"],
-                name=f"lucian-{cid}",
-                sample_text=args.sample_text,
-                excluded_voice_ids=excluded,
-            )
-        except Exception as e:
-            log.error(f"  [{cid}] failed: {e}")
+        voice_id = None
+        for attempt in range(5):
+            try:
+                voice_id = provider.design_voice(
+                    description=char["voice_description"],
+                    name=f"lucian-{cid}",
+                    sample_text=args.sample_text,
+                    excluded_voice_ids=excluded,
+                )
+                break
+            except Exception as e:
+                msg = str(e)
+                if "429" in msg or "rate" in msg.lower() or "quota" in msg.lower():
+                    backoff = 10 * (attempt + 1)
+                    log.warning(f"  [{cid}] rate-limited; sleeping {backoff}s (attempt {attempt+1}/5)")
+                    time.sleep(backoff)
+                    continue
+                log.error(f"  [{cid}] failed: {e}")
+                break
+        if not voice_id:
+            log.error(f"  [{cid}] gave up after retries")
             continue
 
         casting[cid] = {

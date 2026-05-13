@@ -1,0 +1,132 @@
+{
+  "lines": [
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "Well, well. Alexander. So you're dead too, like the rest of us?",
+      "description": "dry contempt, greeting him like an overdue parcel",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "Evidently, Diogenes. Hardly a paradox, though — I was human. Humans die.",
+      "description": "controlled dignity, faint irritation at the obvious",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "So Ammon was lying when he said you were his son. You were Philip's after all.",
+      "description": "flat prosecutorial logic, enjoying the puncture",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "Philip's, obviously. If I'd been Ammon's I wouldn't be here.",
+      "description": "begrudgingly practical, trying not to concede too much",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "And there were similar stories about your mother, weren't there? A serpent visiting Olympias in her bed, seen by witnesses — and that's how you were conceived. Philip taken in by the whole business, thinking you were his.",
+      "description": "deadpan scandal recap, precise and needling",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "I heard all that too, same as you. [pause] Now I can see neither my mother nor the priests of Ammon had a word of truth in them.",
+      "description": "sober admission, pride giving way to weary clarity",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "Still, their lying did you no harm in practical terms, Alexander. A lot of people grovelled, thinking you were a god.",
+      "description": "dry accounting tone, contempt for the grovellers too",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "But tell me — to whom did you leave that vast empire of yours?",
+      "description": "casual setup, as if asking about misplaced luggage",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "I don't know, Diogenes. I didn't have time to give any instructions about it — only that, as I was dying, I handed Perdiccas my ring. [pause] Why are you laughing?",
+      "description": "uneasy candour, then offended confusion",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "Oh — I was just remembering what Greece got up to. The moment you came into power: flattering you, electing you protector, naming you general against the barbarians — some of them even added you to the twelve gods, building you temples, sacrificing to you as the son of a serpent.",
+      "description": "amused disdain, building the absurd inventory steadily",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "But tell me — where did the Macedonians bury you?",
+      "description": "innocent follow-up, trap set plainly in daylight",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "I'm still lying in Babylon. Thirtieth day now. But Ptolemy — my shield-bearer — promises that as soon as he gets a break from the disturbances at hand, he'll take me to Egypt and bury me there, so I can become one of the Egyptian gods.",
+      "description": "grand hope undercut by logistical embarrassment",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "[laughs] How can I not laugh, Alexander? Here you are in Hades, still being ridiculous — still hoping to be Anubis or Osiris. [pause] Set that aside, your divinity. Don't get your hopes up. There's no coming back, not for anyone who's once crossed the lake and passed inside the gate. Aeacus is not careless. Cerberus is not to be trifled with.",
+      "description": "scornful laugh into firm underworld realism",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "But there's one thing I'd love to hear from you. How do you cope, when you think about all the bliss you left behind up there? Bodyguards, shield-bearers, satraps, mountains of gold, whole nations bowing down — Babylon, Bactra, the great beasts, honour, glory, the spectacle of riding out with your head bound in a white ribbon and a purple cloak pinned at your shoulder. Doesn't it hurt, when it all comes back to you? [pause] Why are you crying, you fool? Didn't your wise Aristotle even teach you that the gifts of fortune aren't to be relied on?",
+      "description": "methodical needling, then sharp contempt at the tears",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.7
+    },
+    {
+      "character_id": "alexandros",
+      "speaker": "Alexander",
+      "text": "Wise? That man was the most accomplished flatterer alive. Leave it to me to know what Aristotle was really like — what he asked me for, what he wrote in his letters, how he played on my passion for learning, sweet-talking me, praising me one moment for my beauty (as if that too were a part of the good), the next for my conquests and my wealth. He thought wealth was a good thing too — conveniently, since he wasn't above accepting some himself without blushing. A charlatan, Diogenes. A professional. [pause] The one thing I've got out of his wisdom is being miserable now about all the things you just listed, as though they really were the greatest goods.",
+      "description": "bitter, gathering force; wounded pride turns on Aristotle",
+      "speed": 0.94,
+      "trailing_silence_seconds": 0.8
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "You know what you should do? I'll prescribe a cure for your grief. Hellebore doesn't grow down here — but you can gulp down the water of Lethe. A good long draught. Then another. Many. That'll stop you fretting over Aristotle's goods. [pause] And besides — I can see Cleitus over there, and Callisthenes, and a number of others heading straight for you, ready to tear you apart in payment for what you did to them. So take that other path. And drink. Often. As I said.",
+      "description": "brisk practical advice, finishing with lethal deadpan",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.9
+    }
+  ]
+}

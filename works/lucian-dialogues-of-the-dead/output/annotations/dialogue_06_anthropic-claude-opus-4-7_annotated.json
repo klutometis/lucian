@@ -1,0 +1,92 @@
+{
+  "lines": [
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "Is this justice, Pluto? That I should be dead at thirty, while that ninety-year-old fossil Thucritus is still walking around?",
+      "description": "aggrieved disbelief, victimized and self-important",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Perfect justice, Terpsion — given that he goes about praying for the death of none of his friends, while you spent every waking hour plotting against him and waiting for the inheritance.",
+      "description": "dry judicial correction, patient but cutting",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "Well, shouldn't he? An old man, no longer capable of enjoying his money — shouldn't he step aside and make room for the young?",
+      "description": "indignant logic, as if proposing obvious policy",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Novel legislation, Terpsion. So the man who can no longer enjoy his wealth is required to die for the pleasure of others. [pause] Fate and nature, I'm afraid, have arranged things somewhat differently.",
+      "description": "amused judge, deadpan demolition with a small pause",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "Then I lodge a complaint against the arrangement. The thing ought to proceed in order — the oldest first, then whoever's next in line by age, and so on, with no reversals. It shouldn't happen that some doddering relic is still alive with three teeth left in his head, half-blind, propped up by four slaves, nose dripping, eyes gummed shut, no longer capable of any pleasure — a walking tomb, mocked by the young — while handsome, vigorous boys are dropping dead. It's rivers running uphill. [pause] Or at the very least, we ought to be told in advance when each of these old men is scheduled to go, so we don't waste our time courting some of them for nothing. As it stands, well — as the proverb says, the cart keeps running over the ox.",
+      "description": "ramping grievance; bureaucratic complaint turns grotesque",
+      "speed": 1.12,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Terpsion, the system is considerably more intelligent than you give it credit for. And what's the matter with the lot of you, anyway, gaping after other people's property, foisting yourselves on childless old men as adopted sons? You make yourselves a laughingstock when you get buried before they do — and the public, frankly, finds it delightful. The more fervently you pray for them to die, the more everyone enjoys watching you die first. [pause] You've invented a quite remarkable art form, you know — falling in love with old men and old women, especially the childless ones; the ones with heirs leave you cold. And by now plenty of your beloveds have caught on to the swindle behind the affection — so if they do happen to have children, they pretend to hate them, just to keep a few suitors of their own. And then, when the will is opened, the long-serving bodyguard finds himself cut out, and the son and nature — quite properly — carry the day, while the flatterers stand there grinding their teeth, swindled.",
+      "description": "weary lecture, increasingly amused by the scam's mechanics",
+      "speed": 0.96,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "[sighs] True, every word of it. The amount Thucritus ate through at my expense — always seeming about to die, groaning whenever I came in, making these faint little peeping sounds like an unhatched chick — and I, convinced he was about to step into the coffin any moment, kept sending him more and more, so the rival suitors wouldn't outdo me in generosity. I lay awake half the night with worry, counting it all out, planning the arrangements. [pause] That's what killed me, in the end. Sleeplessness and worry. And he, having swallowed all that bait, stood over me at the funeral the other day. Laughing.",
+      "description": "rueful confession, slowly realizing he was the joke",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.8
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Well done, Thucritus. May you live to a great age, rich and laughing at this sort of person — and may you not die one day before you've buried every last one of your flatterers.",
+      "description": "formal blessing, dryly delighted by the reversal",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "Actually, Pluto — that would suit me too, now, if Charoeades predeceases Thucritus as well.",
+      "description": "quick opportunistic pivot, shamelessly practical",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Take heart, Terpsion. Pheidon and Melanthus and the whole pack of them will be along before him, eaten up by the same anxieties.",
+      "description": "calm reassurance, administrative doom with a wink",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Terpsion",
+      "text": "I approve. [pause] Live long, Thucritus.",
+      "description": "satisfied deadpan; accepts the new spiteful math",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

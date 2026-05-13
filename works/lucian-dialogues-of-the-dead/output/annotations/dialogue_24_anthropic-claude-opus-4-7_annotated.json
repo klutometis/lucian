@@ -1,0 +1,60 @@
+{
+  "lines": [
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "So, Carian — what exactly are you so proud of? Why do you think you deserve top billing over the rest of us?",
+      "description": "dry challenge, contempt held in reserve",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "maussolos",
+      "speaker": "Mausolus",
+      "text": "Well, my dear Sinopean, for one thing — my kingship. I ruled the whole of Caria, held sway over a fair portion of Lydia, brought several islands under my control, and pushed as far as Miletus, subduing most of Ionia along the way. I was handsome. I was tall. I was formidable in war. And — most importantly — I have, sitting on top of me in Halicarnassus, a tomb of staggering size. No other corpse has anything to match it. And not just huge: beautifully finished, horses and men carved to the last detail in the finest stone — you'd be hard pressed to find its equal even in a temple. Don't you think I'm entitled to a little pride on those grounds?",
+      "description": "grandiose, relishing the inventory of status",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "So — the kingship, the good looks, and the weight of the tomb.",
+      "description": "flat summary, already reducing him to absurdity",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "maussolos",
+      "speaker": "Mausolus",
+      "text": "Precisely. Those.",
+      "description": "self-satisfied, missing the trap entirely",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "Ah. Well, my handsome Mausolus — the strength is gone, and so are the looks. [pause] If we were to appoint a judge of beauty here and now, I honestly couldn't tell you on what grounds your skull should be ranked above mine. Both bald. Both bare. We bare our teeth in the same grin, we've both lost our eyes, and our noses have collapsed the same way. As for the tomb and those expensive stones — well, the Halicarnassians can show them off to visitors, no doubt, and boast about what a grand piece of masonry they have. But you, my friend — I don't see what you personally get out of it. Unless what you mean is that you're carrying more weight than the rest of us, pinned down under all that marble.",
+      "description": "patient demolition, dry and increasingly surgical",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "maussolos",
+      "speaker": "Mausolus",
+      "text": "So it's all been for nothing? Mausolus and Diogenes — we rank equally?",
+      "description": "shaken disbelief, pride cracking",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "diogenes",
+      "speaker": "Diogenes",
+      "text": "Not equally, my noble friend. No, no. Mausolus will spend eternity groaning over what he had up there — all the things he thought made him happy. Diogenes will spend it laughing at him. And as for tombs — Mausolus will tell you about the one in Halicarnassus, built for him by his wife (and sister) Artemisia. Diogenes doesn't know whether his body has a tomb at all. He wasn't interested. What he left behind, among the best men, was a reputation — for having lived a life loftier than your monument, you most slavish of Carians, and built on more solid ground.",
+      "description": "controlled scorn, final verdict with a clean edge",
+      "speed": 0.93,
+      "trailing_silence_seconds": 0.8
+    }
+  ]
+}

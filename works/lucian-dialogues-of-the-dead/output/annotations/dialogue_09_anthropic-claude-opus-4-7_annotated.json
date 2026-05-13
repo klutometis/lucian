@@ -1,0 +1,220 @@
+{
+  "lines": [
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "So you've finally come down to join us, Polystratus — and what, a good ninety-something years on the books?",
+      "description": "wry welcome, gently needling an old acquaintance",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Ninety-eight, Simylus.",
+      "description": "cheerful precision, proud of the number",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "And how did you manage those last thirty after me? I died when you were pushing seventy.",
+      "description": "curious, incredulous calculation in progress",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "I had a wonderful time. I know that'll sound improbable to you.",
+      "description": "smugly serene, enjoying the surprise",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "Improbable is the word. Old, frail, no children — and you're telling me you enjoyed yourself?",
+      "description": "incredulous, building through the list",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "I could do whatever I liked. There were still plenty of pretty boys around, and the most exquisite women, and perfumes, and vintage wine, and a table that would have embarrassed a Sicilian.",
+      "description": "luxuriant reminiscence, amused by his own excess",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "This is news. I knew you as a notorious tightwad.",
+      "description": "dry disbelief, flatly corrective",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "My dear fellow, the good things flowed in from other people. From dawn onward there'd be a crowd at my door, and then gifts of every kind would come pouring in — the finest from every corner of the earth.",
+      "description": "relishing the reveal, genial and expansive",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "What, did you become a tyrant after I died, Polystratus?",
+      "description": "teasing disbelief, mock-serious guess",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "No. I had lovers. Thousands of them.",
+      "description": "deadpan boast, lets absurdity sit",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "[laughs] Lovers. You. At that age. With four teeth in your head.",
+      "description": "laughing, then puncturing each phrase with delight",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "By Zeus, yes — the best men in the city. Old, bald — as you can see — bleary-eyed, dribbling at the nose, and they were absolutely thrilled to wait on me. The luckiest man in town was whichever one I deigned to glance at.",
+      "description": "gleefully shameless, savoring every degrading detail",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "Don't tell me you ferried Aphrodite across from Chios like Phaon, and she granted your prayer to be young and beautiful and desirable all over again?",
+      "description": "playful mythic flourish, increasingly sarcastic",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "No. I was exactly as you see me — and much sought after.",
+      "description": "calm correction, smugly impossible",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "You're talking in riddles.",
+      "description": "baffled, impatient but amused",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Oh come now — it's the most obvious thing in the world. The standard, well-known passion for childless rich old men.",
+      "description": "matter-of-fact reveal, dry and faintly patronizing",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "[laughs] Ah. Now I understand your beauty, my dear fellow. Pure gift of golden Aphrodite.",
+      "description": "delighted realization, warmly sarcastic",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Still, Simylus, I got a great deal out of my lovers. They practically worshipped me. I played hard to get — used to shut the door on some of them now and then — and they'd compete with each other, outbidding one another for my favour.",
+      "description": "cheerful manipulator, proud of a well-run con",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "And in the end — what did you decide about the estate?",
+      "description": "leaning in, eager for the final turn",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Officially, I told each of them in turn that I was leaving him as heir. Each one believed it, and redoubled his flattery. But I had the real will tucked away somewhere else — and that's the one I left behind. The lot of them could go hang.",
+      "description": "genial ruthlessness, delighted with the mechanism",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "So who did the real will name? Some relative, presumably?",
+      "description": "reasonable guess, still catching up",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Good lord, no. A pretty Phrygian boy I'd just bought.",
+      "description": "briskly scandalous, tosses it off",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "How old, roughly?",
+      "description": "deadpan, already suspecting the answer",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "About twenty.",
+      "description": "plain, unembarrassed",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "Ah. Now I see what services he'd been rendering.",
+      "description": "dry comprehension, sly but not broad",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "polystratos",
+      "speaker": "Polystratus",
+      "text": "Well — he was a great deal more deserving than they were, barbarian and wretch though he was. The cream of society is now waiting on him. So he inherited from me, and he's currently counted among the nobility — chin shaved smooth, accent thick as ever — and they're calling him better-born than Codrus, handsomer than Nireus, and shrewder than Odysseus.",
+      "description": "pleased storyteller, rising amusement at social inversion",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "simylos",
+      "speaker": "Simylus",
+      "text": "Suits me. Let him command the armies of Greece, for all I care — so long as that crowd of theirs gets nothing.",
+      "description": "delighted resignation, approving the spite",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    }
+  ]
+}

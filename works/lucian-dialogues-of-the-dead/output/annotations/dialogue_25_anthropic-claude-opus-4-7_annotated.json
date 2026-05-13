@@ -1,0 +1,100 @@
+{
+  "lines": [
+    {
+      "character_id": "nireus",
+      "speaker": "Nireus",
+      "text": "There — Menippus here will judge which of us is better-looking. Tell me, Menippus, don't I seem the handsomer to you?",
+      "description": "confident vanity, expecting an easy verdict",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Well, who are you, first? I think I ought to know that before anything else.",
+      "description": "mildly curious, dry setup; already amused",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "nireus",
+      "speaker": "Nireus",
+      "text": "Nireus and Thersites.",
+      "description": "brisk, as if the names should settle it",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "And which is Nireus, and which is Thersites? Because that part isn't obvious yet.",
+      "description": "innocent deadpan, surgical in its politeness",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "thersites",
+      "speaker": "Thersites",
+      "text": "There — that's one point to me already. I look just like you, and you don't have anything like the advantage that blind old Homer gave you when he called you the handsomest man of them all. No — pinhead and patchy-haired as I am, I came out no worse in the judge's eyes. Go on then, Menippus — say which of us you think the better-looking.",
+      "description": "delighted underdog, needling fast but controlled",
+      "speed": 1.12,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "nireus",
+      "speaker": "Nireus",
+      "text": "Me, obviously — son of Aglaia and Charops, the handsomest man who came to Troy.",
+      "description": "wounded pride masked as aristocratic certainty",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Yes, but you didn't come down here the handsomest, did you? The bones are identical. The only way I could tell your skull from Thersites' is that yours is the more brittle of the two — a flimsy thing, not what I'd call a man's skull.",
+      "description": "cheerful forensic deadpan, enjoying the plain facts",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "nireus",
+      "speaker": "Nireus",
+      "text": "Well, ask Homer what I was like, back when I went on campaign with the Achaeans.",
+      "description": "defensive, reaching for old credentials",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "You're telling me dreams. I look at what you've got now. What you used to have — that's a matter for the people who were there.",
+      "description": "matter-of-fact, gently dismissive and final",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "nireus",
+      "speaker": "Nireus",
+      "text": "So I'm not the handsomer down here, Menippus?",
+      "description": "small, anxious, vanity beginning to collapse",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Neither you nor anyone else is handsome. In Hades it's one rate for everyone. [pause] You all look the same.",
+      "description": "calm verdict; let the pause sharpen the punchline",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.7
+    },
+    {
+      "character_id": "thersites",
+      "speaker": "Thersites",
+      "text": "Well — that's good enough for me.",
+      "description": "quietly triumphant, savoring the upgrade",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "lines": [
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "I heard, Chiron, that being a god, you actually wanted to die.",
+      "description": "curious, lightly amused by the oddity",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "You heard right, Menippus. I'm dead, as you can see — and I could have been immortal.",
+      "description": "calm, philosophical, no self-pity",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "What sort of passion for death came over you? Most people don't find it especially lovable.",
+      "description": "dry inquiry, gentle ironic lift on 'lovable'",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "I'll tell you — you're not unintelligent. There was simply no pleasure left in enjoying immortality.",
+      "description": "measured, respectful, stating a settled conclusion",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "No pleasure in being alive and seeing the light?",
+      "description": "genuinely probing, amused but not mocking",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "No, Menippus. Pleasure, the way I see it, is something varied — not uniform. And I was alive forever, enjoying the same things: sun, light, food, the same seasons, every event following the next in order, one thing always trailing after another. [pause] I'd had my fill. Pleasure doesn't lie in always having a thing — it lies just as much in going without it.",
+      "description": "thoughtful and even, with weary emphasis after pause",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Well put, Chiron. And how do you find the underworld, now that you've chosen your way down here?",
+      "description": "approving, relaxed; steering the argument onward",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "Not unpleasant, Menippus. The equality is thoroughly democratic, and frankly it makes no real difference whether you're in the light or the dark. Besides — no thirst here, no hunger, none of that business. We're past needing any of it.",
+      "description": "serene, almost pleased with the practical advantages",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Careful, Chiron — make sure your argument doesn't fall over its own feet.",
+      "description": "warm warning, playful intellectual trap being set",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "What do you mean?",
+      "description": "open, mildly puzzled, not defensive",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Well — if sameness and repetition wore you out up there, then sameness down here will wear you out the same way eventually. And then you'll need another change, another life after this one. Which I suspect [pause] isn't on offer.",
+      "description": "deadpan logic, delighted by the neat contradiction",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.7
+    },
+    {
+      "character_id": "cheiron",
+      "speaker": "Chiron",
+      "text": "So what's a person to do, Menippus?",
+      "description": "quietly conceding, sincere practical question",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "The sensible thing, as they say: be content with what you've got, take it as it comes, and don't decide any of it is unbearable.",
+      "description": "cheerful, brisk Cynic common sense; kind not smug",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.8
+    }
+  ]
+}

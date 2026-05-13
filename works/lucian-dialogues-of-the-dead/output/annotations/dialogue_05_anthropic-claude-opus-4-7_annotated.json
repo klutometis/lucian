@@ -1,0 +1,76 @@
+{
+  "lines": [
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "You know the old man — I mean the really ancient one, rich Eucrates, no children, and about fifty thousand legacy-hunters circling?",
+      "description": "dry setup, administrative curiosity with amused contempt",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Yes, the one from Sicyon. What about him?",
+      "description": "competent clerk, already anticipating paperwork",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Let him live, Hermes. On top of the ninety years he's already had, give him another ninety. More, if it can be managed. But his flatterers — young Charinus, Damon, the whole pack — fetch them down. In order. All of them.",
+      "description": "calm ruling, relishing the reversal without showing it",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "That seems a little... irregular.",
+      "description": "careful bureaucratic objection, wary but polite",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.2
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Not at all. It's perfectly just. What have they ever suffered at his hands, that they should be praying for him to die and laying claim to property they have no right to? And here's the truly vile part — while they're praying for it, they're fawning over him in public. He falls ill, everyone knows exactly what they're hoping for, and yet they're all promising sacrifices if he pulls through. The flattery has a thousand flavours. So: let him be immortal, and let them go down ahead of him with their mouths still hanging open for nothing.",
+      "description": "judicially dry, building moral case into deadpan sentence",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "[chuckles] It'll serve them right, the schemers. And he plays them beautifully, you know — keeps stringing them along, keeps them hoping. Looks like a corpse already, and meanwhile he's healthier than any of them. They've already divvied up the estate among themselves and they're living high on it, in their heads.",
+      "description": "amused insider gossip, quickening with professional delight",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Then let him shed his old age like Iolaus and bloom again, and let them — right in the middle of their daydreams, with the imaginary fortune slipping through their fingers — let them come down here. The bad end the bad deserve.",
+      "description": "measured divine verdict, dry satisfaction at the symmetry",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.7
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Consider it done, Pluto. I'll go and collect them one by one, in order. Seven of them, I think.",
+      "description": "efficiently taking the assignment, counting the workload",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Drag them down. And he'll be escorting each of them to his funeral — young again, in the prime of life, instead of an old man.",
+      "description": "final deadpan punchline, barely amused authority",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.8
+    }
+  ]
+}

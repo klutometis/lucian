@@ -1,0 +1,44 @@
+{
+  "lines": [
+    {
+      "character_id": "antilochos",
+      "speaker": "Antilochus",
+      "text": "Achilles — that thing you said to Odysseus the other day, about death. It was unworthy of you. Unworthy of both your tutors, Chiron and Phoenix. I was listening. You said you'd rather be a hired hand on some landless nobody's farm — somebody barely scraping by — than reign as king over all the dead. [pause] Look, that's the sort of line you'd expect from some craven Phrygian clinging to life past the point of dignity. But Peleus's son? The most danger-loving hero of them all? To be thinking that small about yourself — it's a real disgrace. It contradicts everything you actually did. You could have lived a long, obscure life as king in Phthia. You chose the short one with the glory. Freely.",
+      "description": "gentle reproach hardening into firm moral challenge",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "achilleus",
+      "speaker": "Achilles",
+      "text": "Son of Nestor — back then I hadn't been here yet. I didn't know which of the two was actually the better deal, so I picked that miserable little scrap of reputation over staying alive. [pause] Now I understand. The reputation is useless — even if they're up there reciting my name forever. Down here, everyone's equal. The looks are gone, Antilochus. The strength is gone. We all just lie here under the same gloom, identical, indistinguishable. The Trojan dead don't flinch when they see me. The Achaean dead don't bow. Strict equal-speech-rights. A dead man is a dead man, [quoting] coward and hero alike. That's what eats at me. That I'm not up there working as a hired hand — alive.",
+      "description": "raw regret, stripped of heroics; quiet devastation",
+      "speed": 0.82,
+      "trailing_silence_seconds": 1.0
+    },
+    {
+      "character_id": "antilochos",
+      "speaker": "Antilochus",
+      "text": "Still — what's a man supposed to do about it, Achilles? Nature decided this. Everyone dies. You have to live with the rule and stop tormenting yourself over what was arranged for you. [pause] And look around — all of us, your companions, are right here with you. Odysseus is going to turn up before long too, you know. There's some comfort in sharing the thing. In not being the only one it happened to. Look at Heracles. Look at Meleager. Look at all the other extraordinary men — I don't think any of them would take the offer, if someone sent them back up to hire themselves out to penniless men with nothing to live on.",
+      "description": "steady consolation, practical and affectionate, not sentimental",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "achilleus",
+      "speaker": "Achilles",
+      "text": "That's kindly meant, friend. But somehow the memory of what life was — it gets to me. And I suspect it gets to each of you too. If you won't admit it, then you're worse off than I am: you're going through it in silence.",
+      "description": "soft gratitude turning to painful, lucid accusation",
+      "speed": 0.78,
+      "trailing_silence_seconds": 0.8
+    },
+    {
+      "character_id": "antilochos",
+      "speaker": "Antilochus",
+      "text": "No, Achilles — we're better off. Because we can see that talking about it does no good. We've decided to keep quiet and bear it and put up with it. [pause] Otherwise we'd get laughed at — the way you do — making wishes like that.",
+      "description": "calm stoic firmness, final line dry but not cruel",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

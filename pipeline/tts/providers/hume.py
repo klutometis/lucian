@@ -28,7 +28,12 @@ class HumeProvider:
     octave_version = "1"  # voice design + acting instructions require v1
 
     def __init__(self, api_key: str | None = None):
-        self.client = HumeClient(api_key=api_key or os.environ["HUME_API_KEY"])
+        # Default httpx timeout is 60s; long multi-utterance scenes (~25-30 lines)
+        # can take 2-3 minutes. Give it 10 min headroom.
+        self.client = HumeClient(
+            api_key=api_key or os.environ["HUME_API_KEY"],
+            timeout=600.0,
+        )
 
     def design_voice(
         self,

@@ -1,0 +1,76 @@
+{
+  "lines": [
+    {
+      "character_id": "terpsion",
+      "speaker": "Cnemon",
+      "text": "Well — there's the proverb come true. The fawn hunts down the lion.",
+      "description": "bitterly amazed, dry proverb as self-indictment",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "damasias",
+      "speaker": "Damasias",
+      "text": "What's eating you, Cnemon?",
+      "description": "curious, casual straight-man prompt",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Cnemon",
+      "text": "You're asking what's eating me? I've left an heir I never meant to leave — outwitted, the poor fool that I am — and the people I actually wanted to inherit got nothing.",
+      "description": "aggrieved, spiraling into wounded self-pity",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "damasias",
+      "speaker": "Damasias",
+      "text": "How did that happen?",
+      "description": "plain, inviting the story without sympathy",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Cnemon",
+      "text": "Hermolaus — you know, the enormously rich one, no children — I'd been courting him with an eye on his deathbed, and he wasn't unhappy to be courted. So I had what I thought was a clever idea: I drew up a will, very publicly, leaving everything I owned to him. The point being he'd be flattered, follow suit, and do the same for me.",
+      "description": "confessional, proud scheme slowly souring",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "damasias",
+      "speaker": "Damasias",
+      "text": "And? What did he do?",
+      "description": "leaning in, quick and expectant",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Cnemon",
+      "text": "What he put in his own will, I have no idea. What I can tell you is that the roof fell in on me, [pause] and now Hermolaus has the lot. Swallowed me whole — like some big fish that gulps down the hook along with the bait.",
+      "description": "rueful precision, then stunned at the absurdity",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "damasias",
+      "speaker": "Damasias",
+      "text": "Not just the hook, Cnemon. The fisherman too. You've out-schemed yourself.",
+      "description": "deadpan correction, savoring the neat punchline",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.7
+    },
+    {
+      "character_id": "terpsion",
+      "speaker": "Cnemon",
+      "text": "[sighs] So it seems. Hence the wailing.",
+      "description": "deflated, accepting he is the joke",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.6
+    }
+  ]
+}

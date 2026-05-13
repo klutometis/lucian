@@ -1,0 +1,92 @@
+{
+  "lines": [
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Why the tears, Tantalus? What are you standing by the lake lamenting yourself for?",
+      "description": "curious, lightly amused; practical rather than sympathetic",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "tantalos",
+      "speaker": "Tantalus",
+      "text": "Because, Menippus, I'm dying of thirst.",
+      "description": "genuine misery, parched and simple; no comic exaggeration",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.3
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Are you really so lazy you can't bend down and drink? Or, for that matter, scoop some up in your cupped hand?",
+      "description": "brisk common sense, dry incredulity",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "tantalos",
+      "speaker": "Tantalus",
+      "text": "No use bending down. The water runs away the moment it senses me coming. And if I do manage to scoop some and bring it to my mouth — I haven't even wet the edge of my lip before it slips through my fingers, somehow, and leaves my hand dry again.",
+      "description": "weary, haunted explanation; frustration under exhaustion",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "That is a remarkable condition, Tantalus. [pause] But tell me — what do you need a drink for, exactly? You don't have a body. That's buried somewhere back in Lydia — the thing that could feel hunger and thirst. You're a soul. How could a soul still get thirsty? Or drink, for that matter?",
+      "description": "deadpan analysis, delighted by the logical flaw",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "tantalos",
+      "speaker": "Tantalus",
+      "text": "That's precisely the punishment — that the soul thirsts as though it were a body.",
+      "description": "flat despair, as if repeating an official sentence",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "All right, we'll take your word for it, since you say the thirst is your sentence. But — what's actually so terrible about it? Are you afraid you'll die for lack of a drink? [pause] I don't see another underworld after this one, or another death to take you somewhere else.",
+      "description": "reasonable, gently needling; punchline kept very dry",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "tantalos",
+      "speaker": "Tantalus",
+      "text": "Quite right. And that's part of the sentence too — wanting to drink when there's no need.",
+      "description": "resigned, pained clarity; the trap has no exit",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "You're talking nonsense, Tantalus. Honestly, you do sound like a man who needs a drink — of neat hellebore, by Zeus. You've got the opposite problem of people bitten by mad dogs: you're not afraid of the water, you're afraid of the thirst.",
+      "description": "cheerful diagnostic contempt; crisp Cynic one-liner",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "tantalos",
+      "speaker": "Tantalus",
+      "text": "I wouldn't refuse the hellebore either, Menippus. Just let me have something.",
+      "description": "desperate, quietly pleading; pathos cuts through the joke",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Don't worry, Tantalus — neither you nor any other corpse is going to drink. It can't be done. [pause] Though admittedly, not everyone has your problem: most of them aren't under sentence to be thirsty while the water shrinks away.",
+      "description": "brisk reassurance turns dry; practical verdict, not cruel",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

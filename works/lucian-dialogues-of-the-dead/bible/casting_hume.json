@@ -33,5 +33,210 @@
     "voice_id": "573cd43e-87a9-4086-909e-a7ae430a6a74",
     "name_en": "Sardanapalus",
     "voice_description": "Male, sounds 40s, a languid, slightly breathy baritone. Slow and over-enunciated, with the quality of someone who has always had servants to wait for his sentences to finish. A faint theatrical quality to the grief."
+  },
+  "diogenes": {
+    "voice_id": "a71a0c62-abd6-491a-a8e8-a1b7092c7c03",
+    "name_en": "Diogenes",
+    "voice_description": "Male, 60s, gravelly bass-baritone. Blunt, unhesitating delivery with the cadence of someone who has never once softened a sentence to spare feelings. Slight roughness, as if the voice has been weathered by outdoor living. No warmth in the timbre, but no malice either — pure, dry certainty."
+  },
+  "alexandros": {
+    "voice_id": "c8351618-7064-405f-9d43-642899119f1d",
+    "name_en": "Alexander the Great",
+    "voice_description": "Male, sounds late 20s–early 30s, a ringing, confident tenor with the projection of someone trained to address armies. Passionate and quick to heat; the voice has real magnetism but also a brittleness that shows when Diogenes punctures him. Slight heroic over-enunciation, as if every sentence is being delivered to a crowd."
+  },
+  "polydeukes": {
+    "voice_id": "77499a77-1bdb-4183-9faf-06663056c99b",
+    "name_en": "Polydeuces (Pollux)",
+    "voice_description": "Male, sounds late 20s, a clear, athletic tenor. Open and good-natured, with the easy confidence of a champion athlete who is also a demigod. Unhurried but attentive; the voice of someone who is genuinely willing to help."
+  },
+  "minos": {
+    "voice_id": "90a7a6c4-0186-4bef-acd1-fd9f1fc87e7b",
+    "name_en": "Minos",
+    "voice_description": "Male, sounds 60s, a measured, resonant baritone. Judicial and deliberate, with the quality of someone who chooses words carefully because they have legal weight. Not unkind, but not warm either. A slight formality that relaxes when he is genuinely amused."
+  },
+  "annibas": {
+    "voice_id": "c3948aee-7a41-4542-a7fe-4d2a0fc831ef",
+    "name_en": "Hannibal",
+    "voice_description": "Male, sounds 40s, a hard, clipped baritone with a slight foreign-language quality — not a thick accent, but the precision of someone who learned Greek as a second language and speaks it with deliberate care. Forceful and direct, with the economy of a man who has given orders in the field."
+  },
+  "skipio": {
+    "voice_id": "3aca4950-6d6f-47aa-b379-acf74e906f6a",
+    "name_en": "Scipio",
+    "voice_description": "Male, sounds 40s, a firm, even baritone with a quality of controlled authority. Less flashy than Alexander, less rough than Hannibal — the voice of institutional competence. Speaks with the measured rhythm of someone who has learned to make every word count in the Senate."
+  },
+  "philippos": {
+    "voice_id": "330c61fb-c9a3-40cd-a97b-a4ebd5956109",
+    "name_en": "Philip (of Macedon)",
+    "voice_description": "Male, sounds 50s–60s, a gruff, weathered baritone. The voice of a soldier-king who built the empire his son inherited — practical, unsentimental, with a dry edge. Not unkind, but constitutionally unable to offer false comfort."
+  },
+  "achilleus": {
+    "voice_id": "a87499fd-5d78-4f2d-a447-fac205fa803f",
+    "name_en": "Achilles",
+    "voice_description": "Male, sounds early 20s, a bright, powerful tenor that carries the memory of battlefield command. When speaking of his grief, the voice loses its brightness and becomes quieter, flatter — the heroic projection deflated. The contrast between the two registers is the performance."
+  },
+  "antilochos": {
+    "voice_id": "5a76d944-7964-4195-8f55-226603f71ba8",
+    "name_en": "Antilochus",
+    "voice_description": "Male, sounds mid-20s, a warm, steady tenor. Calm and kind, with the quality of someone who has already made his peace with the situation. No edge, no irony — just honest companionship."
+  },
+  "aias": {
+    "voice_id": "4384c5c9-5fcd-499c-aa60-d9b24bafcaab",
+    "name_en": "Ajax",
+    "voice_description": "Male, sounds 30s–40s, a hard, powerful bass-baritone. The voice of a man built for war, not argument — direct, blunt, with a quality of barely-controlled anger. Not ranting, but the anger is always present, like a low vibration."
+  },
+  "agamemnon": {
+    "voice_id": "b46cb99a-64ad-4278-8ecf-dca4551239a8",
+    "name_en": "Agamemnon",
+    "voice_description": "Male, sounds 50s, a commanding baritone with the quality of someone accustomed to being obeyed. Not unkind, but authoritative — the voice of a man who has been in charge for so long that he has forgotten how to not be in charge."
+  },
+  "paris": {
+    "voice_id": "feb535d3-49bd-4b2b-b6a5-062e10acd435",
+    "name_en": "Paris",
+    "voice_description": "Male, sounds late 20s, a smooth, slightly honeyed tenor. The voice of a man who has always been able to talk his way out of things — charming and quick, with a quality of practiced innocence."
+  },
+  "meneleos": {
+    "voice_id": "a7c0be28-db2d-4af4-8753-cb381813cc53",
+    "name_en": "Menelaus",
+    "voice_description": "Male, sounds 40s–50s, a solid, slightly self-righteous baritone. The voice of a man who is always the injured party in his own telling of events. Firm and indignant, with a quality of wounded dignity."
+  },
+  "sostatos": {
+    "voice_id": "045efd93-2d79-41a8-920b-dbbea996ca07",
+    "name_en": "Sostratus (the bandit)",
+    "voice_description": "Male, sounds 30s–40s, a quick, intelligent baritone with the quality of someone who has learned to think fast under pressure. Not educated in the formal sense, but sharp — the voice of street intelligence rather than academic training."
+  },
+  "teiresias": {
+    "voice_id": "a7aa3be0-4c49-4ce7-8014-bc2a59965837",
+    "name_en": "Tiresias",
+    "voice_description": "Male, sounds very old, a thin, slightly querulous tenor with the quality of someone whose authority has been eroding for centuries. The voice of a man who is used to being believed and is not handling the scepticism well."
+  },
+  "ptochos": {
+    "voice_id": "560d1846-b0e3-4fd6-9109-a1dc8e6f7c21",
+    "name_en": "The Old Pauper",
+    "voice_description": "Male, sounds very old — 90s — with a thin, cracked, genuinely grief-stricken voice. Not performing grief; this is the real thing. The voice of someone for whom the light of the world was enough, even when the world gave nothing else."
+  },
+  "kratetes": {
+    "voice_id": "985aa936-9f65-4305-a465-ceca7ea6af95",
+    "name_en": "Crates",
+    "voice_description": "Male, sounds 40s–50s, a pleasant, mid-range baritone with a storyteller's natural rhythm. Conversational and engaging, with the ease of someone who enjoys an audience. Less raspy than Diogenes, less dry than Menippus — the most approachable of the Cynics."
+  },
+  "antisthenes": {
+    "voice_id": "97b3b782-358a-44d4-b6e7-48f7eb5e1d36",
+    "name_en": "Antisthenes",
+    "voice_description": "Male, sounds 60s–70s, a dry, thin baritone with a slightly pedantic quality. Precise and economical in speech, with the authority of someone who established the school. Less warmth than Crates, less bite than Diogenes — the original, slightly faded model."
+  },
+  "protesileos": {
+    "voice_id": "7edc7689-a3b9-4c1b-9977-7ca65fedee30",
+    "name_en": "Protesilaus",
+    "voice_description": "Male, sounds late 20s, a lyrical, slightly strained tenor. The voice of a young man carrying something too heavy — passionate and earnest, with a quality of barely-contained urgency. When he pleads, the voice becomes softer and more vulnerable without losing its intensity."
+  },
+  "aiakos": {
+    "voice_id": "ef463235-949a-41e5-9967-eec8b05060fb",
+    "name_en": "Aeacus",
+    "voice_description": "Male, sounds 50s, a neutral, functional baritone. The voice of a competent bureaucrat: clear, unhurried, neither warm nor cold. Slightly formal, with the quality of someone reading from a list."
+  },
+  "persephone": {
+    "voice_id": "a18d0d54-b819-47b2-8004-e71b7563cd4d",
+    "name_en": "Persephone",
+    "voice_description": "Female, sounds 30s, a warm, clear mezzo-soprano. Calm and assured, with the quality of someone who has genuine power and doesn't need to display it. A note of real feeling underneath the composure — she is moved by Protesilaus's case in a way Pluto is not."
+  },
+  "tantalos": {
+    "voice_id": "18e4b290-c0bb-40bc-a94a-410eeb94fdde",
+    "name_en": "Tantalus",
+    "voice_description": "Male, sounds 50s, a parched, slightly hollow baritone. The voice has a quality of chronic deprivation — not dramatic wailing, but the flat, exhausted complaint of someone who has been suffering for a very long time and has run out of energy for performance."
+  },
+  "herakles": {
+    "voice_id": "5b462e5f-e541-4ca1-b260-fd6a4cbbd947",
+    "name_en": "Heracles (the shade)",
+    "voice_description": "Male, sounds 30s–40s, a massive, resonant bass-baritone. The voice of a man built for physical action, not philosophical debate — it has power but not precision. Starts with confident authority, becomes increasingly irritated as Diogenes ties him in knots, ends with bluster."
+  },
+  "sokrates": {
+    "voice_id": "b9a42588-e354-4876-b7d8-b8531f269de3",
+    "name_en": "Socrates",
+    "voice_description": "Male, sounds 60s, a warm, slightly rough baritone with an ironic, questioning lilt. The voice of a man who has always found conversation more interesting than conclusions. Unhurried, with a quality of genuine curiosity that never quite becomes earnestness."
+  },
+  "philosophos": {
+    "voice_id": "58ef542c-a59b-4326-997f-99882fd2fac1",
+    "name_en": "The Philosopher (unnamed)",
+    "voice_description": "Male, sounds 50s, a deep, self-important baritone with an over-deliberate, oracular quality — the voice of someone who has spent decades performing wisdom. Underneath the gravitas, a slightly wheedling quality emerges as the stripping proceeds. By the end, when the beard is gone, the voice should sound smaller."
+  },
+  "rhetor": {
+    "voice_id": "f4a1bab9-c490-4c5a-b637-d57dfcdd0808",
+    "name_en": "The Rhetorician",
+    "voice_description": "Male, sounds 40s, a smooth, slightly over-polished tenor. The voice of a professional speaker — rounded vowels, careful pacing — that deflates instantly when challenged."
+  },
+  "lampichos": {
+    "voice_id": "65723483-3625-4bd0-978a-0d9d7bee2dab",
+    "name_en": "Lampicus (the tyrant)",
+    "voice_description": "Male, sounds 40s–50s, a hard, imperious baritone. The voice of a man who has never been told no — clipped commands, rising indignation when challenged. A slight edge of genuine menace that becomes increasingly hollow as each item is surrendered."
+  },
+  "damasias": {
+    "voice_id": "26802b08-f09e-4b88-9cd6-3a5684b16126",
+    "name_en": "Damasias (the athlete)",
+    "voice_description": "Male, sounds late 20s–30s, a big, open bass-baritone. The voice of a large, physically confident man — not aggressive, just massive. Good-natured and slightly slow, with the quality of someone who has always solved problems with his body rather than his words."
+  },
+  "kraton": {
+    "voice_id": "29ee105f-bafd-4150-a941-d893303b2706",
+    "name_en": "Craton (the rich man)",
+    "voice_description": "Male, sounds 50s, a soft, slightly pampered baritone. The voice of someone who has lived well and whose body shows it — a slight heaviness, a quality of comfortable self-regard. The resignation is genuine but not graceful."
+  },
+  "terpsion": {
+    "voice_id": "1b963090-e48f-4466-959c-4dddf5e30020",
+    "name_en": "Terpsion",
+    "voice_description": "Male, sounds 30s, a tense, slightly querulous tenor. The voice of a man who has been calculating and worrying for so long that it has become his resting state. Quick and slightly breathless, with the quality of someone who can't quite stop running the numbers even now."
+  },
+  "kallideimides": {
+    "voice_id": "6bfba7bd-ab01-46bd-8c72-3eaf78de75c6",
+    "name_en": "Callidēmidēs",
+    "voice_description": "Male, sounds 40s, a dry, slightly sardonic baritone. The voice of a clever man who has just done something very stupid and is narrating it with the detachment of someone who has had time to process the embarrassment."
+  },
+  "zenophantos": {
+    "voice_id": "e819a198-8666-4e73-8df1-ea2b4d1987ff",
+    "name_en": "Zenophantus",
+    "voice_description": "Male, sounds 40s, a comfortable, slightly rotund-sounding baritone. The voice of a man who enjoyed his food and his social position in roughly equal measure. Warm and gossipy, with a laugh that comes easily."
+  },
+  "polystratos": {
+    "voice_id": "80032ed5-1f62-44c7-8a90-f3ca0604b2a9",
+    "name_en": "Polystratus",
+    "voice_description": "Male, sounds very old — 90s — but with a quality of preserved vitality and mischief. A thin, slightly reedy baritone that still has a twinkle in it. The voice of a man who has been enjoying a private joke for thirty years."
+  },
+  "simylos": {
+    "voice_id": "67f5179c-0323-4c71-af33-af0c5a183772",
+    "name_en": "Simylus",
+    "voice_description": "Male, sounds 70s, a plain, slightly worn baritone. The voice of an ordinary man — not rich, not famous, not particularly philosophical. Honest and direct, with the quality of someone who calls things as he sees them."
+  },
+  "kerberos": {
+    "voice_id": "1a6705b0-0495-4785-84dc-0a9f0f08aaed",
+    "name_en": "Cerberus",
+    "voice_description": "Male, sounds ageless and strange — a deep, resonant bass with a slightly inhuman quality, as if the voice comes from multiple sources at once. Not monstrous, but uncanny. Speaks with the calm authority of someone who has seen everything and is not impressed by any of it."
+  },
+  "maussolos": {
+    "voice_id": "867e4fd9-d156-4854-b6c3-bde305c2b4b7",
+    "name_en": "Mausolus",
+    "voice_description": "Male, sounds 40s–50s, a rich, slightly ornate baritone. The voice of a man who thinks in grand gestures — full, rounded, with a quality of self-conscious magnificence. The voice is beautiful in the way an expensive tomb is beautiful: impressive but cold."
+  },
+  "nireus": {
+    "voice_id": "0fa61a73-c30a-4818-8ee9-2ba076bb04f2",
+    "name_en": "Nireus",
+    "voice_description": "Male, sounds 20s, a light, slightly vain tenor. The voice of someone who has always been told he is beautiful and has organised his entire personality around it. A faint petulance when challenged."
+  },
+  "thersites": {
+    "voice_id": "ebca5f24-558e-41cd-8a73-67908f36bdc2",
+    "name_en": "Thersites",
+    "voice_description": "Male, sounds 40s, a rough, slightly nasal baritone with a quality of cheerful coarseness. The voice of a man who was never taken seriously and has decided to find that funny. A note of genuine relish in his equality."
+  },
+  "cheiron": {
+    "voice_id": "3adf02b7-13ef-4d00-8e07-545c847c2e31",
+    "name_en": "Chiron",
+    "voice_description": "Male, sounds ageless — perhaps 50s in human terms, but with a quality of deep, unhurried wisdom. A warm, resonant baritone with the quality of someone who has seen many generations of students and is not in a hurry. Calm and thoughtful, with a slight note of contentment."
+  },
+  "pythagorass": {
+    "voice_id": "5d52e616-be2f-48b1-894a-f551eb4c6e76",
+    "name_en": "Pythagoras",
+    "voice_description": "Male, sounds 60s, a slightly mystical, over-deliberate baritone. The voice of someone who has spent a lifetime performing profundity. The request for beans should be delivered with the same solemn weight as a metaphysical pronouncement, which is what makes it funny."
+  },
+  "empedokles": {
+    "voice_id": "f02274b9-991b-482e-9f5a-1ad720dd18a9",
+    "name_en": "Empedocles",
+    "voice_description": "Male, sounds 50s, a slightly singed, hollow baritone — as if the voice itself has been through something. Flat and slightly dazed, with the quality of someone who has not entirely processed what happened to them."
   }
 }

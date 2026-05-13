@@ -1,0 +1,140 @@
+{
+  "lines": [
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Right, ferryman — let's go through the books, shall we? See how much you owe me to date. So we don't end up bickering about it again.",
+      "description": "brisk middle-manager opening, controlled irritation",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Let's go through them, Hermes. Better to have it settled. Saves trouble.",
+      "description": "practical, wary compliance from a cash-strapped tradesman",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "One anchor, picked up per your order: five drachmas.",
+      "description": "flat account-book recitation, precise and bureaucratic",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "[sighs] That's steep.",
+      "description": "weary grumble, genuinely pained by the price",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "By Hades himself, five is what I paid. Plus an oar-strap, two obols.",
+      "description": "defensive but still clerical, itemizing without mercy",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Put down five drachmas two obols.",
+      "description": "resigned, muttering as if each coin hurts",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "And a patching-needle for the sail. Five obols, out of my own pocket.",
+      "description": "pointed emphasis on personal expense, aggrieved accountant",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Add those on.",
+      "description": "short, defeated, wants the tally over with",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "And wax — to plug the gaps in that little tub of yours — plus nails, plus the bit of rope you turned into the upper brace. Two drachmas, the lot.",
+      "description": "dry contempt for the boat, building comic inventory",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Fair price. Worth it.",
+      "description": "grudging professional approval, still reluctant",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "That's everything, unless we've missed something. [pause] So. When were you planning to settle up?",
+      "description": "calm setup, then pointed collection demand after the pause",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Right now? Impossible, Hermes. But if a plague comes through, or a war sends down a decent batch all at once — then there's a bit to be skimmed, fiddling the fares.",
+      "description": "matter-of-fact insolvency, casually awful business logic",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "So my plan, then, is to sit here praying for catastrophe. On the off chance I get my money back.",
+      "description": "deadpan summary, divine bureaucrat discovering the punchline",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "No other way, Hermes. Right now, as you can see — trickle. Peacetime.",
+      "description": "plain tradesman's shrug, annoyed by bad traffic",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "[dry] Lovely. Glad the world's at peace. And meanwhile you string me along on the debt. [pause] You know, Charon, the old-timers — they used to arrive in proper shape. Brave men, every one of them, drenched in blood, most of them carrying wounds. Now? Either he's been poisoned by his son, or by his wife, or he's bloated his belly and his legs to bursting on luxury. Pale, the whole lot of them. Soft. Nothing like the old breed. And most of them come down here over money — plotting against each other, by the look of it.",
+      "description": "dry opening, then weary nostalgic rant, gathering disgust",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "charon",
+      "speaker": "Charon",
+      "text": "Well, [chuckles] money is rather sought-after.",
+      "description": "small rueful chuckle, understated workingman's punchline",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Then I trust no one'll blame me for pressing hard to collect what's mine.",
+      "description": "crisp closing logic, dry vindication without raising voice",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.6
+    }
+  ]
+}

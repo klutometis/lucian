@@ -1,0 +1,132 @@
+{
+  "lines": [
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "Master. King. Our own Zeus down here. And you, daughter of Demeter — please, don't refuse a lover's petition.",
+      "description": "urgent reverence, pleading but controlled",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "And what is it you want from us? Who are you, exactly?",
+      "description": "weary administrative patience, not unkind",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "I'm Protesilaus, son of Iphiclus, of Phylace — one of the Achaean expedition, the first man to die at Troy. I'm asking you to let me go back up. Just for a little while. Just to live again.",
+      "description": "formal self-introduction breaking into need",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Protesilaus, every soul down here is in love with that particular idea. None of them gets it.",
+      "description": "dry ruling from a judge who has heard it all",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "But it isn't life I'm in love with, Lord of the Dead. It's my wife. I left her in our bedroom — we'd only just been married — and I sailed off, and then, poor wretch, I died the moment I jumped ashore. Hector killed me. And the longing for her is wearing me down, my lord — it really is. I just want her to see me. Even for a moment. Then I'll come back.",
+      "description": "heartfelt, gathering emotional force; no self-pity",
+      "speed": 0.84,
+      "trailing_silence_seconds": 0.8
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Protesilaus. Didn't you drink the water of Lethe?",
+      "description": "quiet procedural objection, slightly softened",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "Oh, I drank it, my lord. [pause] It wasn't enough.",
+      "description": "plain devastation; the pause lands the wound",
+      "speed": 0.78,
+      "trailing_silence_seconds": 1.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "Then wait. She'll come down here eventually, and you won't have to go anywhere.",
+      "description": "practical, almost gentle, but bluntly fatalistic",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "I can't bear the wait, Pluto. You've been in love yourself — you know what it's like.",
+      "description": "desperate appeal to shared feeling, intimate",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "And what good will one day of life do you, when you'll just be back here a moment later weeping over the same thing?",
+      "description": "reasonable, tired, trying to close the case",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "I think I can persuade her to come down with me. So instead of one ghost, you'll have two — very shortly.",
+      "description": "hopeful legal gambit, earnest with a dark edge",
+      "speed": 0.94,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "It isn't permitted. It has never been done.",
+      "description": "flat institutional refusal, final on paper",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "protesileos",
+      "speaker": "Protesilaus",
+      "text": "Let me remind you, Pluto. You handed Eurydice back to Orpheus for exactly this reason. And my own kinswoman Alcestis — you sent her up as a favour to Heracles.",
+      "description": "controlled advocate's tone; pressing precedent",
+      "speed": 0.96,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "And you'd like to appear before that lovely bride of yours as — what you are now? A bare skull. No face. How is she even going to recognise you? She'll be terrified, I promise you. She'll run. And you'll have made the whole long journey for nothing.",
+      "description": "dry practicality with reluctant compassion underneath",
+      "speed": 0.93,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "persephone",
+      "speaker": "Persephone",
+      "text": "Well then, husband — fix that part too. Tell Hermes that the moment Protesilaus is up in the light, he's to touch him with his wand and turn him back into the handsome young man he was on his wedding day.",
+      "description": "quiet authority, compassionate and decisive",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "plouton",
+      "speaker": "Pluto",
+      "text": "[sighs] Since Persephone is in agreement — take him up and make him a bridegroom again. [to Protesilaus] But remember. One day. That's all.",
+      "description": "resigned ruling, softened by affection; firm final limit",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.8
+    }
+  ]
+}

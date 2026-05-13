@@ -1,0 +1,76 @@
+{
+  "lines": [
+    {
+      "character_id": "zenophantos",
+      "speaker": "Zenophantus",
+      "text": "So how did you die, Callidemides? In my case — well, you know: I was Deinias's dinner-companion, I overate, I choked. You were there when I went.",
+      "description": "matter-of-fact gossip, rueful about his own ridiculous end",
+      "speed": 1.02,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kallideimides",
+      "speaker": "Callidemides",
+      "text": "I was. But mine — mine was something else. You knew old Ptoeodorus, I take it?",
+      "description": "dry setup, hinting at a story he still can't believe",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "zenophantos",
+      "speaker": "Zenophantus",
+      "text": "The childless one. The rich one. The one you were forever hanging around.",
+      "description": "quick, knowing, ticking off the obvious legacy-hunter facts",
+      "speed": 1.1,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kallideimides",
+      "speaker": "Callidemides",
+      "text": "That's him. I'd been working him for years — he kept promising he'd die and leave me everything. But the business dragged on, and on, and the old man was outliving Tithonus, so I found myself a shortcut to the inheritance. I bought some poison, and I talked the wine-pourer into it: the moment Ptoeodorus called for a drink — and he likes it strong, mind you — the boy was to have the cup ready, drop the stuff in, and hand it over. And if he did it, I swore I'd manumit him.",
+      "description": "rueful precision, building the scheme like a bad business plan",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "zenophantos",
+      "speaker": "Zenophantus",
+      "text": "And? You look like you're about to tell me something choice.",
+      "description": "leaning in, amused anticipation, barely restrained delight",
+      "speed": 1.12,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kallideimides",
+      "speaker": "Callidemides",
+      "text": "So we come back from the baths, and the lad has two cups standing ready — the one with the poison for Ptoeodorus, the other one for me. And somehow — I don't know how — he muddles them. Gives me the poison. Gives Ptoeodorus the clean cup. [pause] Ptoeodorus drinks. And I — within the minute — I'm stretched out flat on the floor, a substitute corpse in his place. [pause] What are you laughing at, Zenophantus? Really. You shouldn't laugh at a friend.",
+      "description": "controlled disbelief, then wounded dignity at the laughter",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "zenophantos",
+      "speaker": "Zenophantus",
+      "text": "[laughs] Forgive me — it's just a very neat business, Callidemides. And the old man? What did he do?",
+      "description": "laughing despite himself, admiring the tidy reversal",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kallideimides",
+      "speaker": "Callidemides",
+      "text": "Well, at first he was rattled — the suddenness of it. But then he worked out what had happened, and he started laughing too. At what the wine-pourer had done.",
+      "description": "flatly aggrieved, offended that everyone found it funny",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "zenophantos",
+      "speaker": "Zenophantus",
+      "text": "All the same — you shouldn't have taken the shortcut. The main road would have got you there more safely. A little slower, perhaps. But more safely.",
+      "description": "deadpan moral, savoring the neat final turn",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.7
+    }
+  ]
+}

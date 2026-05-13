@@ -1,0 +1,52 @@
+{
+  "lines": [
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Cerberus — we're practically family, you and I, both being dogs — tell me, by the Styx: what was Socrates like when he came down to your place? You're a god, so presumably you can do more than bark — you can speak like a human when you feel like it.",
+      "description": "cheerfully familiar, teasing the guard dog without fear",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kerberos",
+      "speaker": "Cerberus",
+      "text": "From a distance, Menippus, he gave every appearance of approaching with an unflinching expression, looking as though he wasn't the least bit afraid of death — and very keen to make sure the people standing outside the entrance noticed. But once he'd leaned in over the chasm and got a look at the dark — and I gave his foot a nip, since the hemlock was taking its time — [pause] well. He wailed like an infant, sobbed over his own little children, went completely to pieces.",
+      "description": "dry eyewitness gossip; savor the collapse after the pause",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "So the man was a fraud, then? He didn't actually despise the business at all?",
+      "description": "brightly incredulous, delighted by the demystification",
+      "speed": 1.04,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kerberos",
+      "speaker": "Cerberus",
+      "text": "No — but once he saw it was unavoidable, he put on a bold face, as if he were going to suffer willingly what he was going to suffer regardless. For the audience. To be admired. [pause] And really, I could say the same about all of them. Up to the threshold: bold, manly, fearless. Once they're inside: the truth comes out.",
+      "description": "matter-of-fact verdict; crisp contempt for performance",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "And me? How did I look coming down?",
+      "description": "casual curiosity, amused but genuinely asking",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "kerberos",
+      "speaker": "Cerberus",
+      "text": "You, Menippus — alone, and worthy of the breed. You and Diogenes before you. Because you didn't have to be forced in, or shoved. You came of your own accord. [pause] Laughing. Telling everyone else to go weep.",
+      "description": "gruff respect, letting the final image land dryly",
+      "speed": 0.88,
+      "trailing_silence_seconds": 0.8
+    }
+  ]
+}

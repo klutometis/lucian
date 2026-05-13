@@ -1,0 +1,372 @@
+{
+  "lines": [
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Aeacus — for Pluto's sake — give me the tour. Show me everything in Hades.",
+      "description": "brisk, cheerful impatience; tourist demanding the full package",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "Everything's a tall order, Menippus. But I can do you the highlights. That over there is Cerberus, as you know, and you've already met the ferryman who brought you across, and you saw the lake and Pyriphlegethon on your way in.",
+      "description": "helpful but officious, managing expectations like a tour guide",
+      "speed": 1.02,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Right, I've got all that. And I know you do the gate. And I've seen the king and the Furies. Show me the people — the famous old ones in particular.",
+      "description": "matter-of-fact, eager for the celebrity portion",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "That's Agamemnon. That's Achilles. Idomeneus, just there. That's Odysseus. Then Ajax, Diomedes, the pick of the Greeks.",
+      "description": "tour-guide patter, pointing briskly from one exhibit to the next",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "[chuckles] Well, well, Homer. So this is what the great set-pieces of your epics come to — flung on the ground, unrecognizable, shapeless. Dust, all of it, and a great deal of nonsense. [pause] Truly, as the man said, strengthless heads. — And this one, Aeacus, who's this?",
+      "description": "delighted dry mockery, then casually back to the tour",
+      "speed": 0.96,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "That's Cyrus. That's Croesus. Above him, Sardanapalus. Above them, Midas. And that one over there is Xerxes.",
+      "description": "flat catalogue delivery, unimpressed by royal grandeur",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "So you're the one Greece used to shudder at — yoking the Hellespont, planning to sail his fleet over the mountains. [pause] And look at the state of Croesus. — Aeacus, do me a favour. Let me give Sardanapalus one slap across the face.",
+      "description": "dry amazement turning into mischievous request",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "Absolutely not. You'll crack his skull — it's a woman's skull.",
+      "description": "firm procedural refusal with a perfectly dry insult",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Then at the very least let me spit on him. He's half a woman anyway.",
+      "description": "cheerfully bargaining downward, deadpan contempt",
+      "speed": 1.04,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "Shall I show you the wise men too?",
+      "description": "redirecting politely, eager to keep the tour moving",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "By Zeus, yes.",
+      "description": "bright immediate interest",
+      "speed": 1.12,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "First up: Pythagoras.",
+      "description": "simple exhibit announcement",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Greetings, Euphorbus — or Apollo — or whatever you're going by today.",
+      "description": "warmly teasing, needling reincarnation claims",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "pythagorass",
+      "speaker": "Pythagoras",
+      "text": "And to you, Menippus.",
+      "description": "measured philosopher's courtesy, slightly guarded",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Thigh's not golden anymore, I see.",
+      "description": "casual observation as surgical mockery",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "pythagorass",
+      "speaker": "Pythagoras",
+      "text": "No, it isn't. [pause] Here, let me see — have you got anything to eat in that bag?",
+      "description": "conceding awkwardly, then suddenly practical and hungry",
+      "speed": 0.94,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Beans, friend. So — nothing for you.",
+      "description": "innocent setup with a sly little twist",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "pythagorass",
+      "speaker": "Pythagoras",
+      "text": "Hand them over. The doctrines are different among the dead. I've learned that down here beans and the heads of one's parents are not, in fact, equivalent.",
+      "description": "urgent appetite, then dryly renouncing doctrine",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "This is Solon, son of Execestides. That's Thales. Next to them, Pittacus, and the rest. Seven in total, as you can see.",
+      "description": "official catalogue tone, pleased with orderly numbering",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "The only cheerful ones in the place, Aeacus. The only ones not moping. [pause] And that one — the one covered in ash, like a loaf baked in the embers, all blistered — who's he?",
+      "description": "approving, then delightedly forensic at the sight gag",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "Empedocles, Menippus. Arrived half-cooked from Etna.",
+      "description": "deadpan identification; let the image do the work",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "My excellent bronze-sandalled friend — what possessed you to throw yourself into the crater?",
+      "description": "mock-courteous curiosity, gently prodding the fraud",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "empedokles",
+      "speaker": "Empedocles",
+      "text": "A touch of melancholy, Menippus.",
+      "description": "somber, evasive, trying for tragic dignity",
+      "speed": 0.85,
+      "trailing_silence_seconds": 0.25
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "By Zeus, no. Vanity. Pretension. A bad case of self-regard. That's what charred you up, sandals and all — and you deserved it. [pause] Though for all that, the trick didn't pay off, did it? You were found out. You were dead. — Aeacus, where's Socrates, then?",
+      "description": "brisk diagnosis, delightedly blunt, then pivots casually",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "Over with Nestor and Palamedes. Talking away, as usual.",
+      "description": "fondly unimpressed, as if reporting a familiar nuisance",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Still, I'd like to see him, if he's around.",
+      "description": "casual curiosity, affectionate interest",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "See the bald one?",
+      "description": "helpful, unaware the clue is useless",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "They're all bald. That's not going to narrow it down.",
+      "description": "deadpan correction, amused but factual",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "The snub-nosed one, I mean.",
+      "description": "trying again, slightly more specific but still useless",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Same problem. They're all snub-nosed.",
+      "description": "same dry correction, a touch more amused",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "Looking for me, Menippus?",
+      "description": "calm, genial, appearing as if mid-conversation",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Very much so, Socrates.",
+      "description": "pleased greeting, easy warmth",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "How are things in Athens?",
+      "description": "pleasant curiosity, conversational and unhurried",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Lots of young men claiming to do philosophy. And if you just looked at the poses and the walks, you'd think they were the finest philosophers on earth.",
+      "description": "dry social report, amused by fashionable posing",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "Yes, I've seen plenty of those.",
+      "description": "mildly amused recognition, no surprise",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.25
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Then you'll have seen the state Aristippus arrived in. And Plato himself, for that matter — one of them reeking of perfume, the other freshly trained in flattering Sicilian tyrants.",
+      "description": "cheerful gossip with a sharpened edge",
+      "speed": 1.02,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "And what do they think of me?",
+      "description": "light, genuinely curious, not vain",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "On that score, Socrates, you're a lucky man. Everyone thinks you were an extraordinary fellow — that you knew everything. When in fact — and I suppose one ought to tell the truth — you knew nothing.",
+      "description": "affectionate demolition, perfectly matter-of-fact",
+      "speed": 0.96,
+      "trailing_silence_seconds": 0.55
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "[chuckles] I used to tell them that myself. They thought it was irony.",
+      "description": "gentle amusement, pleased the old joke still works",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "And who are these around you?",
+      "description": "curious, noticing the company with a knowing smile",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "Charmides, Menippus. And Phaedrus. And the son of Cleinias.",
+      "description": "calm introductions, slightly evasive innocence",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Excellent, Socrates. Plying your old trade even down here. Not neglecting the beautiful ones.",
+      "description": "delightedly teasing, affectionate and dry",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.35
+    },
+    {
+      "character_id": "sokrates",
+      "speaker": "Socrates",
+      "text": "What else would I find more pleasant? Come, lie down beside us, if you like.",
+      "description": "serene invitation, completely unembarrassed",
+      "speed": 0.92,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "By Zeus, no — I'm off to settle in next to Croesus and Sardanapalus. I expect I shall get a fair amount of laughter out of listening to them wail.",
+      "description": "cheerful refusal, anticipating entertainment with relish",
+      "speed": 1.03,
+      "trailing_silence_seconds": 0.45
+    },
+    {
+      "character_id": "aiakos",
+      "speaker": "Aeacus",
+      "text": "And I'd better go too, before some corpse slips past me unnoticed. The rest of the tour another time, Menippus.",
+      "description": "suddenly remembering the job; practical, lightly harried",
+      "speed": 1.08,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Off you go. This was plenty, Aeacus.",
+      "description": "contented dismissal, dry satisfaction",
+      "speed": 0.98,
+      "trailing_silence_seconds": 0.0
+    }
+  ]
+}

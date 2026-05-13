@@ -1,0 +1,84 @@
+{
+  "lines": [
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "So where are all the beautiful people, Hermes — the men, the women? Give me the tour. I'm new.",
+      "description": "bright curiosity, amused tourist in the underworld",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "I don't really have time, Menippus. But — look over there, to the right. That's where Hyacinthus is, and Narcissus, and Nireus, and Achilles, and Tyro, and Helen, and Leda — all the classic beauties, basically.",
+      "description": "busy guide, brisk but indulgent; rattles off names like a checklist",
+      "speed": 1.1,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "All I see is bones. Skulls stripped of their flesh. Mostly identical.",
+      "description": "plainly observant, deadpan punchline without malice",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Well, those are the bones every poet swoons over. The ones you appear to be unimpressed by.",
+      "description": "dry correction, faint bureaucratic amusement",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Show me Helen, anyway. I'd never pick her out on my own.",
+      "description": "cheerfully practical, enjoying the absurdity",
+      "speed": 1.0,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "This skull. This is Helen.",
+      "description": "matter-of-fact reveal, almost museum-label dry",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.5
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "[pause] This is what they filled a thousand ships for? Out of all of Greece? This is what so many Greeks and barbarians died over, and so many cities were leveled for?",
+      "description": "incredulous but delighted, questions build with dry wonder",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.4
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "Ah, but you didn't see the woman alive, Menippus. If you had, you'd have said the same as Homer — no shame in suffering long years for a woman like that. Look — dried flowers, when they've lost their color, obviously they look like nothing. But while they're in bloom, while they've still got their hue — they're the loveliest thing there is.",
+      "description": "patient explanation, unexpectedly lyrical but still practical",
+      "speed": 0.95,
+      "trailing_silence_seconds": 0.0
+    },
+    {
+      "character_id": "menippos",
+      "speaker": "Menippus",
+      "text": "Then that's what amazes me, Hermes — that the Achaeans didn't grasp they were sweating and dying over something so short-lived. Something that wilts that easily.",
+      "description": "gentle Cynic verdict, amused insight with a cool edge",
+      "speed": 0.9,
+      "trailing_silence_seconds": 0.6
+    },
+    {
+      "character_id": "hermes",
+      "speaker": "Hermes",
+      "text": "[sighs] I don't have time to philosophize with you, Menippus. So — pick a spot, wherever you like, lie down, settle in. I've got the rest of the dead to collect.",
+      "description": "put-upon, fond exasperation; back to workload",
+      "speed": 1.05,
+      "trailing_silence_seconds": 0.0
+    }
+  ]
+}
